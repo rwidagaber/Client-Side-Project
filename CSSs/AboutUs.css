@@ -24,7 +24,15 @@ body {
     background-color: #fff;
     border-bottom: 1px solid #eaeaea;
     font-family: Arial, Helvetica, sans-serif;
+       position: sticky;
+    top: 0;
+    z-index: 1000;
+    
+    background-color: rgba(255, 255, 255, 0.85); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); 
 }
+
 
 
 .logo {
