@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f5c5bb3eb1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../CSSs/product_details.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <a href="#" aria-label="Home"><i class="fa-regular fa-gem"></i></a>
+            <span>ANA MASRY</span>
+        </div>
+
+        <div class="categories">
+            <a href="#">NEW ARRIVALS</a>
+            <a href="#">COLLECTIONS</a>
+            <a href="#">MEN</a>
+            <a href="#">WOMEN</a>
+        </div>
+
+        <div class="actions">
+            <div class="search-container">
+                <span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                <input type="text" placeholder="Search collection...">
+            </div>
+
+            <div class="cart-container">
+                <a class="cart-link" href="#" aria-label="Cart"><i class="fa-solid fa-bag-shopping cart-icon"></i></a>
+            </div>
+
+            <div class="profile-container">
+                <a href="#" aria-label="Profile"><i class="fa-regular fa-user"></i></a>
+            </div>
+        </div>
+
+    </nav>
+
+    <main>
+        <section>
+            <div class="product-details">
+                <div class="left-side">
+                    <div class="breadcrumb">
+                        <a href="#">Home</a> > <a href="#">Collections</a> > <span id="product_title">Elegant
+                            Silver Necklace</span>
+                    </div>
+                    <div class="product-image">
+                        <img id="product_image" alt="Product Image">
+                    </div>
+                    <div class="product-gallery">
+                        <button class="gallery-arrow" id="gallery_prev" type="button" aria-label="Previous images">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </button>
+                        <div class="gallery-thumbnails" id="gallery_thumbnails"></div>
+                        <button class="gallery-arrow" id="gallery_next" type="button" aria-label="Next images">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h1 id="product_name">Elegant Silver Necklace</h1>
+                    <div class="product-meta">
+                        <p class="price" id="product_price">$120.00</p>
+                    </div>
+
+                    <p class="description" id="product_description"></p>
+
+                    <h5 class="size-title" id="size_title">SELECT SIZE</h5>
+                    <div class="size-options" id="size_options">
+                        <button class="size-option active" type="button" data-size="S">S</button>
+                        <button class="size-option" type="button" data-size="M">M</button>
+                        <button class="size-option" type="button" data-size="L">L</button>
+                        <button class="size-option" type="button" data-size="XL">XL</button>
+                    </div>
+
+                    <h3 class="quantity-title">QUANTITY</h3>
+
+                    <div class="purchase-row">
+                        <div class="quantity-control">
+                            <button id="qty_minus" type="button" aria-label="Decrease quantity">-</button>
+                            <span id="qty_value">1</span>
+                            <button id="qty_plus" type="button" aria-label="Increase quantity">+</button>
+                        </div>
+
+                        <button class="add-to-cart" id="add_to_cart" type="button">ADD TO CART</button>
+
+                        <button class="wishlist-btn" type="button" aria-label="Add to wishlist">
+                            <i class="fa-regular fa-heart"></i>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="related-products" id="related_section" style="display:none">
+            <div class="related-header">
+                <h2 class="related-title">Related Products</h2>
+                <div class="related-arrows">
+                    <button class="related-arrow" id="related_prev" type="button" aria-label="Previous"><i
+                            class="fa-solid fa-chevron-left"></i></button>
+                    <button class="related-arrow" id="related_next" type="button" aria-label="Next"><i
+                            class="fa-solid fa-chevron-right"></i></button>
+                </div>
+            </div>
+            <div class="related-list" id="related_list"></div>
+        </section>
+
+
+        <footer class="site-footer">
+            <div class="footer-main">
+                <div class="footer-info">
+                    <!-- <div class="footer-logo">
+                        <a href="#" aria-label="Home"><i class="fa-regular fa-gem"></i></a>
+                        <span class="logo-text">ANA MASRY</span>
+                    </div> -->
+                    <div class="logo">
+                        <a href="#" aria-label="Home"><i class="fa-regular fa-gem"></i></a>
+                        <span>ANA MASRY</span>
+                    </div>
+                    <p class="footer-bio">
+                        Elevating the timeless artistry of the Nile to modern spaces. Proudly handcrafted in Egypt,
+                        shared with the world.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="social-circle"><i class="fa-solid fa-share-nodes"></i></a>
+                        <a href="#" class="social-circle"><i class="fa-solid fa-camera-retro"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-nav">
+                    <div class="nav-column">
+                        <h4>DISCOVER</h4>
+                        <ul>
+                            <li><a href="#">Our Process</a></li>
+                            <li><a href="#">Meet the Artisans</a></li>
+                            <li><a href="#">Sustainability</a></li>
+                            <li><a href="#">Gift Cards</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-column">
+                        <h4>SUPPORT</h4>
+                        <ul>
+                            <li><a href="#">Shipping & Customs</a></li>
+                            <li><a href="#">Returns Policy</a></li>
+                            <li><a href="#">Wholesale</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-legal">
+                <p class="copyright">© 2026 Ana Masry. All rights reserved.</p>
+                <div class="legal-links">
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Accessibility</a>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+
+
+    <script src="../SCRIPTs/product_details.js"></script>
+
+</body>
+
+</html>
