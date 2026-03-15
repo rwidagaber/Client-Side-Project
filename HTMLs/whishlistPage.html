@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wishlist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f5c5bb3eb1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../CSSs/whishlistPage.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <a href="#" aria-label="Home"><i class="fa-regular fa-gem"></i></a>
+            <span>ANA MASRY</span>
+        </div>
+
+        <div class="categories">
+            <a href="#">NEW ARRIVALS</a>
+            <a href="#">COLLECTIONS</a>
+            <a href="#">MEN</a>
+            <a href="#">WOMEN</a>
+        </div>
+
+        <div class="actions">
+            <div class="search-container">
+                <span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
+                <input type="text" placeholder="Search collection...">
+            </div>
+
+            <div class="cart-container">
+                <a class="cart-link" href="#" aria-label="Cart"><i class="fa-solid fa-bag-shopping cart-icon"></i></a>
+            </div>
+
+            <div class="profile-container">
+                <a href="#" aria-label="Profile"><i class="fa-regular fa-user"></i></a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="wishlist-section">
+            <div class="wishlist-head-top">
+                <div class="breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>></span>
+                    <span class="current">Wishlist</span>
+                </div>
+            </div>
+
+            <div class="wishlist-head-main">
+                <div>
+                    <h1>Your Wishlist</h1>
+                    <p>Manage your saved pieces and curated selections.</p>
+                </div>
+                <div class="head-actions">
+                    <div class="saved-count"><span id="saved_count">0</span> Items Saved</div>
+                    <button class="move-all-btn" id="move_all_btn" type="button">MOVE ALL TO CART</button>
+                </div>
+            </div>
+
+            <div class="wishlist-grid" id="wishlist_grid"></div>
+            <p class="empty-message" id="empty_message">Your wishlist is empty.</p>
+        </section>
+    </main>
+
+    <script src="../SCRIPTs/whishlistPage.js"></script>
+</body>
+
+</html>
