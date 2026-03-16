@@ -9,6 +9,7 @@ xhr.onload = function () {
 
   products = xhr.response.data
   displayProducts(products)
+  filterProduct()
 
 }
 
@@ -44,6 +45,33 @@ function displayProducts(products) {
     cardContainer.appendChild(card)
   }
 }
+
+// Filter
+function filterProduct() {
+  const filterButtons = document.querySelectorAll('.filter-btn');
+  const allCards = document.querySelectorAll('.card');
+
+
+  filterButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      const category = button.getAttribute('data-category');
+
+
+      allCards.forEach(card => {
+        if (category === 'all' || card.getAttribute('data-category') === category) {
+          card.style.display = 'block'
+        } else {
+          card.style.display = 'none'
+        }
+      })
+
+
+    })
+  })
+}
+
+
+
 
 
 
