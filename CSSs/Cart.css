@@ -10,41 +10,27 @@ body {
     color: #1a1a1a;
 }
 
-.navbar {
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 40px;
-    background-color: rgba(255, 255, 255, 0.8) ;
+    background-color: #fff;
     border-bottom: 1px solid #eaeaea;
     position: sticky;
     top: 0;
     z-index: 1000;
 }
 
-.logo {
+.menu,
+.icons {
     display: flex;
-    align-items: center;
-    gap: 12px;
-}
-
-.logo-img {
-    height: 45px;
-}
-
-.logo-text {
-    font-family: 'Playfair Display', serif;
-    font-weight: bold;
-    color: #c8a328;
-    font-size: 22px;
-}
-
-.nav-links {
-    display: flex;
+    list-style: none;
     gap: 30px;
+    align-items: center;
 }
 
-.nav-links a {
+.menu li a {
     text-decoration: none;
     color: #444;
     font-size: 14px;
@@ -52,14 +38,8 @@ body {
     transition: 0.3s;
 }
 
-.nav-links a:hover {
+.menu li a:hover {
     color: #c8a328;
-}
-
-.nav-actions {
-    display: flex;
-    align-items: center;
-    gap: 20px;
 }
 
 .search-box {
@@ -78,23 +58,11 @@ body {
     width: 140px;
 }
 
-.cart-icon {
-    position: relative;
-    font-size: 18px;
+.icon-link {
+    text-decoration: none;
     color: #1a1a1a;
+    font-size: 18px;
 }
-
-.cart-count {
-    position: absolute;
-    top: -8px;
-    right: -10px;
-    background: #c8a328;
-    color: #fff;
-    font-size: 10px;
-    padding: 2px 6px;
-    border-radius: 50%;
-}
-
 
 
 /* Cart*/
