@@ -109,7 +109,7 @@ input::placeholder {
 
 .filters {
     width: 260px;
-    /* position: sticky; */
+   
 }
 
 .filters h2 {
@@ -123,11 +123,22 @@ input::placeholder {
     margin-top: 20px;
 }
 
-.filters label {
+.filters button {
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    background: #caa233;
+    border: none;
     display: block;
-    margin: 10px 0;
+    margin: 20px 0;
     cursor: pointer;
+
+    &:hover {
+        background-color: #DBC57A;
+        background: #b8942a;
+    }
 }
+
 
 /* right section */
 
