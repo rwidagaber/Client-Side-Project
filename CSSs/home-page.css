@@ -92,6 +92,28 @@
 .icon-link {
     text-decoration: none;
     color: black;
+    position: relative;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#wishlist-count{
+    position: absolute;
+    top: -8px;
+    right: -10px;
+
+    background: red;
+    color: white;
+
+    width: 18px;
+    height: 18px;
+
+    font-size: 12px;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .shopping_cart {
@@ -190,18 +212,6 @@
     padding-top: 20px;
 }
 
-
-
-.category-content a {
-    text-decoration: none;
-    font-size: 15px;
-    color: #CAA62E;
-
-    &:hover {
-        text-decoration: underline;
-    }
-}
-
 .category-img {
     display: flex;
     gap: 35px;
@@ -293,25 +303,64 @@
     object-fit: cover;
 }
 
-
 .wishlist-btn {
-    width: 82px;
-    height: 82px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    background: rgba(255, 255, 255, 0.9);
     border: none;
-    border-radius: 14px;
-    background: white;
-    color: #1f2937;
-    font-size: 34px;
+    border-radius: 50%;
+
+    width: 36px;
+    height: 36px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     cursor: pointer;
-    transition: color 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+
+    transition: all 0.25s ease;
 }
 
-.wishlist-btn.active {
-    color: #dc2626;
+.wishlist-btn i {
+    font-size: 18px;
+    color: #444;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.wishlist-btn:hover {
+    transform: scale(1.1);
+}
+
+.wishlist-btn:hover i {
+    color: #e63946;
 }
 
 .wishlist-btn.active i {
-    transform: scale(1.05);
+    color: #e63946;
+}
+
+.wishlist-btn.animate i {
+    animation: heartPop 0.4s ease;
+}
+
+@keyframes heartPop {
+
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
 
 .card-body {

@@ -29,10 +29,16 @@
                 <input type="text" placeholder="Search Egyptian crafts...">
             </li>
             <li class="favorite">
-                <a href="/HTMLs/whishlistPage.html" class="icon-link"><i class="fi fi-rr-heart"></i></a>
+                <a href="/HTMLs/whishlistPage.html" class="icon-link">
+                    <i class="fi fi-rr-heart"></i>
+                    <span id="wishlist-count">0</span>
+                </a>
             </li>
             <li class="shopping_cart">
-                <a href="#" class="icon-link"><i class="fi fi-rr-shopping-cart"></i></a>
+                <a href="/HTMLs/" class="icon-link">
+                    <i class="fi fi-rr-shopping-cart"></i>
+                    <!-- <span id="wishlist-count">0</span> -->
+                </a>
             </li>
         </ul>
     </nav>
@@ -45,8 +51,8 @@
                     Discover what the Egyptians create with creativity, excellence,<br>
                     and diversity, with superior quality and high precision.
                 </p>
-                <button class="primary-btn">Explore Collection </button>
-                <button class="secondary-btn">Our Story</button>
+                <a href="/HTMLs/Product.html"><button class="primary-btn">Explore Collection </button></a>
+                <a href="/HTMLs/AboutUs.html"><button class="secondary-btn">Our Story</button></a>
             </div>
         </section>
         <section class="category" id="categories">
@@ -55,7 +61,6 @@
                     <h3>Discover Egyptian Brands</h3>
                     <div class="category-content">
                         <p>Ancient techniques meets modern homes</p>
-                        <a href="">View all ⟫</a>
                     </div>
                 </div>
 
@@ -222,7 +227,7 @@
     </footer>
 
     <script src=""></script>
-    
+
     <script src="/SCRIPTs/whishlist.js"></script>
     <script src="/SCRIPTs/home-page.js"></script>
 </body>
