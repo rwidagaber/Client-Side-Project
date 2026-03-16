@@ -63,17 +63,15 @@ xhr.onload = function () {
 
     var categoryItems = document.querySelectorAll('.category-img .item');
     var categoryNames = ['Fashion', 'Beauty & Health', 'Footwear', 'Food & Drink', 'Homeware'];
-    categoryItems.forEach(function(item, index) {
-  item.style.cursor = 'pointer';
-  item.addEventListener('click', function() {
-    var cat = categoryNames[index];
+    categoryItems.forEach(function (item, index) {
+        item.style.cursor = 'pointer';
+        item.addEventListener('click', function () {
+            var cat = categoryNames[index];
+            if (cat === 'Footwear') cat = 'Fashion';
 
-    // لو Footwear روّح على Fashion
-    if (cat === 'Footwear') cat = 'Fashion';
-
-    window.location.href = '/HTMLs/Product.html?category=' + encodeURIComponent(cat);
-  });
-});
+            window.location.href = '/HTMLs/Product.html?category=' + encodeURIComponent(cat);
+        });
+    });
 };
 
 function readWishlist() {

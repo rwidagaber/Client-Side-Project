@@ -13,13 +13,22 @@ xhr.send()
 
 
 xhr.onload = function () {
-
   products = xhr.response.data
-  displayProducts(products)
+
+  var urlParams = new URLSearchParams(window.location.search);
+  var categoryFromURL = urlParams.get('category');
+
+  if (categoryFromURL) {
+    var filtered = products.filter(function (p) {
+      return p.category.toLowerCase() === categoryFromURL.toLowerCase();
+    });
+    displayProducts(filtered);
+  } else {
+    displayProducts(products);
+  }
+
   filterProduct()
   searchProduct()
-
-
 }
 
 function displayProducts(products) {
@@ -144,27 +153,24 @@ function setupWishlist() {
 function filterProduct() {
   const filterButtons = document.querySelectorAll('.filter-btn');
 
-
-
   filterButtons.forEach(button => {
     button.addEventListener('click', () => {
       const category = button.getAttribute('data-category');
-      const allCards = document.querySelectorAll('.card');
 
+      if (category === 'all') {
+        displayProducts(products);
+      } else {
+        var filtered = products.filter(function(p) {
+          return p.category.toLowerCase() === category.toLowerCase();
+        });
+        displayProducts(filtered);
+      }
 
-      allCards.forEach(card => {
-        if (category === 'all' || card.getAttribute('data-category') === category) {
-          card.style.display = 'block'
-        } else {
-          card.style.display = 'none'
-        }
-      });
-
-
+      filterButtons.forEach(btn => btn.classList.remove('active'));
+      button.classList.add('active');
     });
   });
 }
-
 
 
 
