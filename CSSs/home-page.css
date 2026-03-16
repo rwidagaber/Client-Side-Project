@@ -278,7 +278,7 @@
 
 .card-img {
     position: relative;
-    height: 250px;
+    height: 350px;
     overflow: hidden;
 }
 
@@ -375,7 +375,7 @@ html {
     scroll-behavior: smooth;
 }
 
-.new-arrivals{
+.our-services{
     background: #F8F7F6;
     padding: 70px;
 }
