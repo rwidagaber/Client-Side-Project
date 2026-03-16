@@ -12,7 +12,9 @@ xhr.responseType = 'json';
 
 xhr.onload = function () {
     var products = xhr.response.data;
+
     var cardContainer = document.getElementById('products')
+
     for (var product of products) {
         if (product.id == 66) {
             footImg.src = product.product_images[0];
@@ -30,7 +32,6 @@ xhr.onload = function () {
             skinImg.src = product.product_images[0]
         }
 
-
         var card = document.createElement('div')
         card.classList.add('card')
 
@@ -38,7 +39,9 @@ xhr.onload = function () {
             card.innerHTML =
                 `<div class="card-img">
           <img src="${product.product_images[0]}" alt="${product.product_title}">
-          <div class="favorite-product">♡</div>
+          <button class="wishlist-btn" type="button" aria-label="Add to wishlist">
+            <i class="fa-regular fa-heart"></i>
+          </button>
         </div>
 
         <div class="card-body">
@@ -53,5 +56,7 @@ xhr.onload = function () {
             cardContainer.appendChild(card)
         }
     }
+
+
 }
 
