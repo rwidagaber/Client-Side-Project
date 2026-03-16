@@ -354,7 +354,7 @@ else {
     xhr.open('GET', `http://localhost:3000/data/${id}`);
     xhr.responseType = 'json';
     xhr.send();
-
+    
     xhr.onload = function () {
         if (xhr.status == 200 && xhr.response) {
             var product = xhr.response;
