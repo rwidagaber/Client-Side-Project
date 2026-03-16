@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart - Ana Masry</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../CSSs/Cart.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">
+            <img src="../ASSESTs/555.png" alt="Logo" class="logo-img">
+            <span class="logo-text">Ana Masry</span>
+        </div>
+        <div class="nav-links">
+            <a href="">Home</a>
+            <a href="">Shop</a>
+            <a href="">Whislist</a>
+            <a href="">Contact</a>
+            <a href="">About</a>
+        </div>
+        <div class="nav-actions">
+            <div class="search-box">
+                 <i class="fa-solid fa-magnifying-glass" style="color: rgb(196, 154, 69);"></i>
+                <input type="text" placeholder="Search...">
+            </div>
+            <div class="cart-icon">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <span id="nav-cart-count" class="cart-count">0</span>
+            </div>
+           
+        </div>
+    </nav>
+
+    <section class="cart-section">
+        <h1 class="page-title">Shopping Cart</h1>
+        
+        <div class="cart-container">
+            <div class="cart-items-side">
+                <table class="cart-table">
+                    <thead>
+                        <tr>
+                            <th>PRODUCT</th>
+                            <th>PRICE</th>
+                            <th>QUANTITY</th>
+                            <th>SUBTOTAL</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="cart-items-body">
+                        </tbody>
+                </table>
+                <div class="cart-footer">
+                    <a href="./index.html" class="continue-btn">← Continue Shopping</a>
+                    <button class="update-btn" onclick="renderCart()">↻ Update Cart</button>
+                </div>
+            </div>
+
+            <div class="order-summary">
+                <h3>Order Summary</h3>
+                <div class="summary-details">
+                    <div class="summary-row">
+                        <span>Subtotal</span>
+                        <span id="subtotal-val">0.00 EGP</span>
+                    </div>
+                    <div class="summary-row">
+                        <span>Shipping</span>
+                        <span class="gold-text">Free Shipping</span>
+                    </div>
+                    <div class="summary-total">
+                        <span>Total</span>
+                        <span id="total-val">EGP0.00 EGP</span>
+                    </div>
+                </div>
+                
+                <button class="checkout-btn">Checkout Now </button>
+
+                <div class="trust-badges">
+                    <div class="badge">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <span>Secure SSL Payment</span>
+                    </div>
+                    <div class="badge">
+                        <i class="fa-solid fa-truck"></i>
+                        <span>Fast Delivery</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="../SCRIPTs/Cart.js"></script>
+</body>
+</html>
