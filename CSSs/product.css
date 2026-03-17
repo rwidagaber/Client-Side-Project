@@ -109,7 +109,7 @@ input::placeholder {
 
 .filters {
     width: 260px;
-   
+
 }
 
 .filters h2 {
@@ -192,11 +192,12 @@ input::placeholder {
 }
 
 
-.wishlist-btn i{
+.wishlist-btn i {
     font-size: 18px;
-    color: #444;
+    color: rgb(205, 8, 8);
     transition: transform 0.2s ease, color 0.2s ease;
 }
+
 /* .wishlist-btn {
     
     position: absolute;
@@ -214,12 +215,12 @@ input::placeholder {
     cursor: pointer;
 } */
 
-.wishlist-btn{
+.wishlist-btn {
     position: absolute;
     top: 10px;
     right: 10px;
 
-    background: rgba(255,255,255,0.9);
+    background: rgba(255, 255, 255, 0.9);
     border: none;
     border-radius: 50%;
 
@@ -232,7 +233,7 @@ input::placeholder {
 
     cursor: pointer;
 
-    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 
     transition: all 0.25s ease;
 }
@@ -242,35 +243,35 @@ input::placeholder {
 }
 
 
-.wishlist-btn:hover{
+.wishlist-btn:hover {
     transform: scale(1.1);
 }
 
-.wishlist-btn:hover i{
+.wishlist-btn:hover i {
     color: #e63946;
 }
 
 
-.wishlist-btn.active i{
+.wishlist-btn.active i {
     color: #e63946;
 }
 
-.wishlist-btn.animate i{
+.wishlist-btn.animate i {
     animation: heartPop 0.4s ease;
 }
 
 
-@keyframes heartPop{
+@keyframes heartPop {
 
-    0%{
+    0% {
         transform: scale(1);
     }
 
-    50%{
+    50% {
         transform: scale(1.5);
     }
 
-    100%{
+    100% {
         transform: scale(1);
     }
 }
@@ -338,7 +339,7 @@ input::placeholder {
     cursor: pointer;
 }
 
-#wishlist-count{
+#wishlist-count {
     position: absolute;
     top: -8px;
     right: -10px;

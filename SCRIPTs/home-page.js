@@ -67,7 +67,6 @@ xhr.onload = function () {
         item.style.cursor = 'pointer';
         item.addEventListener('click', function () {
             var cat = categoryNames[index];
-            if (cat === 'Footwear') cat = 'Fashion';
 
             window.location.href = '/HTMLs/Product.html?category=' + encodeURIComponent(cat);
         });

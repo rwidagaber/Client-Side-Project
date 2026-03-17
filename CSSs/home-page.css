@@ -304,7 +304,7 @@
 
 .wishlist-btn i {
     font-size: 18px;
-    color: #444;
+    color: rgb(205, 8, 8);
     transition: transform 0.2s ease, color 0.2s ease;
 }
 
