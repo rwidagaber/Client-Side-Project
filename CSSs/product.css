@@ -16,23 +16,22 @@ nav {
 }
 
 nav li {
+    display: none;
     display: inline-block;
     padding-left: 22px;
     margin-top: 25px;
-}
 
-nav li.Logo {
-    margin-top: 12px;
 }
 
 li a {
     text-decoration: none;
     color: black;
-}
 
-li a:hover {
-    color: #D0B04B;
-    cursor: pointer;
+    &:hover {
+        color: #D0B04B;
+        cursor: pointer;
+
+    }
 }
 
 .menu {
@@ -40,27 +39,11 @@ li a:hover {
     font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: 500;
+
 }
 
 ul {
     display: inline-block;
-}
-
-.Logo {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    vertical-align: middle;
-}
-
-.Logo img {
-    display: block;
-}
-
-.Logo h2 {
-    margin: 0;
-    font-size: 20px;
-    color: #caa233;
 }
 
 .icons {
@@ -70,6 +53,9 @@ ul {
     font-weight: 500;
     padding-bottom: 10px;
 }
+
+
+
 
 .search-box {
     position: relative;
@@ -84,6 +70,7 @@ ul {
     transform: translateY(-50%);
     color: #DDC57A;
     font-size: 20px;
+
 }
 
 .search-box input {
@@ -96,15 +83,20 @@ ul {
     color: #DDC57A;
     font-size: 15px;
     background-color: #F8F5EE;
+
 }
 
 input:focus {
     outline-color: #DDC57A;
+
 }
 
 input::placeholder {
     color: #DDC57A;
 }
+
+
+
 
 .shop-container {
     display: flex;
@@ -117,7 +109,7 @@ input::placeholder {
 
 .filters {
     width: 260px;
-
+   
 }
 
 .filters h2 {
@@ -200,12 +192,11 @@ input::placeholder {
 }
 
 
-.wishlist-btn i {
+.wishlist-btn i{
     font-size: 18px;
-    color: rgb(205, 8, 8);
+    color:rgb(205, 8, 8);
     transition: transform 0.2s ease, color 0.2s ease;
 }
-
 .icon-link {
     text-decoration: none;
     color: black;
@@ -239,12 +230,12 @@ input::placeholder {
 
 }
 
-.wishlist-btn {
+.wishlist-btn{
     position: absolute;
     top: 10px;
     right: 10px;
 
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255,255,255,0.9);
     border: none;
     border-radius: 50%;
 
@@ -257,7 +248,7 @@ input::placeholder {
 
     cursor: pointer;
 
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 
     transition: all 0.25s ease;
 }
@@ -267,35 +258,35 @@ input::placeholder {
 }
 
 
-.wishlist-btn:hover {
+.wishlist-btn:hover{
     transform: scale(1.1);
 }
 
-.wishlist-btn:hover i {
+.wishlist-btn:hover i{
     color: #e63946;
 }
 
 
-.wishlist-btn.active i {
+.wishlist-btn.active i{
     color: #e63946;
 }
 
-.wishlist-btn.animate i {
+.wishlist-btn.animate i{
     animation: heartPop 0.4s ease;
 }
 
 
-@keyframes heartPop {
+@keyframes heartPop{
 
-    0% {
+    0%{
         transform: scale(1);
     }
 
-    50% {
+    50%{
         transform: scale(1.5);
     }
 
-    100% {
+    100%{
         transform: scale(1);
     }
 }
@@ -355,15 +346,12 @@ input::placeholder {
 
 
 
-/* ===== Pagination ===== */
-.pagination {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-  flex-wrap: wrap;
-  margin: 2rem 0;
-  width: 100%;
+.icon-link {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    font-size: 24px;
+    cursor: pointer;
 }
 
 .pagination button {
@@ -377,42 +365,14 @@ input::placeholder {
   transition: all 0.3s;
 }
 
-.pagination button:hover:not(:disabled) {
-  background: #DDC57A;
-  color: white;
-}
+    background: red;
+    color: white;
 
-.pagination button:disabled {
-  opacity: 0.3;
-  cursor: not-allowed;
-}
+    width: 18px;
+    height: 18px;
 
-.pg-num {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  border: 1px solid #DDC57A;
-  background: transparent;
-  color: #DDC57A;
-  cursor: pointer;
-  font-size: 14px;
-  transition: all 0.3s;
-}
-
-.pg-num.active {
-  background: #DDC57A;
-  color: white;
-}
-
-.pg-num:hover:not(.active) {
-  background: #f5f0e0;
-}
-
-.pg-dots {
-  color: #888;
-  font-size: 14px;
-  padding: 0 4px;
-}
+    font-size: 12px;
+    border-radius: 50%;
 
 .pg-info {
   font-size: 13px;

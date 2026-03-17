@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KEMET</title>
-    <link rel="stylesheet" href="/CSSs/product.css">
     <link rel="stylesheet" href="/CSSs/newArrivals.css">
     <link rel='stylesheet'
         href='https://cdn-uicons.flaticon.com/4.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
@@ -13,47 +11,45 @@
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-    <nav>
-        <ul class="menu">
-            <li class="Logo">
-                <img src="../ASSESTs/555.png" alt="Logo" style="height: 45px;">
-                <h2>KEMET</h2>
-            </li>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="Product.html">Shop</a></li>
-            <li><a href="">New Arrivals</a></li>
+    <nav class="navbar">
+        <ul class="logo">
+            <li><img src="/ASSESTs/555.png" alt="logo"></li>
         </ul>
-
-        <ul class="icons">
-            <li class="search-box">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" placeholder="Search Egyptian craft..." id="searchInput">
+        <ul class="menu">
+            <li><a href="/HTMLs/index.html">Home</a></li>
+            <li><a href="/HTMLs/Product.html">Shope</a></li>
+            <li><a href="#">New Arrivals</a></li>
+        </ul>
+        <ul class="icon">
+            <li class="search">
+                <i class="fi fi-rr-search"></i>
+                <input type="text" placeholder="Search Egyptian crafts..." id="searchInput">
             </li>
-            <li>
-                <a href="/HTMLs/whishlistPage.html" class="icon-link" target="_blank">
+             <li class="favorite">
+                <a href="/HTMLs/whishlistPage.html" class="icon-link">
                     <i class="fi fi-rr-heart"></i>
-                    <span id="wishlist-count">0</span>
+                    <!-- <span id="wishlist-count">0</span> -->
                 </a>
             </li>
-            <li>
-                <a href="Cart.html" class="icon-link" style="position: relative;">
+            <li class="shopping_cart">
+                <a href="/HTMLs/" class="icon-link">
                     <i class="fi fi-rr-shopping-cart"></i>
+                    <!-- <span id="wishlist-count">0</span> -->
                 </a>
             </li>
         </ul>
     </nav>
+
     <main>
-        <section class="new-arrivals" id="new-arrivals-id">
+         <section class="new-arrivals" id="new-arrivals-id">
             <div class="new-arrivals-content">
                 <h2>NEW ARRIVALS</h2>
                 <div id="products" class="products"></div>
             </div>
         </section>
     </main>
-    
+
     <script src="/SCRIPTs/newArrival.js"></script>
 </body>
-
 </html>
