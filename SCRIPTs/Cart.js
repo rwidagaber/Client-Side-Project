@@ -294,6 +294,10 @@ window.updateQuantity = function (index, change) {
     setCheckoutNotice('');
     adjustedProductIds = [];
     renderCart();
+    
+    if (window.updateNavbarCounts) {
+        window.updateNavbarCounts();
+    }
 };
 
 window.removeItem = function (index) {
@@ -303,6 +307,10 @@ window.removeItem = function (index) {
     setCheckoutNotice('');
     adjustedProductIds = [];
     renderCart();
+    
+    if (window.updateNavbarCounts) {
+        window.updateNavbarCounts();
+    }
 };
 
 document.addEventListener('DOMContentLoaded', function () {

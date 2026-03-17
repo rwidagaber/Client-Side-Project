@@ -16,3 +16,15 @@
 html {
     scroll-behavior: smooth;
 }
+
+.main-navbar {
+    width: 94%;
+}
+
+nav li.Logo {
+    margin: 0px;
+}
+
+#navbar-root #wishlist-count {
+    padding: 0px;
+}

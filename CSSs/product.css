@@ -118,8 +118,8 @@ input::placeholder {
 .filters {
     width: 260px;
     position: sticky;
-    top: 90px;
-    max-height: calc(100vh - 100px);
+    top: 100px;
+    max-height: calc(100vh - 110px);
     overflow-y: auto;
 }
 
@@ -132,7 +132,7 @@ input::placeholder {
 
 .filters hr {
     margin-right: 20px;
-   
+
 }
 
 .filters h3 {
@@ -161,6 +161,7 @@ input::placeholder {
 /* right section */
 
 .products-section {
+    margin-top: 15px;
     flex: 1;
 }
 

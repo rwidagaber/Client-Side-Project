@@ -1,0 +1,55 @@
+/* Product page: keep the original search look inside shared navbar */
+.main-navbar .search-box {
+    position: relative;
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.main-navbar .search-box i {
+    /* position: absolute; */
+    left: 14px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #DDC57A;
+    font-size: 20px;
+    pointer-events: none;
+}
+
+.main-navbar .search-box input {
+    padding-left: 39px;
+    width: 250px;
+    height: 44px;
+    border-radius: 20px;
+    border: 0.1px solid #DDC57A;
+    color: #DDC57A;
+    font-size: 15px;
+    background-color: #F8F5EE;
+}
+
+.main-navbar .search-box input:focus {
+    outline-color: #DDC57A;
+}
+
+.main-navbar .search-box input::placeholder {
+    color: #DDC57A;
+}
+
+.main-navbar {
+    width: 94%;
+}
+
+nav li.Logo {
+    margin: 0px;
+}
+
+#navbar-root #wishlist-count {
+    padding: 0px;
+}
+
+/* .main-navbar .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} */

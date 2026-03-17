@@ -6,9 +6,13 @@
     padding: 10px 40px;
     background-color: #fff;
     border-bottom: 1px solid #eaeaea;
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
     z-index: 1000;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .main-navbar .menu,
@@ -152,4 +156,17 @@
 .main-navbar .dropdown-item:hover {
     background: #f9f9f9;
     color: #c8a328;
+}
+
+#navbar-root {
+    position: relative;
+}
+
+/* Add padding to body when navbar-root is present */
+body:has(#navbar-root) {
+    padding-top: 100px;
+}
+
+html {
+    scroll-behavior: smooth;
 }

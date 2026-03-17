@@ -303,6 +303,10 @@ function saveCurrentProductToCart() {
     }
 
     localStorage.setItem('cart', JSON.stringify(cartItems));
+    
+    if (window.updateNavbarCounts) {
+        window.updateNavbarCounts();
+    }
 }
 
 function showAddToCartFeedback() {

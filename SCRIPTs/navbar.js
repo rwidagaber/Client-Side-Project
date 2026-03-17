@@ -1,5 +1,5 @@
 (function () {
-    function updateNavbarCounts() {
+    window.updateNavbarCounts = function () {
         var wishlistBadge = document.getElementById('wishlist-count');
         if (wishlistBadge) {
             var wishlistItems = [];
@@ -35,7 +35,7 @@
             }
             cartBadge.innerText = cartItems.length;
         }
-    }
+    };
 
     function bindNavbarActions() {
         var userMenuToggle = document.getElementById('user-menu-toggle');
@@ -86,6 +86,20 @@
 
         xhr.send();
     }
+
+    window.updateQuantity = function (index, change) {
+    var cart = JSON.parse(localStorage.getItem('cart')) || [];
+    cart[index].quantity += change;
+    if (cart[index].quantity < 1) cart[index].quantity = 1;
+    localStorage.setItem('cart', JSON.stringify(cart));
+    // setCheckoutNotice('');
+    adjustedProductIds = [];
+    updateNavbarCounts();
+};
+
+    window.addEventListener('storage', function () {
+        window.updateNavbarCounts();
+    });
 
     document.addEventListener('DOMContentLoaded', loadNavbar);
 })();

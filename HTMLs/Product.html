@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSSs/product.css">
+    <link rel="stylesheet" href="../CSSs/navbar.css">
+    <link rel="stylesheet" href="../CSSs/product-navbar.css">
     <link rel='stylesheet'
         href='https://cdn-uicons.flaticon.com/4.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
 
@@ -16,48 +18,7 @@
 </head>
 
 <body>
-
-    <nav>
-        <!-- Menu -->
-        <ul class="menu">
-            <li class="Logo">
-                <img src="../ASSESTs/555.png" alt="Logo" style="height: 45px;">
-                <h2>KEMET</h2>
-            </li>
-            <li>
-                <a href="index.html"> Home</a>
-            </li>
-            <li>
-                <a href="Product.html">Shop</a>
-            </li>
-            <li>
-                <a href="newArrivals.html">New Arrivals</a>
-            </li>
-
-        </ul>
-        <!-- Icons -->
-        <ul class="icons">
-
-            <li class="search-box">
-                <i class="fi fi-rr-search"></i>
-                <input type="text" name="search" placeholder="Search Egyptian craft..." id="searchInput">
-            </li>
-
-            <li>
-                <a href="/HTMLs/whishlistPage.html" class="icon-link" target="_blank">
-                    <i class="fi fi-rr-heart"></i>
-                    <span id="wishlist-count">0</span>
-                </a>
-            </li>
-
-            <li>
-                <a href="/HTMLs/Cart.html"><i class="fi fi-rr-shopping-cart"></i></i></a>
-            </li>
-
-
-        </ul>
-
-    </nav>
+    <div id="navbar-root"></div>
 
 
     <main>
@@ -76,11 +37,12 @@
                 <button class="filter-btn" data-category="Fashion">Fashion</button>
                 <button class="filter-btn" data-category="Beauty & Health">Beauty & Health</button>
                 <button class="filter-btn" data-category="Footwear">Footwear</button>
+                <button class="filter-btn" data-category="Homeware">Homeware</button>
 
             </aside>
 
 
-          
+
 
             <!-- Products -->
             <section class="products-section">
@@ -97,12 +59,11 @@
         </div>
 
     </main>
+    <script src="../SCRIPTs/navbar.js"></script>
+    <script src="../SCRIPTs/product-navbar.js"></script>
     <script src="../SCRIPTs/whishlist.js"></script>
     <script src="../SCRIPTs/product.js"></script>
 
-</body>
-
-</html>
 </body>
 
 </html>

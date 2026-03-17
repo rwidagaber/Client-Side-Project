@@ -31,6 +31,10 @@ xhr.onload = function () {
   searchProduct();
 };
 
+document.addEventListener('navbar:ready', function () {
+  searchProduct();
+});
+
 // ============ Display ============
 function displayProducts(prods) {
   currentProducts = prods;
@@ -146,6 +150,10 @@ function setupWishlist() {
 
       writeWishlist(items);
       updateWishlistCount();
+      
+      if (window.updateNavbarCounts) {
+        window.updateNavbarCounts();
+      }
     });
   });
 }
@@ -188,6 +196,9 @@ function filterProduct() {
 // ============ Search ============
 function searchProduct() {
   var searchInput = document.getElementById('searchInput');
+  if (!searchInput || searchInput.dataset.bound === '1') return;
+
+  searchInput.dataset.bound = '1';
   searchInput.addEventListener("input", function () {
     var searchValue = searchInput.value.toLowerCase();
     var filteredProducts = products.filter(function (product) {

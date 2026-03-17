@@ -94,6 +94,10 @@
         }
 
         writeWhishlist(whishlistItems);
+        
+        if (window.updateNavbarCounts) {
+            window.updateNavbarCounts();
+        }
     });
 
     syncButtonWithStorage();

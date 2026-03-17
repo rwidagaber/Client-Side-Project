@@ -218,6 +218,10 @@
             writeWishlistIds(remainingIds);
             renderWishlist(currentAllProducts);
             showMoveAllFeedback();
+            
+            if (window.updateNavbarCounts) {
+                window.updateNavbarCounts();
+            }
         }
         else {
             showNoMovableItemsFeedback();
@@ -360,6 +364,10 @@
                     var removeId = Number(removeButton.getAttribute('data-id'));
                     removeWishlistIdByValue(removeId);
                     renderWishlist(allProducts);
+                    
+                    if (window.updateNavbarCounts) {
+                        window.updateNavbarCounts();
+                    }
                     return;
                 }
 
@@ -378,6 +386,10 @@
                     if (moved) {
                         removeWishlistIdByValue(moveId);
                         renderWishlist(allProducts);
+                        
+                        if (window.updateNavbarCounts) {
+                            window.updateNavbarCounts();
+                        }
                     }
                 }
             };
