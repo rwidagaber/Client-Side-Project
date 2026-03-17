@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Ana Masry</title>
+    <link rel="stylesheet" href="../CSSs/contact.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="page-container">
+        <!-- Navigation -->
+        <header class="navbar">
+            <div class="logo">
+                <img src="../ASSESTs/555.png" alt="Ana Masry Logo" class="logo-img">
+                <span class="logo-text">ANA MASRY</span> 
+            </div>
+            
+            <nav class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Portfolio</a>
+                <a href="#" class="active">Contact</a>
+            </nav>
+            
+            <div class="nav-actions">
+                <a href="#" class="btn-primary">Get Started</a>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="contact-grid">
+                
+                <!-- Left Column: Form -->
+                <div class="contact-left">
+                    <div class="hero-section">
+                        <span class="label">GET IN TOUCH</span>
+                        <h1 class="main-heading">Let's start a conversation.</h1>
+                        <p class="description">
+                            We're here to help you bring your vision to life. Fill out the form and our team will get back to you within 24 hours.
+                        </p>
+                    </div>
+
+                    <div class="form-card">
+                        <form action="#" method="POST" class="contact-form">
+                            <div class="form-group">
+                                <label for="fullName">Full Name</label>
+                                <input type="text" id="fullName" name="fullName" placeholder="Enter your name">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="name@company.com">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Your Message</label>
+                                <textarea id="message" name="message" placeholder="Tell us about your project..." rows="5"></textarea>
+                            </div>
+
+                            <button type="submit" class="submit-btn">
+                                Send Message <i class="fa-solid fa-paper-plane" style="margin-left:8px;"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Right Column: Info & Map -->
+                <div class="contact-right">
+                    
+                    <div class="info-card">
+                        <div class="icon-wrapper">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Email Us</h3>
+                            <a href="mailto:hello@anamasry.com">hello@anamasry.com</a>
+                            <a href="mailto:support@anamasry.com">support@anamasry.com</a>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="icon-wrapper">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Call Us</h3>
+                            <a href="tel:+201001234567">+20 100 123 4567</a>
+                            <span>Mon - Fri, 9am - 6pm</span>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="icon-wrapper">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>Our Studio</h3>
+                            <span>123 Nile View Towers, Maadi</span>
+                            <span>Cairo, Egypt</span>
+                        </div>
+                    </div>
+
+                    <div class="map-card">
+                        <div class="map-container">
+                            <!-- Placeholder image representing a map -->
+                            <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=600&h=400&fit=crop" alt="Map Location" class="map-img">
+                            
+                            <!-- Location Marker and Radius -->
+                            <div class="map-marker-container">
+                                <div class="pulse-ring"></div>
+                                <div class="marker-dot"></div>
+                            </div>
+                            
+                            <!-- Location Label -->
+                            <div class="map-label">
+                                <span class="label-heading">HQ LOCATION</span>
+                                <span class="label-text">Maadi District, Cairo</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2024 Ana Masry. All rights reserved. <span class="separator">|</span> <a href="#">Privacy Policy</a></p>
+        </footer>
+    </div>
+    <script src="../SCRIPTs/contact.js"></script>
+</body>
+</html>
