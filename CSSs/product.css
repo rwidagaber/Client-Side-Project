@@ -206,22 +206,38 @@ input::placeholder {
     transition: transform 0.2s ease, color 0.2s ease;
 }
 
-/* .wishlist-btn {
-    
+.icon-link {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    font-size: 24px;
+    cursor: pointer;
+
+    &:hover {
+        color: #CAA62E;
+    }
+}
+
+
+
+#wishlist-count {
     position: absolute;
-    top: 15px;
-    right: 15px;
-    width: 40px;
-    height: 40px;
-    background: white;
+    top: -8px;
+    right: -10px;
+    background: red;
+    color: white;
+
+    width: 18px;
+    height: 18px;
+
+    font-size: 12px;
     border-radius: 50%;
+
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 18px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, .2);
-    cursor: pointer;
-} */
+
+}
 
 .wishlist-btn {
     position: absolute;
@@ -360,10 +376,6 @@ input::placeholder {
   font-size: 14px;
   transition: all 0.3s;
 }
-#wishlist-count {
-    position: absolute;
-    top: -8px;
-    right: -10px;
 
 .pagination button:hover:not(:disabled) {
   background: #DDC57A;
