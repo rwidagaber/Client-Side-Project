@@ -1,7 +1,7 @@
 {
   "data": [
     {
-      "id": 32,
+      "id": "32",
       "product_title": "Nile skirt",
       "description": "Elegant skirt inspired by the beauty of the Nile. Designed with a flattering silhouette and lightweight fabric, making it perfect for both casual outings and special occasions.",
       "product_images": [
@@ -13,12 +13,18 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": ["XS", "S", "M", "L"],
+      "product_size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
       "product_price": "12307 EGP",
-      "website_link": "https://mamzistore.com/products/green-skirt"
+      "website_link": "https://mamzistore.com/products/green-skirt",
+      "stock": 27
     },
     {
-      "id": 33,
+      "id": "33",
       "product_title": "Aswan Shirt",
       "description": "A stylish shirt inspired by the colors and charm of Aswan. Crafted from breathable fabric for comfort and a relaxed yet elegant everyday look.",
       "product_images": [
@@ -27,12 +33,18 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": ["XS", "S", "M", "L"],
+      "product_size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
       "product_price": "1145 EGP",
-      "website_link": "https://mamzistore.com/products/aswan-shirt"
+      "website_link": "https://mamzistore.com/products/aswan-shirt",
+      "stock": 49
     },
     {
-      "id": 34,
+      "id": "34",
       "product_title": "Palette Dress",
       "description": "A vibrant dress featuring artistic color combinations that bring energy and personality to your outfit. Perfect for daytime events or summer gatherings.",
       "product_images": [
@@ -41,12 +53,18 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": ["XS", "S", "M", "L"],
+      "product_size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
       "product_price": "1100 EGP",
-      "website_link": "https://mamzistore.com/products/palette-dress"
+      "website_link": "https://mamzistore.com/products/palette-dress",
+      "stock": 17
     },
     {
-      "id": 35,
+      "id": "35",
       "product_title": "Palm dress",
       "description": "A beautiful embroidered dress featuring palm-inspired details that reflect a tropical and elegant aesthetic. Ideal for vacations, summer events, and stylish evenings.",
       "product_images": [
@@ -57,12 +75,18 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": ["XS", "S", "M", "L"],
+      "product_size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
       "product_price": "17976 EGP",
-      "website_link": "https://mamzistore.com/products/palm-embroidered-dress"
+      "website_link": "https://mamzistore.com/products/palm-embroidered-dress",
+      "stock": 29
     },
     {
-      "id": 36,
+      "id": "36",
       "product_title": "Multi Striped Bows Skirt",
       "description": "A playful striped skirt decorated with delicate bow details. Designed to add movement and charm to your outfit while keeping a feminine and modern look.",
       "product_images": [
@@ -72,12 +96,18 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": ["XS", "S", "M", "L"],
+      "product_size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
       "product_price": "9472 EGP",
-      "website_link": "https://mamzistore.com/products/multi-striped-bows-skirt"
+      "website_link": "https://mamzistore.com/products/multi-striped-bows-skirt",
+      "stock": 10
     },
     {
-      "id": 37,
+      "id": "37",
       "product_title": "Mini Bows Pants",
       "description": "Chic pants featuring subtle bow accents that add a unique fashionable touch. Comfortable and stylish for everyday wear or casual outings.",
       "product_images": [
@@ -87,12 +117,18 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": ["XS", "S", "M", "L"],
+      "product_size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
       "product_price": "575 EGP",
-      "website_link": "https://mamzistore.com/products/mini-bows-pants-1"
+      "website_link": "https://mamzistore.com/products/mini-bows-pants-1",
+      "stock": 8
     },
     {
-      "id": 38,
+      "id": "38",
       "product_title": "Gabardine Bow Blazer",
       "description": "A sophisticated blazer made from premium gabardine fabric with elegant bow details. Perfect for elevating both formal and smart-casual outfits.",
       "product_images": [
@@ -101,12 +137,18 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": ["XS", "S", "M", "L"],
+      "product_size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
       "product_price": "12611 EGP",
-      "website_link": "https://mamzistore.com/products/bow-blazer-1"
+      "website_link": "https://mamzistore.com/products/bow-blazer-1",
+      "stock": 24
     },
     {
-      "id": 39,
+      "id": "39",
       "product_title": "Kerdan Dress",
       "description": "An elegant dress inspired by traditional Egyptian jewelry aesthetics. Designed to combine cultural charm with modern fashion.",
       "product_images": [
@@ -115,12 +157,18 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": ["XS", "S", "M", "L"],
+      "product_size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
       "product_price": "9472 EGP",
-      "website_link": "https://mamzistore.com/products/kerdan-dress"
+      "website_link": "https://mamzistore.com/products/kerdan-dress",
+      "stock": 12
     },
     {
-      "id": 40,
+      "id": "40",
       "product_title": "Cuffed Sleeve Printed Kaftan",
       "description": "A relaxed kaftan featuring stylish prints and cuffed sleeves. Perfect for comfortable yet fashionable daywear or resort looks.",
       "product_images": [
@@ -132,12 +180,18 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": ["XS", "S", "M", "L"],
+      "product_size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
       "product_price": "2700 EGP",
-      "website_link": "https://tajsisters.com/products/cuffed-sleeve-printed-kaftan?_pos=1&_sid=43df7e6b0&_ss=r"
+      "website_link": "https://tajsisters.com/products/cuffed-sleeve-printed-kaftan?_pos=1&_sid=43df7e6b0&_ss=r",
+      "stock": 12
     },
     {
-      "id": 41,
+      "id": "41",
       "product_title": "Floral Skirt",
       "description": "A feminine skirt decorated with delicate floral patterns that create a fresh and vibrant look, ideal for spring and summer outfits.",
       "product_images": [
@@ -147,12 +201,18 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": ["XS", "S", "M", "L"],
+      "product_size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
       "product_price": "1600 EGP",
-      "website_link": "https://tajsisters.com/products/floral-skirt-1?_pos=1&_sid=f01a9bfa1&_ss=r"
+      "website_link": "https://tajsisters.com/products/floral-skirt-1?_pos=1&_sid=f01a9bfa1&_ss=r",
+      "stock": 29
     },
     {
-      "id": 42,
+      "id": "42",
       "product_title": "The Braided Waist Skirt",
       "description": "A beautiful skirt with a braided waist detail that enhances the silhouette while adding a handcrafted touch.",
       "product_images": [
@@ -163,12 +223,18 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": ["XS", "S", "M", "L"],
+      "product_size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
       "product_price": "900 EGP",
-      "website_link": "https://tajsisters.com/products/linen-skirt?_pos=1&_sid=3a9a7ba14&_ss=r"
+      "website_link": "https://tajsisters.com/products/linen-skirt?_pos=1&_sid=3a9a7ba14&_ss=r",
+      "stock": 31
     },
     {
-      "id": 43,
+      "id": "43",
       "product_title": "The Linen Kaftan",
       "description": "A lightweight linen kaftan designed for comfort and elegance. Perfect for warm weather and relaxed sophisticated styling.",
       "product_images": [
@@ -180,12 +246,18 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": ["XS", "S", "M", "L"],
+      "product_size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
       "product_price": "2300 EGP",
-      "website_link": "https://tajsisters.com/products/the-embellished-linen-kaftan?_pos=1&_sid=a92c9b479&_ss=r"
+      "website_link": "https://tajsisters.com/products/the-embellished-linen-kaftan?_pos=1&_sid=a92c9b479&_ss=r",
+      "stock": 47
     },
     {
-      "id": 44,
+      "id": "44",
       "product_title": "Serene kaftan",
       "description": "A flowing kaftan designed to provide a calm and elegant aesthetic with breathable fabric and effortless style.",
       "product_images": [
@@ -196,12 +268,18 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": ["XS", "S", "M", "L"],
+      "product_size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
       "product_price": "2100 EGP",
-      "website_link": "https://tajsisters.com/products/serene-kaftan?_pos=1&_sid=09e4e743e&_ss=r"
+      "website_link": "https://tajsisters.com/products/serene-kaftan?_pos=1&_sid=09e4e743e&_ss=r",
+      "stock": 0
     },
     {
-      "id": 45,
+      "id": "45",
       "product_title": "The Puffy Sleeve cardigan",
       "description": "A fashionable cardigan featuring voluminous puff sleeves that add character and elegance to any casual outfit",
       "product_images": [
@@ -213,12 +291,18 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": ["XS", "S", "M", "L"],
+      "product_size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
       "product_price": "2100 EGP",
-      "website_link": "https://tajsisters.com/products/the-puffy-sleeve-kimono?_pos=1&_sid=58ea9fb00&_ss=r"
+      "website_link": "https://tajsisters.com/products/the-puffy-sleeve-kimono?_pos=1&_sid=58ea9fb00&_ss=r",
+      "stock": 6
     },
     {
-      "id": 46,
+      "id": "46",
       "product_title": "Patched Denim Vest",
       "description": "A modern denim vest featuring unique patchwork details that give it a bold and contemporary street-style look.",
       "product_images": [
@@ -229,12 +313,18 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": ["XS", "S", "M", "L"],
+      "product_size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
       "product_price": "1260 EGP",
-      "website_link": "https://tajsisters.com/products/patched-denim-vest?_pos=1&_psq=Patched+Denim+Vest&_ss=e&_v=1.0"
+      "website_link": "https://tajsisters.com/products/patched-denim-vest?_pos=1&_psq=Patched+Denim+Vest&_ss=e&_v=1.0",
+      "stock": 28
     },
     {
-      "id": 47,
+      "id": "47",
       "product_title": "Feel Good Evening Set",
       "description": "A comfortable yet elegant evening set designed to make you feel confident and relaxed during special occasions or gatherings.",
       "product_images": [
@@ -245,12 +335,18 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": ["XS", "S", "M", "L"],
+      "product_size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
       "product_price": "1500 EGP",
-      "website_link": "https://tajsisters.com/search?q=Feel+Good+Evening+Set&options%5Bprefix%5D=last"
+      "website_link": "https://tajsisters.com/search?q=Feel+Good+Evening+Set&options%5Bprefix%5D=last",
+      "stock": 9
     },
     {
-      "id": 48,
+      "id": "48",
       "product_title": "Al Wadi Cardigan in Beautiful Day Beige",
       "description": "A cozy cardigan in a soft beige tone inspired by peaceful desert landscapes. Perfect for layering during cooler days.",
       "product_images": [
@@ -261,12 +357,18 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": ["XS", "S", "M", "L"],
+      "product_size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
       "product_price": "3450 EGP",
-      "website_link": "https://shopfufa.com/search?type=product%2Carticle%2Cpage%2Ccollection&q=Al%20Wadi%20Cardigan%20in%20Beautiful%20Day%20Beige*"
+      "website_link": "https://shopfufa.com/search?type=product%2Carticle%2Cpage%2Ccollection&q=Al%20Wadi%20Cardigan%20in%20Beautiful%20Day%20Beige*",
+      "stock": 13
     },
     {
-      "id": 49,
+      "id": "49",
       "product_title": "She Can Crochet Sweater",
       "description": "A beautifully crafted crochet sweater that blends handmade aesthetics with modern fashion for a warm and stylish look.",
       "product_images": [
@@ -277,12 +379,18 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": ["XS", "S", "M", "L"],
+      "product_size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
       "product_price": "1260 EGP",
-      "website_link": "https://shopfufa.com/search?type=product%2Carticle%2Cpage%2Ccollection&q=She+Can+Crochet+Sweater"
+      "website_link": "https://shopfufa.com/search?type=product%2Carticle%2Cpage%2Ccollection&q=She+Can+Crochet+Sweater",
+      "stock": 0
     },
     {
-      "id": 50,
+      "id": "50",
       "product_title": "Sukoon Poncho in Charmed Black",
       "description": "A stylish black poncho designed for comfort and elegance, perfect for layering and adding sophistication to your outfit.",
       "product_images": [
@@ -293,12 +401,18 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": ["XS", "S", "M", "L"],
+      "product_size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
       "product_price": "1500 EGP",
-      "website_link": "https://shopfufa.com/search?type=product%2Carticle%2Cpage%2Ccollection&q=Sukoon+Poncho+in+Charmed+Black"
+      "website_link": "https://shopfufa.com/search?type=product%2Carticle%2Cpage%2Ccollection&q=Sukoon+Poncho+in+Charmed+Black",
+      "stock": 44
     },
     {
-      "id": 51,
+      "id": "51",
       "product_title": "Knitted Jacquard Cardigan - Egret",
       "description": "A premium knitted cardigan featuring jacquard patterns that create a luxurious and timeless fashion piece.",
       "product_images": [
@@ -309,12 +423,18 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": ["XS", "S", "M", "L"],
+      "product_size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
       "product_price": "3100 EGP",
-      "website_link": "https://be-indie.com/products/knitted-jacquard-cardigan-egret?_pos=1&_sid=24ddd0fb6&_ss=r"
+      "website_link": "https://be-indie.com/products/knitted-jacquard-cardigan-egret?_pos=1&_sid=24ddd0fb6&_ss=r",
+      "stock": 35
     },
     {
-      "id": 52,
+      "id": "52",
       "product_title": "Animal Print - Midnight Blue",
       "description": "A bold piece featuring animal print details in deep midnight blue tones, designed for confident and stylish looks.",
       "product_images": [
@@ -325,12 +445,18 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": ["XS", "S", "M", "L"],
+      "product_size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
       "product_price": "4300 EGP",
-      "website_link": "https://be-indie.com/products/slim-flared-jeans-with-blings-midnight-blue?_pos=1&_sid=6b78ddb22&_ss=r"
+      "website_link": "https://be-indie.com/products/slim-flared-jeans-with-blings-midnight-blue?_pos=1&_sid=6b78ddb22&_ss=r",
+      "stock": 17
     },
     {
-      "id": 53,
+      "id": "53",
       "product_title": "Omda Dinner Jacket",
       "description": "A luxurious dinner jacket designed with refined tailoring and elegant details, perfect for formal occasions and evening events.",
       "product_images": [
@@ -341,12 +467,18 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": ["XS", "S", "M", "L"],
+      "product_size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
       "product_price": "15000 EGP",
-      "website_link": "https://aminak.net/products/omda-dinner-jacket-3?_pos=1&_sid=4e50512b6&_ss=r"
+      "website_link": "https://aminak.net/products/omda-dinner-jacket-3?_pos=1&_sid=4e50512b6&_ss=r",
+      "stock": 47
     },
     {
-      "id": 54,
+      "id": "54",
       "product_title": "Spring Omda",
       "description": "A fresh and stylish piece inspired by the colors and energy of spring, combining elegance with comfort.",
       "product_images": [
@@ -355,12 +487,18 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": ["XS", "S", "M", "L"],
+      "product_size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
       "product_price": "1260 EGP",
-      "website_link": "https://aminak.net/products/spring-omda-4?_pos=1&_sid=faeac9f26&_ss=r"
+      "website_link": "https://aminak.net/products/spring-omda-4?_pos=1&_sid=faeac9f26&_ss=r",
+      "stock": 29
     },
     {
-      "id": 55,
+      "id": "55",
       "product_title": "Bomboni Top",
       "description": "A chic top featuring unique design elements that make it a versatile and fashionable wardrobe essential.",
       "product_images": [
@@ -370,12 +508,18 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": ["XS", "S", "M", "L"],
+      "product_size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
       "product_price": "1500 EGP",
-      "website_link": "https://aminak.net/products/bomboni-top-1?_pos=1&_sid=7bd385ee9&_ss=r"
+      "website_link": "https://aminak.net/products/bomboni-top-1?_pos=1&_sid=7bd385ee9&_ss=r",
+      "stock": 46
     },
     {
-      "id": 56,
+      "id": "56",
       "product_title": "Triple Gold Plated Ring",
       "description": "A luxurious ring featuring a triple-layer gold plated design that adds elegance and shine to any outfit.",
       "product_images": [
@@ -385,12 +529,18 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": ["XS", "S", "M", "L"],
+      "product_size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
       "product_price": "899 EGP",
-      "website_link": "https://getpalma.com/products/triple-gold-plated-ring?_pos=1&_sid=8a174428f&_ss=r"
+      "website_link": "https://getpalma.com/products/triple-gold-plated-ring?_pos=1&_sid=8a174428f&_ss=r",
+      "stock": 25
     },
     {
-      "id": 57,
+      "id": "57",
       "product_title": "Harp Ring",
       "description": "A stylish ring inspired by the graceful curves of a harp, designed to bring artistic elegance to your accessories.",
       "product_images": [
@@ -400,12 +550,18 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": ["XS", "S", "M", "L"],
+      "product_size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
       "product_price": "899 EGP",
-      "website_link": "https://getpalma.com/products/harp-ring?_pos=1&_sid=7ead68706&_ss=r"
+      "website_link": "https://getpalma.com/products/harp-ring?_pos=1&_sid=7ead68706&_ss=r",
+      "stock": 2
     },
     {
-      "id": 58,
+      "id": "58",
       "product_title": "Hoopoe Earring",
       "description": "Elegant earrings inspired by the beauty of the hoopoe bird, combining nature-inspired design with modern craftsmanship.",
       "product_images": [
@@ -416,12 +572,18 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": ["XS", "S", "M", "L"],
+      "product_size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
       "product_price": "1260 EGP",
-      "website_link": "https://getpalma.com/products/hoopoe-earring?_pos=1&_sid=7ddfaa78a&_ss=r"
+      "website_link": "https://getpalma.com/products/hoopoe-earring?_pos=1&_sid=7ddfaa78a&_ss=r",
+      "stock": 15
     },
     {
-      "id": 59,
+      "id": "59",
       "product_title": "Kindred Pair Earring",
       "description": "A delicate pair of earrings designed to symbolize harmony and connection, perfect for everyday elegance.",
       "product_images": [
@@ -432,12 +594,18 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": ["XS", "S", "M", "L"],
+      "product_size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
       "product_price": "780 EGP",
-      "website_link": "https://getpalma.com/products/kindred-pair-earring?_pos=1&_sid=70ed81a06&_ss=r"
+      "website_link": "https://getpalma.com/products/kindred-pair-earring?_pos=1&_sid=70ed81a06&_ss=r",
+      "stock": 39
     },
     {
-      "id": 60,
+      "id": "60",
       "product_title": "Cheetah Pendant",
       "description": "A bold pendant featuring a cheetah-inspired design that represents strength, elegance, and individuality.",
       "product_images": [
@@ -448,12 +616,18 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": ["XS", "S", "M", "L"],
+      "product_size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
       "product_price": "1499 EGP",
-      "website_link": "https://getpalma.com/products/cheetah-pendant?_pos=1&_sid=8c99473e4&_ss=r"
+      "website_link": "https://getpalma.com/products/cheetah-pendant?_pos=1&_sid=8c99473e4&_ss=r",
+      "stock": 46
     },
     {
-      "id": 61,
+      "id": "61",
       "product_title": "Hoopoe Pendant",
       "description": "A unique pendant inspired by the iconic hoopoe bird, crafted to add character and elegance to your jewelry collection.",
       "product_images": [
@@ -463,12 +637,18 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": ["XS", "S", "M", "L"],
+      "product_size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
       "product_price": "1499 EGP",
-      "website_link": "https://getpalma.com/products/hoopoe-pendant?_pos=1&_sid=98dc57977&_ss=r"
+      "website_link": "https://getpalma.com/products/hoopoe-pendant?_pos=1&_sid=98dc57977&_ss=r",
+      "stock": 15
     },
     {
-      "id": 62,
+      "id": "62",
       "product_title": "Tote Bag",
       "description": "A spacious and stylish tote bag designed for everyday use, combining practicality with modern fashion.",
       "product_images": [
@@ -478,12 +658,18 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": ["XS", "S", "M", "L"],
+      "product_size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
       "product_price": "5531 EGP",
-      "website_link": "https://mamzistore.com/products/tote-bag"
+      "website_link": "https://mamzistore.com/products/tote-bag",
+      "stock": 7
     },
     {
-      "id": 63,
+      "id": "63",
       "product_title": "Clutch Bag",
       "description": "A sleek clutch bag perfect for evening events and special occasions, designed to complement elegant outfits",
       "product_images": [
@@ -493,12 +679,18 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": ["XS", "S", "M", "L"],
+      "product_size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
       "product_price": "5393 EGP",
-      "website_link": "https://mamzistore.com/products/clutch-bag?variant=43934392221917"
+      "website_link": "https://mamzistore.com/products/clutch-bag?variant=43934392221917",
+      "stock": 44
     },
     {
-      "id": 64,
+      "id": "64",
       "product_title": "The Net Carry",
       "description": "A lightweight and stylish net bag ideal for casual outings, beach days, or everyday essentials.",
       "product_images": [
@@ -509,12 +701,18 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": ["XS", "S", "M", "L"],
+      "product_size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
       "product_price": "1700 EGP",
-      "website_link": "https://tajsisters.com/products/the-net-carry?_pos=1&_sid=4d84a668f&_ss=r"
+      "website_link": "https://tajsisters.com/products/the-net-carry?_pos=1&_sid=4d84a668f&_ss=r",
+      "stock": 4
     },
     {
-      "id": 65,
+      "id": "65",
       "product_title": "The sol clutch",
       "description": "A chic clutch bag with a minimal yet sophisticated design, perfect for completing elegant evening looks.",
       "product_images": [
@@ -525,12 +723,18 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": ["XS", "S", "M", "L"],
+      "product_size": [
+        "XS",
+        "S",
+        "M",
+        "L"
+      ],
       "product_price": "1190 EGP",
-      "website_link": "https://tajsisters.com/products/the-sol-clutch?_pos=1&_sid=8c17917c5&_ss=r"
+      "website_link": "https://tajsisters.com/products/the-sol-clutch?_pos=1&_sid=8c17917c5&_ss=r",
+      "stock": 41
     },
     {
-      "id": 66,
+      "id": "66",
       "product_title": "Brown Wingtip with Chunky Sole",
       "description": "",
       "product_images": [
@@ -540,12 +744,19 @@
       ],
       "category": "Footwear",
       "subcategory": "Men",
-      "product_size": ["41", "42", "43", "44", "45"],
+      "product_size": [
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
       "product_price": "1665 EGP",
-      "website_link": "https://lotfy.com/products/17"
+      "website_link": "https://lotfy.com/products/17",
+      "stock": 0
     },
     {
-      "id": 67,
+      "id": "67",
       "product_title": "Leather Ankle Boot",
       "description": "",
       "product_images": [
@@ -556,12 +767,19 @@
       ],
       "category": "Footwear",
       "subcategory": "Men",
-      "product_size": ["41", "42", "43", "44", "45"],
+      "product_size": [
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
       "product_price": "2400 EGP",
-      "website_link": "https://lotfy.com/products/leather-ankle-boot-for-men-brown"
+      "website_link": "https://lotfy.com/products/leather-ankle-boot-for-men-brown",
+      "stock": 2
     },
     {
-      "id": 68,
+      "id": "68",
       "product_title": "Brown Chelsea Boots",
       "description": "",
       "product_images": [
@@ -571,12 +789,19 @@
       ],
       "category": "Footwear",
       "subcategory": "Men",
-      "product_size": ["41", "42", "43", "44", "45"],
+      "product_size": [
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
       "product_price": "2340 EGP",
-      "website_link": "https://lotfy.com/products/classic-brown-chelsea-boots"
+      "website_link": "https://lotfy.com/products/classic-brown-chelsea-boots",
+      "stock": 13
     },
     {
-      "id": 69,
+      "id": "69",
       "product_title": "Black Chelsea Boots",
       "description": "",
       "product_images": [
@@ -587,12 +812,19 @@
       ],
       "category": "Footwear",
       "subcategory": "Men",
-      "product_size": ["41", "42", "43", "44", "45"],
+      "product_size": [
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
       "product_price": "2340 EGP",
-      "website_link": "https://lotfy.com/products/classic-black-chelsea-boots"
+      "website_link": "https://lotfy.com/products/classic-black-chelsea-boots",
+      "stock": 26
     },
     {
-      "id": 70,
+      "id": "70",
       "product_title": "Beige Suede Penny Loafers",
       "description": "",
       "product_images": [
@@ -602,12 +834,19 @@
       ],
       "category": "Footwear",
       "subcategory": "Men",
-      "product_size": ["41", "42", "43", "44", "45"],
+      "product_size": [
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
       "product_price": "1500 EGP",
-      "website_link": "https://lotfy.com/collections/loafers/products/men-s-beige-suede-penny-loafers"
+      "website_link": "https://lotfy.com/collections/loafers/products/men-s-beige-suede-penny-loafers",
+      "stock": 0
     },
     {
-      "id": 71,
+      "id": "71",
       "product_title": "Beverly Hills Polo",
       "description": "",
       "product_images": [
@@ -618,12 +857,19 @@
       ],
       "category": "Footwear",
       "subcategory": "Men",
-      "product_size": ["41", "42", "43", "44", "45"],
+      "product_size": [
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
       "product_price": "2000 EGP",
-      "website_link": "https://jlood.com/products/beverly-hills-polo-club-matias-sneakers-men-kki"
+      "website_link": "https://jlood.com/products/beverly-hills-polo-club-matias-sneakers-men-kki",
+      "stock": 11
     },
     {
-      "id": 72,
+      "id": "72",
       "product_title": "PUMA FLYER Runner Mesh",
       "description": "",
       "product_images": [
@@ -633,12 +879,19 @@
       ],
       "category": "Footwear",
       "subcategory": "Men",
-      "product_size": ["41", "42", "43", "44", "45"],
+      "product_size": [
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
       "product_price": "4350 EGP",
-      "website_link": "https://jlood.com/products/puma-flyer-runner-mesh-running-men-blkwht?_pos=100&_fid=2358b773a&_ss=c"
+      "website_link": "https://jlood.com/products/puma-flyer-runner-mesh-running-men-blkwht?_pos=100&_fid=2358b773a&_ss=c",
+      "stock": 0
     },
     {
-      "id": 73,
+      "id": "73",
       "product_title": "GUESS Tivio Sneakers",
       "description": "",
       "product_images": [
@@ -648,12 +901,19 @@
       ],
       "category": "Footwear",
       "subcategory": "Men",
-      "product_size": ["41", "42", "43", "44", "45"],
+      "product_size": [
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
       "product_price": "1665 EGP",
-      "website_link": "https://jlood.com/products/guess-tivio-sneakers-men-blkblk?_pos=137&_fid=c2d3b4996&_ss=c"
+      "website_link": "https://jlood.com/products/guess-tivio-sneakers-men-blkblk?_pos=137&_fid=c2d3b4996&_ss=c",
+      "stock": 7
     },
     {
-      "id": 74,
+      "id": "74",
       "product_title": "UESS Tiogo Low-Top Sneakers",
       "description": "",
       "product_images": [
@@ -663,12 +923,19 @@
       ],
       "category": "Footwear",
       "subcategory": "Men",
-      "product_size": ["41", "42", "43", "44", "45"],
+      "product_size": [
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
       "product_price": "3200 EGP",
-      "website_link": "https://jlood.com/products/guess-tiogo-low-top-sneakers-men-whtgrn?pr_prod_strat=e5_desc&pr_rec_id=6cc532a02&pr_rec_pid=9788098249023&pr_ref_pid=9947292369215&pr_seq=uniform"
+      "website_link": "https://jlood.com/products/guess-tiogo-low-top-sneakers-men-whtgrn?pr_prod_strat=e5_desc&pr_rec_id=6cc532a02&pr_rec_pid=9788098249023&pr_ref_pid=9947292369215&pr_seq=uniform",
+      "stock": 14
     },
     {
-      "id": 75,
+      "id": "75",
       "product_title": "ZARA CHUNKY KNIT SNEAKERS",
       "description": "",
       "product_images": [
@@ -678,12 +945,19 @@
       ],
       "category": "Footwear",
       "subcategory": "Men",
-      "product_size": ["41", "42", "43", "44", "45"],
+      "product_size": [
+        "41",
+        "42",
+        "43",
+        "44",
+        "45"
+      ],
       "product_price": "2900 EGP",
-      "website_link": "https://jlood.com/products/zara-chunky-knit-sneakers-men-olv?_pos=164&_fid=0516eeb1f&_ss=c"
+      "website_link": "https://jlood.com/products/zara-chunky-knit-sneakers-men-olv?_pos=164&_fid=0516eeb1f&_ss=c",
+      "stock": 36
     },
     {
-      "id": 76,
+      "id": "76",
       "product_title": "Uggs Ankle Boot- Brown",
       "description": "",
       "product_images": [
@@ -693,12 +967,19 @@
       ],
       "category": "Footwear",
       "subcategory": "Woman",
-      "product_size": ["37", "38", "39", "40", "41"],
+      "product_size": [
+        "37",
+        "38",
+        "39",
+        "40",
+        "41"
+      ],
       "product_price": "1500 EGP",
-      "website_link": "https://lotfy.com/products/uggs-ankle-boot-for-women-m628-brown"
+      "website_link": "https://lotfy.com/products/uggs-ankle-boot-for-women-m628-brown",
+      "stock": 28
     },
     {
-      "id": 77,
+      "id": "77",
       "product_title": "Uggs Half Boot - Khaki",
       "description": "",
       "product_images": [
@@ -708,12 +989,19 @@
       ],
       "category": "Footwear",
       "subcategory": "Woman",
-      "product_size": ["37", "38", "39", "40", "41"],
+      "product_size": [
+        "37",
+        "38",
+        "39",
+        "40",
+        "41"
+      ],
       "product_price": "1500 EGP",
-      "website_link": "https://lotfy.com/products/uggs-half-boot-for-women-m621-khaki"
+      "website_link": "https://lotfy.com/products/uggs-half-boot-for-women-m621-khaki",
+      "stock": 0
     },
     {
-      "id": 78,
+      "id": "78",
       "product_title": "Leather Ankle Boot-Black",
       "description": "",
       "product_images": [
@@ -723,12 +1011,19 @@
       ],
       "category": "Footwear",
       "subcategory": "Woman",
-      "product_size": ["37", "38", "39", "40", "41"],
+      "product_size": [
+        "37",
+        "38",
+        "39",
+        "40",
+        "41"
+      ],
       "product_price": "2500 EGP",
-      "website_link": "https://lotfy.com/products/leather-ankle-boot-for-women-black-1"
+      "website_link": "https://lotfy.com/products/leather-ankle-boot-for-women-black-1",
+      "stock": 28
     },
     {
-      "id": 79,
+      "id": "79",
       "product_title": "Suede Ankle Boot -Brown",
       "description": "",
       "product_images": [
@@ -738,12 +1033,19 @@
       ],
       "category": "Footwear",
       "subcategory": "Woman",
-      "product_size": ["37", "38", "39", "40", "41"],
+      "product_size": [
+        "37",
+        "38",
+        "39",
+        "40",
+        "41"
+      ],
       "product_price": "2350 EGP",
-      "website_link": "https://lotfy.com/products/suede-ankle-boot-for-women-p6-brown"
+      "website_link": "https://lotfy.com/products/suede-ankle-boot-for-women-p6-brown",
+      "stock": 8
     },
     {
-      "id": 1,
+      "id": "1",
       "product_title": "BEEF SUPREME",
       "description": "BEEF PEPPERONI GREEN PEPPER ONION BLACK OLIVES CHEESE",
       "product_images": [
@@ -753,12 +1055,17 @@
       ],
       "category": "Food & Drink",
       "subcategory": "PIZZA",
-      "product_size": ["LARGE", "MEDIUM", "SMALL"],
+      "product_size": [
+        "LARGE",
+        "MEDIUM",
+        "SMALL"
+      ],
       "product_price": "554 EGP",
-      "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q"
+      "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q",
+      "stock": 4
     },
     {
-      "id": 2,
+      "id": "2",
       "product_title": "RANCH CHICKEN",
       "description": "RANCH CHICKEN GREEN PEPPER JALAPENO CHEESE RANCH SAUCE ONIONS OLIVES",
       "product_images": [
@@ -768,12 +1075,17 @@
       ],
       "category": "Food & Drink",
       "subcategory": "PIZZA",
-      "product_size": ["LARGE", "MEDIUM", "SMALL"],
+      "product_size": [
+        "LARGE",
+        "MEDIUM",
+        "SMALL"
+      ],
       "product_price": "554 EGP",
-      "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q"
+      "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q",
+      "stock": 0
     },
     {
-      "id": 3,
+      "id": "3",
       "product_title": "PEPPERONI",
       "description": "CHEESE PEPPERONI",
       "product_images": [
@@ -783,12 +1095,17 @@
       ],
       "category": "Food & Drink",
       "subcategory": "PIZZA",
-      "product_size": ["LARGE", "MEDIUM", "SMALL"],
+      "product_size": [
+        "LARGE",
+        "MEDIUM",
+        "SMALL"
+      ],
       "product_price": "554 EGP",
-      "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q"
+      "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q",
+      "stock": 5
     },
     {
-      "id": 4,
+      "id": "4",
       "product_title": "MARGHERITA",
       "description": "LOADED CHEESE WITH TOMATO PIZZA SAUCE",
       "product_images": [
@@ -798,12 +1115,17 @@
       ],
       "category": "Food & Drink",
       "subcategory": "PIZZA",
-      "product_size": ["LARGE", "MEDIUM", "SMALL"],
+      "product_size": [
+        "LARGE",
+        "MEDIUM",
+        "SMALL"
+      ],
       "product_price": "499 EGP",
-      "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q"
+      "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q",
+      "stock": 12
     },
     {
-      "id": 5,
+      "id": "5",
       "product_title": "GRILLED CHICKEN",
       "description": "DELI HOMEMADE PIZZA SAUCE.MOZZARELLA CHEESE.  GRILLED CHICKEN.ONION.GREEN PEPPER AND  FRESH TOMATOES",
       "product_images": [
@@ -813,12 +1135,17 @@
       ],
       "category": "Food & Drink",
       "subcategory": "PIZZA",
-      "product_size": ["LARGE", "MEDIUM", "SMALL"],
+      "product_size": [
+        "LARGE",
+        "MEDIUM",
+        "SMALL"
+      ],
       "product_price": "554 EGP",
-      "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q"
+      "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q",
+      "stock": 23
     },
     {
-      "id": 6,
+      "id": "6",
       "product_title": "MEXICAN",
       "description": "DELI HOMEMADE REQUITO SAUCE.  MOZZARELLA CHEESE.GRILLED CHICKEN.  SWEET CORN.JALAPEÑOS.TOMATO  AND MAYONNAISE",
       "product_images": [
@@ -828,12 +1155,17 @@
       ],
       "category": "Food & Drink",
       "subcategory": "PIZZA",
-      "product_size": ["LARGE", "MEDIUM", "SMALL"],
+      "product_size": [
+        "LARGE",
+        "MEDIUM",
+        "SMALL"
+      ],
       "product_price": "554 EGP",
-      "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q"
+      "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q",
+      "stock": 5
     },
     {
-      "id": 7,
+      "id": "7",
       "product_title": "CRISPY CHICKEN",
       "description": "DELI HOMEMADE RANCH SAUCE.MOZZARELLA CHEESE.  CRISPY CHICKEN.MUSHROOM.JALAPENO.TOMATO AND PERSLEY",
       "product_images": [
@@ -843,12 +1175,17 @@
       ],
       "category": "Food & Drink",
       "subcategory": "PIZZA",
-      "product_size": ["LARGE", "MEDIUM", "SMALL"],
+      "product_size": [
+        "LARGE",
+        "MEDIUM",
+        "SMALL"
+      ],
       "product_price": "554 EGP",
-      "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q"
+      "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q",
+      "stock": 0
     },
     {
-      "id": 8,
+      "id": "8",
       "product_title": "TANDOORI CHICKEN",
       "description": "TANDOORI SAUCE.MOZZARELLA CHEESE.  TANDOORI CHICKEN. GREEN PEPPER.  ONION AND FRESH TOMATOES",
       "product_images": [
@@ -858,12 +1195,17 @@
       ],
       "category": "Food & Drink",
       "subcategory": "PIZZA",
-      "product_size": ["LARGE", "MEDIUM", "SMALL"],
+      "product_size": [
+        "LARGE",
+        "MEDIUM",
+        "SMALL"
+      ],
       "product_price": "554 EGP",
-      "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q"
+      "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q",
+      "stock": 32
     },
     {
-      "id": 9,
+      "id": "9",
       "product_title": "SHRIMP PIZZA",
       "description": "SHRIMPS GREEN PEPPER OREGANO BLACK OLIVE TOMATO CHEESE ONION",
       "product_images": [
@@ -873,12 +1215,17 @@
       ],
       "category": "Food & Drink",
       "subcategory": "PIZZA",
-      "product_size": ["LARGE", "MEDIUM", "SMALL"],
+      "product_size": [
+        "LARGE",
+        "MEDIUM",
+        "SMALL"
+      ],
       "product_price": "599 EGP",
-      "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q"
+      "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q",
+      "stock": 4
     },
     {
-      "id": 10,
+      "id": "10",
       "product_title": "CHICKEN BURGER FRESH🍔🍟",
       "description": "GRILLED CHICKEN PETTY WITH FRESH TOMATO LETTUCE AND ONION",
       "product_images": [
@@ -888,12 +1235,17 @@
       ],
       "category": "Food & Drink",
       "subcategory": "FRESH BURGER",
-      "product_size": ["LARGE", "MEDIUM", "SMALL"],
+      "product_size": [
+        "LARGE",
+        "MEDIUM",
+        "SMALL"
+      ],
       "product_price": "155 EGP",
-      "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q"
+      "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q",
+      "stock": 25
     },
     {
-      "id": 11,
+      "id": "11",
       "product_title": "CRUNCHY BURGER SANDWICH",
       "description": "crunchy burger sandwich only",
       "product_images": [
@@ -903,12 +1255,17 @@
       ],
       "category": "Food & Drink",
       "subcategory": "FRESH BURGER",
-      "product_size": ["LARGE", "MEDIUM", "SMALL"],
+      "product_size": [
+        "LARGE",
+        "MEDIUM",
+        "SMALL"
+      ],
       "product_price": "129 EGP",
-      "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q"
+      "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q",
+      "stock": 31
     },
     {
-      "id": 12,
+      "id": "12",
       "product_title": "DOUBLE ZINGER BURGER SANDWICH🍔",
       "description": "double zinger burger sandwich only",
       "product_images": [
@@ -918,12 +1275,17 @@
       ],
       "category": "Food & Drink",
       "subcategory": "FRESH BURGER",
-      "product_size": ["LARGE", "MEDIUM", "SMALL"],
+      "product_size": [
+        "LARGE",
+        "MEDIUM",
+        "SMALL"
+      ],
       "product_price": "195 EGP",
-      "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q"
+      "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q",
+      "stock": 0
     },
     {
-      "id": 13,
+      "id": "13",
       "product_title": "MEAL CHICKEN ALFREDO",
       "description": "SERVED WITH 2 PCS OF CHEESE GARLIC BREAD 1PC SOFT DRINK",
       "product_images": [
@@ -933,12 +1295,17 @@
       ],
       "category": "Food & Drink",
       "subcategory": "PASTA",
-      "product_size": ["LARGE", "MEDIUM", "SMALL"],
+      "product_size": [
+        "LARGE",
+        "MEDIUM",
+        "SMALL"
+      ],
       "product_price": "299 EGP",
-      "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q"
+      "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q",
+      "stock": 9
     },
     {
-      "id": 14,
+      "id": "14",
       "product_title": "Molokhia",
       "description": "Fresh frozen molokhia leaves, picked at peak freshness and quickly frozen to preserve nutrients and natural flavor.",
       "product_images": [
@@ -949,10 +1316,11 @@
       "subcategory": "Vegetables",
       "product_size": [],
       "product_price": "45 EGP",
-      "website_link": "https://rayafoods.org/products-vegetables-fruits.html"
+      "website_link": "https://rayafoods.org/products-vegetables-fruits.html",
+      "stock": 0
     },
     {
-      "id": 15,
+      "id": "15",
       "product_title": "Spinach",
       "description": "Tender frozen spinach leaves, rich in iron and vitamins, ready to use straight from the bag with no washing needed.",
       "product_images": [
@@ -963,10 +1331,11 @@
       "subcategory": "Vegetables",
       "product_size": [],
       "product_price": "45 EGP",
-      "website_link": "https://rayafoods.org/products-vegetables-fruits.html"
+      "website_link": "https://rayafoods.org/products-vegetables-fruits.html",
+      "stock": 18
     },
     {
-      "id": 16,
+      "id": "16",
       "product_title": "Okras",
       "description": "Premium frozen okra pods, carefully selected and frozen to maintain their firm texture and earthy taste.",
       "product_images": [
@@ -977,10 +1346,11 @@
       "subcategory": "Vegetables",
       "product_size": [],
       "product_price": "55 EGP",
-      "website_link": "https://rayafoods.org/products-vegetables-fruits.html"
+      "website_link": "https://rayafoods.org/products-vegetables-fruits.html",
+      "stock": 14
     },
     {
-      "id": 17,
+      "id": "17",
       "product_title": "Green Peas",
       "description": "Sweet and tender frozen green peas, harvested young and flash-frozen to lock in their vibrant color and natural sweetness.",
       "product_images": [
@@ -992,10 +1362,11 @@
       "subcategory": "Vegetables",
       "product_size": [],
       "product_price": "50 EGP",
-      "website_link": "https://rayafoods.org/products-vegetables-fruits.html"
+      "website_link": "https://rayafoods.org/products-vegetables-fruits.html",
+      "stock": 6
     },
     {
-      "id": 18,
+      "id": "18",
       "product_title": "Mixed Vegetables",
       "description": "A colorful blend of premium frozen vegetables including carrots, corn, peas, and green beans — perfect for soups, stews, and stir-fries.",
       "product_images": [
@@ -1007,10 +1378,11 @@
       "subcategory": "Vegetables",
       "product_size": [],
       "product_price": "65 EGP",
-      "website_link": "https://rayafoods.org/products-vegetables-fruits.html"
+      "website_link": "https://rayafoods.org/products-vegetables-fruits.html",
+      "stock": 44
     },
     {
-      "id": 19,
+      "id": "19",
       "product_title": "Mango Chunks",
       "description": "Juicy frozen mango chunks made from ripe, sun-kissed mangoes. Perfect for smoothies, desserts, or enjoying straight from the bag.",
       "product_images": [
@@ -1022,10 +1394,11 @@
       "subcategory": "Fruits",
       "product_size": [],
       "product_price": "75 EGP",
-      "website_link": "https://rayafoods.org/products-vegetables-fruits.html"
+      "website_link": "https://rayafoods.org/products-vegetables-fruits.html",
+      "stock": 33
     },
     {
-      "id": 20,
+      "id": "20",
       "product_title": "Strawberry",
       "description": "Plump frozen strawberries bursting with natural sweetness, ideal for smoothies, jams, baking, and desserts.",
       "product_images": [
@@ -1037,10 +1410,11 @@
       "subcategory": "Fruits",
       "product_size": [],
       "product_price": "80 EGP",
-      "website_link": "https://rayafoods.org/products-vegetables-fruits.html"
+      "website_link": "https://rayafoods.org/products-vegetables-fruits.html",
+      "stock": 22
     },
     {
-      "id": 21,
+      "id": "21",
       "product_title": "Pineapple Chunks",
       "description": "Sweet and tangy frozen pineapple chunks, tropical and refreshing. Great for smoothies, fruit salads, and grilling.",
       "product_images": [
@@ -1051,10 +1425,11 @@
       "subcategory": "Fruits",
       "product_size": [],
       "product_price": "70 EGP",
-      "website_link": "https://rayafoods.org/products-vegetables-fruits.html"
+      "website_link": "https://rayafoods.org/products-vegetables-fruits.html",
+      "stock": 47
     },
     {
-      "id": 22,
+      "id": "22",
       "product_title": "Mixed Berries",
       "description": "A rich blend of frozen blueberries, raspberries, and blackberries packed with antioxidants. Perfect for smoothies, yogurt, and baking.",
       "product_images": [
@@ -1066,10 +1441,11 @@
       "subcategory": "Fruits",
       "product_size": [],
       "product_price": "95 EGP",
-      "website_link": "https://rayafoods.org/products-vegetables-fruits.html"
+      "website_link": "https://rayafoods.org/products-vegetables-fruits.html",
+      "stock": 27
     },
     {
-      "id": 23,
+      "id": "23",
       "product_title": "Apricots",
       "description": "Tender frozen peach slices with a naturally sweet aroma, great for cobblers, smoothies, and breakfast toppings.",
       "product_images": [
@@ -1080,10 +1456,11 @@
       "subcategory": "Fruits",
       "product_size": [],
       "product_price": "85 EGP",
-      "website_link": "https://rayafoods.org/products-vegetables-fruits.html"
+      "website_link": "https://rayafoods.org/products-vegetables-fruits.html",
+      "stock": 39
     },
     {
-      "id": 24,
+      "id": "24",
       "product_title": "V7 Pomegranate",
       "description": "A naturally sweet, tangy, and refreshing sparkling drink enriched with essential vitamins, 100% natural pomegranate flavor, honey bee extract, and no preservatives or caffeine.",
       "product_images": [
@@ -1093,12 +1470,15 @@
       ],
       "category": "Food & Drink",
       "subcategory": "DRINKS",
-      "product_size": ["300ml"],
+      "product_size": [
+        "300ml"
+      ],
       "product_price": "15 EGP",
-      "website_link": "https://v7-benefits.com/product/"
+      "website_link": "https://v7-benefits.com/product/",
+      "stock": 19
     },
     {
-      "id": 25,
+      "id": "25",
       "product_title": "V7 Blueberry",
       "description": "Slightly tangy, slightly sour, and oh so sweet — a vitamin-enriched sparkling blueberry drink made with 100% natural flavors, honey bee extract, and zero caffeine.",
       "product_images": [
@@ -1108,12 +1488,15 @@
       ],
       "category": "Food & Drink",
       "subcategory": "DRINKS",
-      "product_size": ["300ml"],
+      "product_size": [
+        "300ml"
+      ],
       "product_price": "15 EGP",
-      "website_link": "https://v7-benefits.com/product/"
+      "website_link": "https://v7-benefits.com/product/",
+      "stock": 28
     },
     {
-      "id": 26,
+      "id": "26",
       "product_title": "V7 Lemon Mint",
       "description": "A citrus twist with a hint of mint — a refreshing sparkling drink enriched with vitamins, 100% natural lemon mint flavor, and honey bee extract. No caffeine, no preservatives.",
       "product_images": [
@@ -1123,12 +1506,15 @@
       ],
       "category": "Food & Drink",
       "subcategory": "DRINKS",
-      "product_size": ["300ml"],
+      "product_size": [
+        "300ml"
+      ],
       "product_price": "15 EGP",
-      "website_link": "https://v7-benefits.com/product/"
+      "website_link": "https://v7-benefits.com/product/",
+      "stock": 47
     },
     {
-      "id": 27,
+      "id": "27",
       "product_title": "V7 Pina Colada",
       "description": "As tropical as you would expect it to be — a bold pina colada sparkling drink with 100% natural flavors, immune-boosting vitamins, honey bee extract, and absolutely no caffeine.",
       "product_images": [
@@ -1138,12 +1524,15 @@
       ],
       "category": "Food & Drink",
       "subcategory": "DRINKS",
-      "product_size": ["300ml"],
+      "product_size": [
+        "300ml"
+      ],
       "product_price": "15 EGP",
-      "website_link": "https://v7-benefits.com/product/"
+      "website_link": "https://v7-benefits.com/product/",
+      "stock": 3
     },
     {
-      "id": 28,
+      "id": "28",
       "product_title": "V Super Soda Cola",
       "description": "Just the way soda should be — Egypt's homegrown cola made with carbonated water, natural flavors, and special vitamins. Caffeine-free, no preservatives, and a bold fizzy taste.",
       "product_images": [
@@ -1153,12 +1542,15 @@
       ],
       "category": "Food & Drink",
       "subcategory": "DRINKS",
-      "product_size": ["300ml"],
+      "product_size": [
+        "300ml"
+      ],
       "product_price": "15 EGP",
-      "website_link": "https://v7-benefits.com/product/"
+      "website_link": "https://v7-benefits.com/product/",
+      "stock": 29
     },
     {
-      "id": 29,
+      "id": "29",
       "product_title": "V Diet Cola",
       "description": "The same great V Super Soda taste, now with low calories. A caffeine-free, zero-sugar cola with natural flavors and vitamins — perfect for those watching their intake without sacrificing taste.",
       "product_images": [
@@ -1167,12 +1559,15 @@
       ],
       "category": "Food & Drink",
       "subcategory": "DRINKS",
-      "product_size": ["300ml"],
+      "product_size": [
+        "300ml"
+      ],
       "product_price": "15 EGP",
-      "website_link": "https://v7-benefits.com/product/"
+      "website_link": "https://v7-benefits.com/product/",
+      "stock": 16
     },
     {
-      "id": 30,
+      "id": "30",
       "product_title": "V Super Lemon",
       "description": "Squeeze in a moment of freshness — a zesty lemon sparkling drink with 100% natural lemon flavor, special vitamins, and no caffeine or preservatives.",
       "product_images": [
@@ -1182,12 +1577,15 @@
       ],
       "category": "Food & Drink",
       "subcategory": "DRINKS",
-      "product_size": ["300ml"],
+      "product_size": [
+        "300ml"
+      ],
       "product_price": "15 EGP",
-      "website_link": "https://v7-benefits.com/product/"
+      "website_link": "https://v7-benefits.com/product/",
+      "stock": 25
     },
     {
-      "id": 31,
+      "id": "31",
       "product_title": "V7 Pineapple Malt",
       "description": "A new spin on the classic you love — a non-alcoholic malt drink with natural pineapple flavor, enriched with vitamins and honey bee extract. Bold, tropical, and refreshingly unique.",
       "product_images": [
@@ -1197,12 +1595,15 @@
       ],
       "category": "Food & Drink",
       "subcategory": "DRINKS",
-      "product_size": ["300ml"],
+      "product_size": [
+        "300ml"
+      ],
       "product_price": "15 EGP",
-      "website_link": "https://v7-benefits.com/product/"
+      "website_link": "https://v7-benefits.com/product/",
+      "stock": 17
     },
     {
-      "id": 80,
+      "id": "80",
       "product_title": "Uggs Ankle Boot- Havan",
       "description": "",
       "product_images": [
@@ -1212,12 +1613,19 @@
       ],
       "category": "Footwear",
       "subcategory": "Woman",
-      "product_size": ["37", "38", "39", "40", "41"],
+      "product_size": [
+        "37",
+        "38",
+        "39",
+        "40",
+        "41"
+      ],
       "product_price": "1500 EGP",
-      "website_link": "https://lotfy.com/products/uggs-ankle-boot-for-women-m628-havan"
+      "website_link": "https://lotfy.com/products/uggs-ankle-boot-for-women-m628-havan",
+      "stock": 1
     },
     {
-      "id": 81,
+      "id": "81",
       "product_title": "oafers Suede Flat-Caffe",
       "description": "",
       "product_images": [
@@ -1227,12 +1635,19 @@
       ],
       "category": "Footwear",
       "subcategory": "Woman",
-      "product_size": ["37", "38", "39", "40", "41"],
+      "product_size": [
+        "37",
+        "38",
+        "39",
+        "40",
+        "41"
+      ],
       "product_price": "850 EGP",
-      "website_link": "https://lotfy.com/collections/all-shoes-women/products/loafers-suede-flat-women-519-caffe"
+      "website_link": "https://lotfy.com/collections/all-shoes-women/products/loafers-suede-flat-women-519-caffe",
+      "stock": 9
     },
     {
-      "id": 82,
+      "id": "82",
       "product_title": "Calvin Jeans Chunky Runner",
       "description": "",
       "product_images": [
@@ -1242,12 +1657,19 @@
       ],
       "category": "Footwear",
       "subcategory": "Woman",
-      "product_size": ["37", "38", "39", "40", "41"],
+      "product_size": [
+        "37",
+        "38",
+        "39",
+        "40",
+        "41"
+      ],
       "product_price": "3750 EGP",
-      "website_link": "https://jlood.com/products/calvin-klein-jeans-chunky-runner-low-laceup-refl-sneakers-men-ym0ym00704-wht?_pos=1&_fid=c17b5bfd4&_ss=c"
+      "website_link": "https://jlood.com/products/calvin-klein-jeans-chunky-runner-low-laceup-refl-sneakers-men-ym0ym00704-wht?_pos=1&_fid=c17b5bfd4&_ss=c",
+      "stock": 45
     },
     {
-      "id": 83,
+      "id": "83",
       "product_title": "Uggs Boot For Women",
       "description": "",
       "product_images": [
@@ -1257,12 +1679,19 @@
       ],
       "category": "Footwear",
       "subcategory": "Woman",
-      "product_size": ["36", "37", "38", "39", "40"],
+      "product_size": [
+        "36",
+        "37",
+        "38",
+        "39",
+        "40"
+      ],
       "product_price": "1750 EGP",
-      "website_link": "https://lotfy.com/collections/new-in-women/products/uggs-boot-for-women-m659"
+      "website_link": "https://lotfy.com/collections/new-in-women/products/uggs-boot-for-women-m659",
+      "stock": 45
     },
     {
-      "id": 84,
+      "id": "84",
       "product_title": "Starter Luna Women Sneaker",
       "description": "",
       "product_images": [
@@ -1272,12 +1701,19 @@
       ],
       "category": "Footwear",
       "subcategory": "Woman",
-      "product_size": ["36", "37", "38", "39", "40"],
+      "product_size": [
+        "36",
+        "37",
+        "38",
+        "39",
+        "40"
+      ],
       "product_price": "110 EGP",
-      "website_link": "https://www.jumia.com.eg/starter-luna-women-sneaker-whitepink-133714292.html"
+      "website_link": "https://www.jumia.com.eg/starter-luna-women-sneaker-whitepink-133714292.html",
+      "stock": 16
     },
     {
-      "id": 85,
+      "id": "85",
       "product_title": "Desert Fashion Sneakers",
       "description": "",
       "product_images": [
@@ -1287,12 +1723,19 @@
       ],
       "category": "Footwear",
       "subcategory": "Woman",
-      "product_size": ["36", "37", "38", "39", "40"],
+      "product_size": [
+        "36",
+        "37",
+        "38",
+        "39",
+        "40"
+      ],
       "product_price": "250 EGP",
-      "website_link": "https://www.jumia.com.eg/desert-fashion-sneakers-from-leather-for-women-89661232.html"
+      "website_link": "https://www.jumia.com.eg/desert-fashion-sneakers-from-leather-for-women-89661232.html",
+      "stock": 37
     },
     {
-      "id": 86,
+      "id": "86",
       "product_title": "Waikiki Bear Figure",
       "description": "",
       "product_images": [
@@ -1302,12 +1745,19 @@
       ],
       "category": "Footwear",
       "subcategory": "Kids",
-      "product_size": ["6 Month ", "9 Month", "1 Year", "1.5 Year", "2 Year"],
+      "product_size": [
+        "6 Month ",
+        "9 Month",
+        "1 Year",
+        "1.5 Year",
+        "2 Year"
+      ],
       "product_price": "300 EGP",
-      "website_link": "https://www.jumia.com.eg/lc-waikiki-bear-figure-plush-baby-boys-home-boot-134037727.html"
+      "website_link": "https://www.jumia.com.eg/lc-waikiki-bear-figure-plush-baby-boys-home-boot-134037727.html",
+      "stock": 0
     },
     {
-      "id": 87,
+      "id": "87",
       "product_title": "Fur Slippers",
       "description": "",
       "product_images": [
@@ -1316,12 +1766,19 @@
       ],
       "category": "Footwear",
       "subcategory": "Kids",
-      "product_size": ["6 Month ", "9 Month", "1 Year", "1.5 Year", "2 Year"],
+      "product_size": [
+        "6 Month ",
+        "9 Month",
+        "1 Year",
+        "1.5 Year",
+        "2 Year"
+      ],
       "product_price": "275 EGP",
-      "website_link": "https://www.jumia.com.eg/generic-1pcs-kids-winter-fur-slippers-size-28-32-127125082.html"
+      "website_link": "https://www.jumia.com.eg/generic-1pcs-kids-winter-fur-slippers-size-28-32-127125082.html",
+      "stock": 48
     },
     {
-      "id": 88,
+      "id": "88",
       "product_title": "Waikiki Laces Hook-And-Loop Baby",
       "description": "",
       "product_images": [
@@ -1331,12 +1788,19 @@
       ],
       "category": "Footwear",
       "subcategory": "Kids",
-      "product_size": ["6 Month ", "9 Month", "1 Year", "1.5 Year", "2 Year"],
+      "product_size": [
+        "6 Month ",
+        "9 Month",
+        "1 Year",
+        "1.5 Year",
+        "2 Year"
+      ],
       "product_price": "230 EGP",
-      "website_link": "https://www.jumia.com.eg/lc-waikiki-laces-hook-and-loop-baby-girls-pre-walking-shoes-134108026.html"
+      "website_link": "https://www.jumia.com.eg/lc-waikiki-laces-hook-and-loop-baby-girls-pre-walking-shoes-134108026.html",
+      "stock": 15
     },
     {
-      "id": 89,
+      "id": "89",
       "product_title": "Kids Winter Fur Slippers",
       "description": "",
       "product_images": [
@@ -1345,12 +1809,19 @@
       ],
       "category": "Footwear",
       "subcategory": "Kids",
-      "product_size": ["6 Month ", "9 Month", "1 Year", "1.5 Year", "2 Year"],
+      "product_size": [
+        "6 Month ",
+        "9 Month",
+        "1 Year",
+        "1.5 Year",
+        "2 Year"
+      ],
       "product_price": "275 EGP",
-      "website_link": "https://www.jumia.com.eg/generic-kids-winter-fur-slippers-size-28-32-127123936.html"
+      "website_link": "https://www.jumia.com.eg/generic-kids-winter-fur-slippers-size-28-32-127123936.html",
+      "stock": 21
     },
     {
-      "id": 90,
+      "id": "90",
       "product_title": "Waikiki Cat Print Pre-Walker",
       "description": "",
       "product_images": [
@@ -1360,12 +1831,19 @@
       ],
       "category": "Footwear",
       "subcategory": "Kids",
-      "product_size": ["6 Month ", "9 Month", "1 Year", "1.5 Year", "2 Year"],
+      "product_size": [
+        "6 Month ",
+        "9 Month",
+        "1 Year",
+        "1.5 Year",
+        "2 Year"
+      ],
       "product_price": "400 EGP",
-      "website_link": "https://www.jumia.com.eg/lc-waikiki-cat-print-pre-walker-shoes-for-baby-boys-134043017.html"
+      "website_link": "https://www.jumia.com.eg/lc-waikiki-cat-print-pre-walker-shoes-for-baby-boys-134043017.html",
+      "stock": 17
     },
     {
-      "id": 91,
+      "id": "91",
       "product_title": "Waikiki Baby Boy Pram",
       "description": "",
       "product_images": [
@@ -1375,12 +1853,19 @@
       ],
       "category": "Footwear",
       "subcategory": "Kids",
-      "product_size": ["6 Month ", "9 Month", "1 Year", "1.5 Year", "2 Year"],
+      "product_size": [
+        "6 Month ",
+        "9 Month",
+        "1 Year",
+        "1.5 Year",
+        "2 Year"
+      ],
       "product_price": "500 EGP",
-      "website_link": "https://www.jumia.com.eg/lc-waikiki-baby-boy-pram-shoes-134027875.html"
+      "website_link": "https://www.jumia.com.eg/lc-waikiki-baby-boy-pram-shoes-134027875.html",
+      "stock": 42
     },
     {
-      "id": 92,
+      "id": "92",
       "product_title": "elcro Baby Pre-Walking",
       "description": "",
       "product_images": [
@@ -1390,12 +1875,19 @@
       ],
       "category": "Footwear",
       "subcategory": "Kids",
-      "product_size": ["6 Month ", "9 Month", "1 Year", "1.5 Year", "2 Year"],
+      "product_size": [
+        "6 Month ",
+        "9 Month",
+        "1 Year",
+        "1.5 Year",
+        "2 Year"
+      ],
       "product_price": "400 EGP",
-      "website_link": "https://www.jumia.com.eg/lc-waikiki-velcro-baby-boys-pre-walking-shoes-134120248.html"
+      "website_link": "https://www.jumia.com.eg/lc-waikiki-velcro-baby-boys-pre-walking-shoes-134120248.html",
+      "stock": 0
     },
     {
-      "id": 93,
+      "id": "93",
       "product_title": "Animal Figure Plush",
       "description": "",
       "product_images": [
@@ -1405,12 +1897,19 @@
       ],
       "category": "Footwear",
       "subcategory": "Kids",
-      "product_size": ["6 Month ", "9 Month", "1 Year", "1.5 Year", "2 Year"],
+      "product_size": [
+        "6 Month ",
+        "9 Month",
+        "1 Year",
+        "1.5 Year",
+        "2 Year"
+      ],
       "product_price": "320 EGP",
-      "website_link": "https://www.jumia.com.eg/lc-waikiki-animal-figure-plush-girls-home-slipper-boots-134120285.html"
+      "website_link": "https://www.jumia.com.eg/lc-waikiki-animal-figure-plush-girls-home-slipper-boots-134120285.html",
+      "stock": 41
     },
     {
-      "id": 94,
+      "id": "94",
       "product_title": "Bow Printed Baby",
       "description": "",
       "product_images": [
@@ -1421,12 +1920,19 @@
       ],
       "category": "Footwear",
       "subcategory": "Kids",
-      "product_size": ["6 Month ", "9 Month", "1 Year", "1.5 Year", "2 Year"],
+      "product_size": [
+        "6 Month ",
+        "9 Month",
+        "1 Year",
+        "1.5 Year",
+        "2 Year"
+      ],
       "product_price": "450 EGP",
-      "website_link": "https://www.jumia.com.eg/lc-waikiki-bow-printed-baby-girls-first-step-shoes-134156510.html"
+      "website_link": "https://www.jumia.com.eg/lc-waikiki-bow-printed-baby-girls-first-step-shoes-134156510.html",
+      "stock": 4
     },
     {
-      "id": 95,
+      "id": "95",
       "product_title": "Applique Embroidery",
       "description": "",
       "product_images": [
@@ -1436,12 +1942,19 @@
       ],
       "category": "Footwear",
       "subcategory": "Kids",
-      "product_size": ["6 Month ", "9 Month", "1 Year", "1.5 Year", "2 Year"],
+      "product_size": [
+        "6 Month ",
+        "9 Month",
+        "1 Year",
+        "1.5 Year",
+        "2 Year"
+      ],
       "product_price": "450 EGP",
-      "website_link": "https://www.jumia.com.eg/lc-waikiki-3d-applique-embroidery-detail-baby-boy-pre-toddler-home-boot-132480359.html"
+      "website_link": "https://www.jumia.com.eg/lc-waikiki-3d-applique-embroidery-detail-baby-boy-pre-toddler-home-boot-132480359.html",
+      "stock": 46
     },
     {
-      "id": 96,
+      "id": "96",
       "product_title": "Calm Vanilla Cream",
       "description": "A moisturizing body cream infused with natural vanilla that deeply hydrates and leaves the skin soft and smooth.",
       "product_images": [
@@ -1453,10 +1966,11 @@
       "subcategory": "Skin Care",
       "product_size": [],
       "product_price": "400 EGP",
-      "website_link": "https://areejaromatherapy.com/product/vanilla-body-cream/"
+      "website_link": "https://areejaromatherapy.com/product/vanilla-body-cream/",
+      "stock": 41
     },
     {
-      "id": 97,
+      "id": "97",
       "product_title": "Natural Glow",
       "description": "A natural skincare serum that brightens the complexion and helps achieve a healthy radiant glow.",
       "product_images": [
@@ -1467,10 +1981,11 @@
       "subcategory": "Skin Care",
       "product_size": [],
       "product_price": "375 EGP",
-      "website_link": "https://areejaromatherapy.com/product/natural-glow-60-ml/"
+      "website_link": "https://areejaromatherapy.com/product/natural-glow-60-ml/",
+      "stock": 12
     },
     {
-      "id": 98,
+      "id": "98",
       "product_title": "Blossom",
       "description": "A nourishing skincare formula designed to rejuvenate the skin and provide a fresh and youthful appearance.",
       "product_images": [
@@ -1481,10 +1996,11 @@
       "subcategory": "Skin Care",
       "product_size": [],
       "product_price": "1500 EGP",
-      "website_link": "https://areejaromatherapy.com/product/blossom/"
+      "website_link": "https://areejaromatherapy.com/product/blossom/",
+      "stock": 40
     },
     {
-      "id": 99,
+      "id": "99",
       "product_title": "Black Seed Oil",
       "description": "Pure black seed oil known for its powerful antioxidants that nourish the skin and promote overall skin health.",
       "product_images": [
@@ -1495,10 +2011,11 @@
       "subcategory": "Skin Care",
       "product_size": [],
       "product_price": "250 EGP",
-      "website_link": "https://areejaromatherapy.com/product/black-seed-oil/"
+      "website_link": "https://areejaromatherapy.com/product/black-seed-oil/",
+      "stock": 47
     },
     {
-      "id": 100,
+      "id": "100",
       "product_title": "Almond Oil",
       "description": "Sweet almond oil rich in vitamins that deeply moisturizes the skin and improves skin elasticity.",
       "product_images": [
@@ -1510,10 +2027,11 @@
       "subcategory": "Skin Care",
       "product_size": [],
       "product_price": "330 EGP",
-      "website_link": "https://areejaromatherapy.com/product/almond-oil/"
+      "website_link": "https://areejaromatherapy.com/product/almond-oil/",
+      "stock": 10
     },
     {
-      "id": 101,
+      "id": "101",
       "product_title": "Tanning Oil",
       "description": "A natural tanning oil that helps achieve a glowing bronze tone while keeping the skin hydrated.",
       "product_images": [
@@ -1525,10 +2043,11 @@
       "subcategory": "Skin Care",
       "product_size": [],
       "product_price": "370 EGP",
-      "website_link": "https://merakinaturalcare.com/product/tanning-oil-120ml/"
+      "website_link": "https://merakinaturalcare.com/product/tanning-oil-120ml/",
+      "stock": 48
     },
     {
-      "id": 102,
+      "id": "102",
       "product_title": "Vitamin C Serum (10ml-30ml)",
       "description": "A powerful vitamin C serum that brightens skin tone, reduces dark spots, and boosts collagen production.",
       "product_images": [
@@ -1539,10 +2058,11 @@
       "subcategory": "Skin Care",
       "product_size": [],
       "product_price": "380 EGP",
-      "website_link": "https://merakinaturalcare.com/product/vitamin-c-serum-50ml/"
+      "website_link": "https://merakinaturalcare.com/product/vitamin-c-serum-50ml/",
+      "stock": 46
     },
     {
-      "id": 103,
+      "id": "103",
       "product_title": "Varicose Veins Balm",
       "description": "A soothing balm formulated to help reduce the appearance of varicose veins and improve skin circulation.",
       "product_images": [
@@ -1553,10 +2073,11 @@
       "subcategory": "Skin Care",
       "product_size": [],
       "product_price": "340 EGP",
-      "website_link": "https://merakinaturalcare.com/product/varicose-veins-balm-70ml/"
+      "website_link": "https://merakinaturalcare.com/product/varicose-veins-balm-70ml/",
+      "stock": 0
     },
     {
-      "id": 104,
+      "id": "104",
       "product_title": "Acne Vanish Gel",
       "description": "A lightweight gel designed to treat acne, reduce inflammation, and keep the skin clear and healthy.",
       "product_images": [
@@ -1567,10 +2088,11 @@
       "subcategory": "Skin Care",
       "product_size": [],
       "product_price": "355 EGP",
-      "website_link": "https://merakinaturalcare.com/product/acne-vanish-gel-50ml/"
+      "website_link": "https://merakinaturalcare.com/product/acne-vanish-gel-50ml/",
+      "stock": 47
     },
     {
-      "id": 105,
+      "id": "105",
       "product_title": "Eyelashes and Eyebrows Growth Serum",
       "description": "A strengthening serum that supports natural growth of eyelashes and eyebrows for a fuller look.",
       "product_images": [
@@ -1581,10 +2103,11 @@
       "subcategory": "Skin Care",
       "product_size": [],
       "product_price": "205 EGP",
-      "website_link": "https://merakinaturalcare.com/product/eyelashes-and-eyebrows-growth-serum-10ml/"
+      "website_link": "https://merakinaturalcare.com/product/eyelashes-and-eyebrows-growth-serum-10ml/",
+      "stock": 25
     },
     {
-      "id": 106,
+      "id": "106",
       "product_title": "Acne Soothing Deep Cleansing Mask",
       "description": "A deep cleansing mask that removes impurities, soothes acne-prone skin, and restores balance.",
       "product_images": [
@@ -1595,10 +2118,11 @@
       "subcategory": "Skin Care",
       "product_size": [],
       "product_price": "310 EGP",
-      "website_link": "https://merakinaturalcare.com/product/acne-soothing-deep-cleansing-mask-150ml/"
+      "website_link": "https://merakinaturalcare.com/product/acne-soothing-deep-cleansing-mask-150ml/",
+      "stock": 30
     },
     {
-      "id": 107,
+      "id": "107",
       "product_title": "Glowing Skin Aloe and Vitamin E Cream",
       "description": "A nourishing cream enriched with aloe vera and vitamin E to hydrate and enhance skin radiance.",
       "product_images": [
@@ -1609,10 +2133,11 @@
       "subcategory": "Skin Care",
       "product_size": [],
       "product_price": "360 EGP",
-      "website_link": "https://merakinaturalcare.com/product/glowing-skin-aloe-and-vitamin-e-cream-50ml/"
+      "website_link": "https://merakinaturalcare.com/product/glowing-skin-aloe-and-vitamin-e-cream-50ml/",
+      "stock": 18
     },
     {
-      "id": 108,
+      "id": "108",
       "product_title": "Hair Follicle Booster Oil",
       "description": "A natural oil blend that nourishes hair follicles and promotes stronger and healthier hair growth.",
       "product_images": [
@@ -1623,10 +2148,11 @@
       "subcategory": "Skin Care",
       "product_size": [],
       "product_price": "285 EGP",
-      "website_link": "https://rawafrican.net/products/hair-follicle-booster-oil"
+      "website_link": "https://rawafrican.net/products/hair-follicle-booster-oil",
+      "stock": 30
     },
     {
-      "id": 109,
+      "id": "109",
       "product_title": "Follicle Booster StrandnHance Hair Serum",
       "description": "An advanced hair serum that strengthens hair strands and enhances thickness and shine.",
       "product_images": [
@@ -1637,10 +2163,11 @@
       "subcategory": "Skin Care",
       "product_size": [],
       "product_price": "315 EGP",
-      "website_link": "https://rawafrican.net/products/follicle-booster-strandnhance-hair-serum"
+      "website_link": "https://rawafrican.net/products/follicle-booster-strandnhance-hair-serum",
+      "stock": 4
     },
     {
-      "id": 110,
+      "id": "110",
       "product_title": "Argan Oil Shampoo",
       "description": "A nourishing shampoo enriched with argan oil that cleanses the hair while restoring moisture and shine.",
       "product_images": [
@@ -1650,10 +2177,11 @@
       "subcategory": "Skin Care",
       "product_size": [],
       "product_price": "270 EGP",
-      "website_link": "https://rawafrican.net/products/argan-shampoo-500ml"
+      "website_link": "https://rawafrican.net/products/argan-shampoo-500ml",
+      "stock": 34
     },
     {
-      "id": 111,
+      "id": "111",
       "product_title": "Follicle Booster Redensyl Daily Spray",
       "description": "A daily hair growth spray formulated with Redensyl to strengthen roots and reduce hair fall.",
       "product_images": [
@@ -1664,10 +2192,11 @@
       "subcategory": "Skin Care",
       "product_size": [],
       "product_price": "550 EGP",
-      "website_link": "https://rawafrican.net/products/follicle-booster-daily-spray"
+      "website_link": "https://rawafrican.net/products/follicle-booster-daily-spray",
+      "stock": 29
     },
     {
-      "id": 112,
+      "id": "112",
       "product_title": "Handcrafted Ceramic Mug",
       "description": "A beautifully hand-thrown ceramic mug with a matte glaze finish. Perfect for your morning coffee or evening tea. Microwave and dishwasher safe.",
       "product_images": [
@@ -1679,10 +2208,11 @@
       "subcategory": "Kitchen",
       "product_size": [],
       "product_price": "185 EGP",
-      "website_link": "https://egypt.malaikalinens.com/products/leaves-mug?_pos=1&_sid=769ae91aa&_ss=r"
+      "website_link": "https://egypt.malaikalinens.com/products/leaves-mug?_pos=1&_sid=769ae91aa&_ss=r",
+      "stock": 14
     },
     {
-      "id": 113,
+      "id": "113",
       "product_title": "Hand-Painted Ceramic Dinner Plate",
       "description": "Elegant hand-painted ceramic dinner plate featuring traditional Egyptian motifs. Food-safe glazing and dishwasher safe. Sold individually.",
       "product_images": [
@@ -1694,10 +2224,11 @@
       "subcategory": "Dining",
       "product_size": [],
       "product_price": "220 EGP",
-      "website_link": "https://egypt.malaikalinens.com/products/nakhla-palms-platter?_pos=1&_sid=254069c40&_ss=r"
+      "website_link": "https://egypt.malaikalinens.com/products/nakhla-palms-platter?_pos=1&_sid=254069c40&_ss=r",
+      "stock": 45
     },
     {
-      "id": 140,
+      "id": "140",
       "product_title": "Reve Sofa",
       "description": "Modern handcrafted sofa designed for comfort and style. Perfect for living rooms and lounge areas, combining minimal design with premium materials.",
       "product_images": [
@@ -1709,10 +2240,11 @@
       "product_size": [],
       "website_link": "https://eklegodesignshop.com/products/rev-sofa",
       "product_price": "420 EGP",
-      "subcategory": "Furniture"
+      "subcategory": "Furniture",
+      "stock": 45
     },
     {
-      "id": 141,
+      "id": "141",
       "product_title": "Cosmic Tablecloth",
       "description": "Elegant linen tablecloth featuring unique cosmic embroidery. Adds a sophisticated touch to dining tables and special occasions.",
       "product_images": [
@@ -1724,10 +2256,11 @@
       "product_size": [],
       "website_link": "https://egypt.malaikalinens.com/products/cosmic-tablecloth-new-colours",
       "product_price": "1200 EGP",
-      "subcategory": "Dining"
+      "subcategory": "Dining",
+      "stock": 37
     },
     {
-      "id": 142,
+      "id": "142",
       "product_title": "Rumi Bolster Cushion",
       "description": "Stylish bolster cushion designed to enhance comfort and décor. Ideal for sofas, beds, or lounge chairs.",
       "product_images": [
@@ -1738,10 +2271,11 @@
       "product_size": [],
       "website_link": "https://egypt.malaikalinens.com/products/rumi-bolster",
       "product_price": "320 EGP",
-      "subcategory": "Decor"
+      "subcategory": "Decor",
+      "stock": 31
     },
     {
-      "id": 143,
+      "id": "143",
       "product_title": "Mamluk Cushion Cover",
       "description": "Decorative linen cushion cover inspired by traditional Mamluk patterns. Perfect for adding texture and style to living spaces.",
       "product_images": [
@@ -1750,13 +2284,18 @@
         "https://egypt.malaikalinens.com/cdn/shop/files/mamluk-cushion-cover-224_1024x1024.jpg?v=1750641510"
       ],
       "category": "Homeware",
-      "product_size": ["45x45 cm", "50x50 cm", "60x60 cm"],
+      "product_size": [
+        "45x45 cm",
+        "50x50 cm",
+        "60x60 cm"
+      ],
       "website_link": "https://egypt.malaikalinens.com/products/linen-cord-cushion-cover",
       "product_price": "275 EGP",
-      "subcategory": "Decor"
+      "subcategory": "Decor",
+      "stock": 11
     },
     {
-      "id": 144,
+      "id": "144",
       "product_title": "Julia Napkin",
       "description": "Soft linen napkin designed for elegant dining settings. Reusable, eco-friendly, and perfect for everyday meals or special occasions.",
       "product_images": [
@@ -1768,10 +2307,11 @@
       "product_size": [],
       "website_link": "https://egypt.malaikalinens.com/products/julia-napkin-with-amber",
       "product_price": "1850 EGP",
-      "subcategory": "Dining"
+      "subcategory": "Dining",
+      "stock": 7
     },
     {
-      "id": 145,
+      "id": "145",
       "product_title": "Camel Beach Bag",
       "description": "Spacious linen beach bag designed for carrying essentials during travel or beach trips. Durable and stylish.",
       "product_images": [
@@ -1783,10 +2323,11 @@
       "product_size": [],
       "website_link": "https://egypt.malaikalinens.com/products/beach-bag-camel",
       "product_price": "490 EGP",
-      "subcategory": "Storage"
+      "subcategory": "Storage",
+      "stock": 34
     },
     {
-      "id": 146,
+      "id": "146",
       "product_title": "Suede Pouch",
       "description": "Elegant suede pouch designed for storing small personal items such as cosmetics, accessories, or stationery. Compact and stylish for everyday use.",
       "product_images": [
@@ -1798,10 +2339,11 @@
       "product_size": [],
       "website_link": "https://egypt.malaikalinens.com/products/leather-pouch",
       "product_price": "580 EGP",
-      "subcategory": "Storage"
+      "subcategory": "Storage",
+      "stock": 7
     },
     {
-      "id": 147,
+      "id": "147",
       "product_title": "Children’s Stars Laundry Bag",
       "description": "Practical and stylish laundry bag designed for children's rooms. Perfect for storing clothes, toys, or laundry while keeping the room organized.",
       "product_images": [
@@ -1812,10 +2354,11 @@
       "product_size": [],
       "website_link": "https://egypt.malaikalinens.com/products/childrens-laundry-bag-stars",
       "product_price": "680 EGP",
-      "subcategory": "Storage"
+      "subcategory": "Storage",
+      "stock": 18
     },
     {
-      "id": 148,
+      "id": "148",
       "product_title": "Children’s Cosmos Cushion Cover",
       "description": "Decorative cushion cover designed for children's rooms. Features playful cosmic patterns that add color and comfort to any bedroom or play area.",
       "product_images": [
@@ -1824,13 +2367,18 @@
         "https://egypt.malaikalinens.com/cdn/shop/files/childrens-cosmos-cushion-cover-452_1024x1024.jpg?v=1750642020"
       ],
       "category": "Homeware",
-      "product_size": ["Small", "Medium", "Large"],
+      "product_size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
       "website_link": "https://egypt.malaikalinens.com/products/childrens-cosmos-cushion-cover",
       "product_price": "360 EGP",
-      "subcategory": "Bedroom"
+      "subcategory": "Bedroom",
+      "stock": 9
     },
     {
-      "id": 149,
+      "id": "149",
       "product_title": "Toddler Towel",
       "description": "Soft and absorbent towel designed for toddlers. Gentle on sensitive skin and perfect for bath time or beach use.",
       "product_images": [
@@ -1842,10 +2390,11 @@
       "product_size": [],
       "website_link": "https://egypt.malaikalinens.com/products/babys-hand-printed-towel",
       "product_price": "310 EGP",
-      "subcategory": "Bathroom"
+      "subcategory": "Bathroom",
+      "stock": 19
     },
     {
-      "id": 150,
+      "id": "150",
       "product_title": "Dally Tablecloth",
       "description": "Stylish linen tablecloth designed to enhance dining tables with a modern yet elegant touch. Ideal for both casual meals and special occasions.",
       "product_images": [
@@ -1857,10 +2406,11 @@
       "product_size": [],
       "website_link": "https://egypt.malaikalinens.com/products/dally-tablecloth",
       "product_price": "395 EGP",
-      "subcategory": "Dining"
+      "subcategory": "Dining",
+      "stock": 17
     },
     {
-      "id": 151,
+      "id": "151",
       "product_title": "Poplin Pleat",
       "description": "Elegant textile piece crafted with pleated poplin fabric. Perfect for adding a decorative touch to interior spaces or home styling.",
       "product_images": [
@@ -1872,10 +2422,11 @@
       "product_size": [],
       "website_link": "https://egypt.malaikalinens.com/products/poplin-pleat",
       "product_price": "450 EGP",
-      "subcategory": "Decor"
+      "subcategory": "Decor",
+      "stock": 43
     },
     {
-      "id": 151,
+      "id": "151",
       "product_title": "Beach Towel",
       "description": "Large and comfortable beach towel made from soft fabric. Perfect for beach days, poolside relaxation, or travel.",
       "product_images": [
@@ -1886,10 +2437,11 @@
       "product_size": [],
       "website_link": "https://egypt.malaikalinens.com/products/beach-towel-printed?variant=30388804223085",
       "product_price": "550 EGP",
-      "subcategory": "Bathroom"
+      "subcategory": "Bathroom",
+      "stock": 4
     },
     {
-      "id": 114,
+      "id": "114",
       "product_title": "Woven Rattan Serving Tray",
       "description": "Naturally woven rattan serving tray with sturdy handles. Lightweight yet durable, ideal for breakfast in bed or entertaining guests.",
       "product_images": [
@@ -1899,12 +2451,16 @@
       ],
       "category": "Homeware",
       "subcategory": "Dining",
-      "product_size": ["Small", "Large"],
+      "product_size": [
+        "Small",
+        "Large"
+      ],
       "product_price": "420 EGP",
-      "website_link": "https://www.homzmart.com"
+      "website_link": "https://www.homzmart.com",
+      "stock": 0
     },
     {
-      "id": 115,
+      "id": "115",
       "product_title": "Linen Table Lamp with Wooden Base",
       "description": "Warm and minimalist table lamp with a solid acacia wood base and a soft linen shade. Creates a cozy ambient glow for any living space.",
       "product_images": [
@@ -1916,10 +2472,11 @@
       "subcategory": "Decor",
       "product_size": [],
       "product_price": "1200 EGP",
-      "website_link": "https://www.concrete-eg.com"
+      "website_link": "https://www.concrete-eg.com",
+      "stock": 48
     },
     {
-      "id": 116,
+      "id": "116",
       "product_title": "Scented Soy Wax Candle – Oud & Amber",
       "description": "Hand-poured soy wax candle infused with a rich blend of oud and amber. Up to 45 hours burn time. Comes in a reusable glass jar.",
       "product_images": [
@@ -1930,10 +2487,11 @@
       "subcategory": "Decor",
       "product_size": [],
       "product_price": "320 EGP",
-      "website_link": "https://www.khtt.net"
+      "website_link": "https://www.khtt.net",
+      "stock": 3
     },
     {
-      "id": 117,
+      "id": "117",
       "product_title": "Egyptian Cotton Cushion Cover",
       "description": "Luxuriously soft cushion cover made from 100% Egyptian cotton. Features a hidden zipper closure and is available in multiple sizes.",
       "product_images": [
@@ -1943,12 +2501,17 @@
       ],
       "category": "Homeware",
       "subcategory": "Bedroom",
-      "product_size": ["45x45 cm", "50x50 cm", "60x60 cm"],
+      "product_size": [
+        "45x45 cm",
+        "50x50 cm",
+        "60x60 cm"
+      ],
       "product_price": "275 EGP",
-      "website_link": "https://www.bedntbath.com.eg"
+      "website_link": "https://www.bedntbath.com.eg",
+      "stock": 24
     },
     {
-      "id": 118,
+      "id": "118",
       "product_title": "Premium Egyptian Cotton Bedsheet Set",
       "description": "Ultra-soft 400-thread-count Egyptian cotton bedsheet set. Includes one flat sheet, one fitted sheet, and two pillowcases. Breathable and long-lasting.",
       "product_images": [
@@ -1958,12 +2521,17 @@
       ],
       "category": "Homeware",
       "subcategory": "Bedroom",
-      "product_size": ["Single", "Double", "King"],
+      "product_size": [
+        "Single",
+        "Double",
+        "King"
+      ],
       "product_price": "1850 EGP",
-      "website_link": "https://www.bedntbath.com.eg"
+      "website_link": "https://www.bedntbath.com.eg",
+      "stock": 17
     },
     {
-      "id": 119,
+      "id": "119",
       "product_title": "Bamboo Storage Box with Lid",
       "description": "Eco-friendly bamboo storage box with a secure-fitting lid. Perfect for organizing shelves, wardrobes, or under-bed spaces. Natural finish.",
       "product_images": [
@@ -1973,12 +2541,17 @@
       ],
       "category": "Homeware",
       "subcategory": "Storage",
-      "product_size": ["Small", "Medium", "Large"],
+      "product_size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
       "product_price": "490 EGP",
-      "website_link": "https://www.homzmart.com"
+      "website_link": "https://www.homzmart.com",
+      "stock": 2
     },
     {
-      "id": 120,
+      "id": "120",
       "product_title": "Glass Kitchen Spice Jar Set",
       "description": "Set of 6 airtight glass jars with bamboo lids. Ideal for storing spices, grains, and dry goods. Clear body for easy identification of contents.",
       "product_images": [
@@ -1990,10 +2563,11 @@
       "subcategory": "Kitchen",
       "product_size": [],
       "product_price": "580 EGP",
-      "website_link": "https://www.orienthome.com"
+      "website_link": "https://www.orienthome.com",
+      "stock": 10
     },
     {
-      "id": 121,
+      "id": "121",
       "product_title": "Marble & Acacia Wood Cheese Board",
       "description": "Sophisticated cheese and charcuterie board combining a cool white marble surface with a warm acacia wood handle. A perfect addition to any dining table.",
       "product_images": [
@@ -2005,10 +2579,11 @@
       "subcategory": "Dining",
       "product_size": [],
       "product_price": "680 EGP",
-      "website_link": "https://www.concrete-eg.com"
+      "website_link": "https://www.concrete-eg.com",
+      "stock": 15
     },
     {
-      "id": 122,
+      "id": "122",
       "product_title": "Terracotta Flower Pot Set",
       "description": "Set of 3 hand-crafted terracotta pots with drainage holes. Their earthy tones complement both indoor and outdoor plant arrangements beautifully.",
       "product_images": [
@@ -2018,12 +2593,17 @@
       ],
       "category": "Homeware",
       "subcategory": "Decor",
-      "product_size": ["Small", "Medium", "Large"],
+      "product_size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
       "product_price": "360 EGP",
-      "website_link": "https://www.khtt.net"
+      "website_link": "https://www.khtt.net",
+      "stock": 7
     },
     {
-      "id": 123,
+      "id": "123",
       "product_title": "Velvet Throw Pillow",
       "description": "Plush velvet throw pillow with a soft inner filling. Adds a pop of color and texture to any sofa, armchair, or bed. Machine washable cover.",
       "product_images": [
@@ -2035,10 +2615,11 @@
       "subcategory": "Bedroom",
       "product_size": [],
       "product_price": "310 EGP",
-      "website_link": "https://www.homzmart.com"
+      "website_link": "https://www.homzmart.com",
+      "stock": 34
     },
     {
-      "id": 124,
+      "id": "124",
       "product_title": "Hand-Woven Seagrass Basket",
       "description": "Artisan-woven seagrass basket with a sturdy base and open top. Versatile enough for storing blankets, toys, laundry, or as a stylish plant holder.",
       "product_images": [
@@ -2048,12 +2629,17 @@
       ],
       "category": "Homeware",
       "subcategory": "Storage",
-      "product_size": ["Small", "Medium", "Large"],
+      "product_size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
       "product_price": "395 EGP",
-      "website_link": "https://www.orienthome.com"
+      "website_link": "https://www.orienthome.com",
+      "stock": 13
     },
     {
-      "id": 125,
+      "id": "125",
       "product_title": "Reed Diffuser – Jasmine & Sandalwood",
       "description": "Elegant reed diffuser with a long-lasting jasmine and sandalwood fragrance. Includes 8 natural rattan reeds and 100ml of scented oil. Lasts up to 3 months.",
       "product_images": [
@@ -2065,10 +2651,11 @@
       "subcategory": "Decor",
       "product_size": [],
       "product_price": "450 EGP",
-      "website_link": "https://www.khtt.net"
+      "website_link": "https://www.khtt.net",
+      "stock": 35
     },
     {
-      "id": 126,
+      "id": "126",
       "product_title": "Stainless Steel Kitchen Utensil Set",
       "description": "6-piece stainless steel kitchen utensil set including a spatula, ladle, slotted spoon, tongs, and more. Comes with a free-standing holder. Heat resistant.",
       "product_images": [
@@ -2080,10 +2667,11 @@
       "subcategory": "Kitchen",
       "product_size": [],
       "product_price": "550 EGP",
-      "website_link": "https://www.homzmart.com"
+      "website_link": "https://www.homzmart.com",
+      "stock": 4
     },
     {
-      "id": 127,
+      "id": "127",
       "product_title": "Wooden Floating Wall Shelf",
       "description": "Minimalist solid pine floating shelf with hidden wall brackets. Perfect for displaying books, plants, and small decorative items. Easy to install.",
       "product_images": [
@@ -2093,12 +2681,17 @@
       ],
       "category": "Homeware",
       "subcategory": "Storage",
-      "product_size": ["60 cm", "80 cm", "100 cm"],
+      "product_size": [
+        "60 cm",
+        "80 cm",
+        "100 cm"
+      ],
       "product_price": "870 EGP",
-      "website_link": "https://www.concrete-eg.com"
+      "website_link": "https://www.concrete-eg.com",
+      "stock": 35
     },
     {
-      "id": 128,
+      "id": "128",
       "product_title": "Linen Dinner Napkin Set of 6",
       "description": "Set of 6 pre-washed linen dinner napkins with hemstitched edges. Soft, absorbent, and reusable. An eco-friendly upgrade for your dining table.",
       "product_images": [
@@ -2110,10 +2703,11 @@
       "subcategory": "Dining",
       "product_size": [],
       "product_price": "240 EGP",
-      "website_link": "https://www.bedntbath.com.eg"
+      "website_link": "https://www.bedntbath.com.eg",
+      "stock": 32
     },
     {
-      "id": 129,
+      "id": "129",
       "product_title": "Macramé Wall Hanging",
       "description": "Handmade boho-style macramé wall hanging crafted from natural cotton rope. Adds texture and warmth to any bedroom, living room, or hallway wall.",
       "product_images": [
@@ -2125,10 +2719,11 @@
       "subcategory": "Decor",
       "product_size": [],
       "product_price": "520 EGP",
-      "website_link": "https://www.orienthome.com"
+      "website_link": "https://www.orienthome.com",
+      "stock": 26
     },
     {
-      "id": 130,
+      "id": "130",
       "product_title": "Non-Stick Wooden Cutting Board",
       "description": "Premium acacia wood cutting board with juice grooves and a non-slip base. Gentle on knife blades and naturally antimicrobial. Easy to clean.",
       "product_images": [
@@ -2138,12 +2733,17 @@
       ],
       "category": "Homeware",
       "subcategory": "Kitchen",
-      "product_size": ["Small", "Medium", "Large"],
+      "product_size": [
+        "Small",
+        "Medium",
+        "Large"
+      ],
       "product_price": "380 EGP",
-      "website_link": "https://www.homzmart.com"
+      "website_link": "https://www.homzmart.com",
+      "stock": 9
     },
     {
-      "id": 131,
+      "id": "131",
       "product_title": "Knitted Throw Blanket",
       "description": "Cozy chunky-knit throw blanket made from soft acrylic yarn. Lightweight yet warm, perfect for curling up on the sofa or layering on a bed.",
       "product_images": [
@@ -2155,7 +2755,9 @@
       "subcategory": "Bedroom",
       "product_size": [],
       "product_price": "950 EGP",
-      "website_link": "https://www.bedntbath.com.eg"
+      "website_link": "https://www.bedntbath.com.eg",
+      "stock": 15
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

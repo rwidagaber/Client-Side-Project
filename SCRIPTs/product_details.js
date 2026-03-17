@@ -6,6 +6,7 @@ var productImage = document.getElementById('product_image');
 var productName = document.getElementById('product_name');
 var productTitle = document.getElementById('product_title');
 var productPrice = document.getElementById('product_price');
+var productStock = document.getElementById('product_stock');
 var productDescription = document.getElementById('product_description');
 var galleryThumbnails = document.getElementById('gallery_thumbnails');
 var galleryPrev = document.getElementById('gallery_prev');
@@ -16,11 +17,13 @@ var qtyMinus = document.getElementById('qty_minus');
 var qtyPlus = document.getElementById('qty_plus');
 var qtyValue = document.getElementById('qty_value');
 var addToCartBtn = document.getElementById('add_to_cart');
+var productLinkBtn = document.getElementById('product_link_btn');
 var visibleImagesCount = 3;
 var galleryStartIndex = 0;
 var currentImages = [];
 var activeImageIndex = 0;
 var currentQuantity = 1;
+var currentStock = null;
 var relatedProducts = [];
 var categoryItem;
 var relatedStartIndex = 0;
@@ -158,23 +161,66 @@ function updateQuantity() {
     qtyValue.innerHTML = String(currentQuantity);
 }
 
+function updateQuantityControlsByStock() {
+    if (!qtyMinus || !qtyPlus) {
+        return;
+    }
+
+    var hasStockValue = Number.isFinite(currentStock);
+
+    if (hasStockValue && currentStock <= 0) {
+        currentQuantity = 1;
+        updateQuantity();
+        qtyMinus.disabled = true;
+        qtyPlus.disabled = true;
+        qtyMinus.style.cursor = 'not-allowed';
+        qtyPlus.style.cursor = 'not-allowed';
+        return;
+    }
+
+    if (hasStockValue && currentQuantity > currentStock) {
+        currentQuantity = currentStock;
+        updateQuantity();
+    }
+
+    qtyMinus.disabled = currentQuantity <= 1;
+    qtyMinus.style.cursor = qtyMinus.disabled ? 'not-allowed' : 'pointer';
+
+    if (hasStockValue && currentStock > 0) {
+        qtyPlus.disabled = currentQuantity >= currentStock;
+    }
+    else {
+        qtyPlus.disabled = false;
+    }
+
+    qtyPlus.style.cursor = qtyPlus.disabled ? 'not-allowed' : 'pointer';
+}
+
 function setupQuantityControls() {
     if (!qtyMinus || !qtyPlus || !qtyValue) {
         return;
     }
 
     updateQuantity();
+    updateQuantityControlsByStock();
 
     qtyMinus.onclick = function () {
         if (currentQuantity > 1) {
             currentQuantity--;
             updateQuantity();
+            updateQuantityControlsByStock();
         }
     };
 
     qtyPlus.onclick = function () {
+        if (Number.isFinite(currentStock) && currentStock > 0 && currentQuantity >= currentStock) {
+            updateQuantityControlsByStock();
+            return;
+        }
+
         currentQuantity++;
         updateQuantity();
+        updateQuantityControlsByStock();
     };
 }
 
@@ -233,12 +279,25 @@ function saveCurrentProductToCart() {
 
     if (existingItemIndex > -1) {
         var existingQuantity = Number(cartItems[existingItemIndex].quantity) || 0;
-        cartItems[existingItemIndex].quantity = existingQuantity + currentQuantity;
+        var mergedQuantity = existingQuantity + currentQuantity;
+
+        if (Number.isFinite(currentStock) && currentStock > 0) {
+            cartItems[existingItemIndex].quantity = Math.min(mergedQuantity, currentStock);
+        }
+        else {
+            cartItems[existingItemIndex].quantity = mergedQuantity;
+        }
     }
     else {
+        var itemQuantity = currentQuantity;
+
+        if (Number.isFinite(currentStock) && currentStock > 0) {
+            itemQuantity = Math.min(currentQuantity, currentStock);
+        }
+
         cartItems.push({
             id: productId,
-            quantity: currentQuantity,
+            quantity: itemQuantity,
             product_size: selectedSize
         });
     }
@@ -274,6 +333,59 @@ function setupAddToCartButton() {
         saveCurrentProductToCart();
         showAddToCartFeedback();
     };
+}
+
+function setupProductLinkButton(websiteLink) {
+    if (!productLinkBtn) {
+        return;
+    }
+
+    var linkValue = String(websiteLink || '').trim();
+
+    if (!linkValue) {
+        productLinkBtn.disabled = true;
+        productLinkBtn.style.cursor = 'not-allowed';
+        return;
+    }
+
+    productLinkBtn.disabled = false;
+    productLinkBtn.style.cursor = 'pointer';
+    productLinkBtn.onclick = function () {
+        window.open(linkValue, '_blank');
+    };
+}
+
+function updateStockStatus(stockValue) {
+    if (!addToCartBtn || !productStock) {
+        return;
+    }
+
+    var stockCount = Number(stockValue);
+    currentStock = Number.isFinite(stockCount) ? stockCount : null;
+
+    if (Number.isFinite(currentStock) && currentStock > 0 && currentQuantity > currentStock) {
+        currentQuantity = currentStock;
+        updateQuantity();
+    }
+
+    updateQuantityControlsByStock();
+
+    if (!Number.isFinite(stockCount) || stockCount <= 0) {
+        productStock.innerHTML = 'Out of Stock';
+        productStock.classList.add('out-of-stock');
+        addToCartBtn.innerHTML = 'OUT OF STOCK';
+        addToCartBtn.disabled = true;
+        addToCartBtn.classList.add('out-of-stock');
+        addToCartBtn.style.cursor = 'not-allowed';
+        return;
+    }
+
+    productStock.innerHTML = 'In Stock (' + stockCount + ')';
+    productStock.classList.remove('out-of-stock');
+    addToCartBtn.innerHTML = 'ADD TO CART';
+    addToCartBtn.disabled = false;
+    addToCartBtn.classList.remove('out-of-stock');
+    addToCartBtn.style.cursor = 'pointer';
 }
 
 function renderNotFound() {
@@ -354,7 +466,7 @@ else {
     xhr.open('GET', `http://localhost:3000/data/${id}`);
     xhr.responseType = 'json';
     xhr.send();
-    
+
     xhr.onload = function () {
         if (xhr.status == 200 && xhr.response) {
             var product = xhr.response;
@@ -372,6 +484,8 @@ else {
             productPrice.innerHTML = product.product_price;
             setupGallery(productImages);
             renderSizeOptions(productSizes);
+            updateStockStatus(product.stock);
+            setupProductLinkButton(product.website_link);
 
             if (product.description) {
                 productDescription.innerHTML = product.description;

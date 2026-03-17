@@ -3,6 +3,8 @@
     var savedCount = document.getElementById('saved_count');
     var emptyMessage = document.getElementById('empty_message');
     var moveAllBtn = document.getElementById('move_all_btn');
+    var defaultMoveAllText = moveAllBtn ? moveAllBtn.innerHTML : 'MOVE ALL TO CART';
+    var currentAllProducts = [];
 
     if (!wishlistGrid || !savedCount || !emptyMessage) {
         return;
@@ -69,7 +71,13 @@
         return normalizedSize;
     }
 
-    function addToCart(productId, productSize) {
+    function addToCart(productId, productSize, stockCount) {
+        var maxStock = Number(stockCount);
+
+        if (Number.isFinite(maxStock) && maxStock <= 0) {
+            return false;
+        }
+
         var cartRaw = localStorage.getItem('cart');
         var cartItems = [];
 
@@ -97,17 +105,31 @@
 
         if (existingIndex > -1) {
             var oldQty = Number(cartItems[existingIndex].quantity) || 1;
-            cartItems[existingIndex].quantity = oldQty + 1;
+            var newQty = oldQty + 1;
+
+            if (Number.isFinite(maxStock) && maxStock > 0) {
+                cartItems[existingIndex].quantity = Math.min(newQty, maxStock);
+            }
+            else {
+                cartItems[existingIndex].quantity = newQty;
+            }
         }
         else {
+            var itemQty = 1;
+
+            if (Number.isFinite(maxStock) && maxStock > 0) {
+                itemQty = Math.min(1, maxStock);
+            }
+
             cartItems.push({
                 id: productId,
-                quantity: 1,
+                quantity: itemQty,
                 product_size: String(productSize || '')
             });
         }
 
         localStorage.setItem('cart', JSON.stringify(cartItems));
+        return true;
     }
 
     function showMoveAllFeedback() {
@@ -127,8 +149,36 @@
         }, 1000);
     }
 
+    function showNoMovableItemsFeedback() {
+        if (!moveAllBtn) {
+            return;
+        }
+
+        var originalText = moveAllBtn.innerHTML;
+        moveAllBtn.innerHTML = 'NO ITEMS IN STOCK';
+
+        setTimeout(function () {
+            moveAllBtn.innerHTML = originalText;
+        }, 1000);
+    }
+
+    function removeWishlistIdByValue(removeId) {
+        var ids = readWishlistIds();
+        var newIds = [];
+
+        for (var i = 0; i < ids.length; i++) {
+            if (ids[i] != removeId) {
+                newIds.push(ids[i]);
+            }
+        }
+
+        writeWishlistIds(newIds);
+    }
+
     function moveAllWishlistItemsToCart() {
         var cards = wishlistGrid.querySelectorAll('.wishlist-card');
+        var movedCount = 0;
+        var movedIds = [];
 
         for (var i = 0; i < cards.length; i++) {
             var moveButton = cards[i].querySelector('.move-btn');
@@ -138,21 +188,47 @@
             }
 
             var itemId = Number(moveButton.getAttribute('data-id'));
+            var stockCount = Number(moveButton.getAttribute('data-stock'));
             var activeSize = cards[i].querySelector('.wl-size-option.active');
             var selectedSize = activeSize ? String(activeSize.getAttribute('data-size') || '') : '';
 
             if (itemId > 0) {
-                addToCart(itemId, selectedSize);
+                var moved = addToCart(itemId, selectedSize, stockCount);
+
+                if (moved) {
+                    movedCount++;
+
+                    if (movedIds.indexOf(itemId) == -1) {
+                        movedIds.push(itemId);
+                    }
+                }
             }
         }
 
-        showMoveAllFeedback();
+        if (movedCount > 0) {
+            var ids = readWishlistIds();
+            var remainingIds = [];
+
+            for (var x = 0; x < ids.length; x++) {
+                if (movedIds.indexOf(ids[x]) == -1) {
+                    remainingIds.push(ids[x]);
+                }
+            }
+
+            writeWishlistIds(remainingIds);
+            renderWishlist(currentAllProducts);
+            showMoveAllFeedback();
+        }
+        else {
+            showNoMovableItemsFeedback();
+        }
     }
 
     function renderWishlist(allProducts) {
         var ids = readWishlistIds();
         var html = '';
         var foundCount = 0;
+        var movableCount = 0;
 
         for (var i = 0; i < ids.length; i++) {
             var id = ids[i];
@@ -180,6 +256,15 @@
             var title = currentProduct.product_title || 'Product';
             var price = currentProduct.product_price || '';
             var meta = currentProduct.subcategory || '';
+            var stockCount = Number(currentProduct.stock) || 0;
+            var isOutOfStock = stockCount <= 0;
+            if (!isOutOfStock) {
+                movableCount++;
+            }
+            var stockText = isOutOfStock ? 'Out of Stock' : ('In Stock (' + stockCount + ')');
+            var stockClass = isOutOfStock ? ' out-of-stock' : '';
+            var moveDisabled = isOutOfStock ? ' disabled' : '';
+            var moveButtonText = isOutOfStock ? 'OUT OF STOCK' : 'MOVE TO CART';
             var sizes = currentProduct.product_size || [];
             var sizeHtml = '<div class="size-row"><span class="size-label">SELECT SIZE</span><div class="size-options">';
 
@@ -207,8 +292,9 @@
                 '<span class="card-price">' + price + '</span>' +
                 '</div>' +
                 '<p class="card-meta">' + meta + '</p>' +
+                '<p class="card-stock' + stockClass + '">' + stockText + '</p>' +
                 sizeHtml +
-                '<button class="move-btn" data-id="' + id + '" type="button">MOVE TO CART</button>' +
+                '<button class="move-btn" data-id="' + id + '" data-stock="' + stockCount + '" type="button"' + moveDisabled + '>' + moveButtonText + '</button>' +
                 '<button class="remove-link" data-id="' + id + '" type="button">REMOVE ITEM</button>' +
                 '</div>' +
                 '</article>';
@@ -219,7 +305,9 @@
         emptyMessage.style.display = foundCount === 0 ? 'block' : 'none';
 
         if (moveAllBtn) {
-            moveAllBtn.disabled = foundCount === 0;
+            moveAllBtn.disabled = movableCount === 0;
+            moveAllBtn.title = movableCount === 0 ? 'No in-stock items to move.' : 'Move all in-stock items to cart.';
+            moveAllBtn.innerHTML = defaultMoveAllText;
         }
     }
 
@@ -242,6 +330,8 @@
             if (!Array.isArray(allProducts)) {
                 allProducts = [];
             }
+
+            currentAllProducts = allProducts;
 
             renderWishlist(allProducts);
 
@@ -268,26 +358,27 @@
 
                 if (removeButton) {
                     var removeId = Number(removeButton.getAttribute('data-id'));
-                    var ids = readWishlistIds();
-                    var newIds = [];
-
-                    for (var i = 0; i < ids.length; i++) {
-                        if (ids[i] != removeId) {
-                            newIds.push(ids[i]);
-                        }
-                    }
-
-                    writeWishlistIds(newIds);
+                    removeWishlistIdByValue(removeId);
                     renderWishlist(allProducts);
                     return;
                 }
 
                 if (moveButton) {
+                    if (moveButton.disabled) {
+                        return;
+                    }
+
                     var moveId = Number(moveButton.getAttribute('data-id'));
+                    var moveStock = Number(moveButton.getAttribute('data-stock'));
                     var parentCard = moveButton.closest('.wishlist-card');
                     var activeSize = parentCard ? parentCard.querySelector('.wl-size-option.active') : null;
                     var selectedSize = activeSize ? String(activeSize.getAttribute('data-size') || '') : '';
-                    addToCart(moveId, selectedSize);
+                    var moved = addToCart(moveId, selectedSize, moveStock);
+
+                    if (moved) {
+                        removeWishlistIdByValue(moveId);
+                        renderWishlist(allProducts);
+                    }
                 }
             };
         };

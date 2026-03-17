@@ -1,0 +1,155 @@
+.main-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80px;
+    padding: 10px 40px;
+    background-color: #fff;
+    border-bottom: 1px solid #eaeaea;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.main-navbar .menu,
+.main-navbar .icons {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.main-navbar .menu {
+    gap: 0px;
+}
+
+.main-navbar li {
+    margin: 0;
+    padding: 0;
+}
+
+.main-navbar .menu {
+    font-size: 16px;
+    padding-bottom: 0;
+}
+
+.main-navbar .icons {
+    margin-right: 0;
+    padding-bottom: 0;
+}
+
+.main-navbar .Logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.main-navbar .Logo img {
+    height: 45px;
+    width: auto;
+    display: block;
+}
+
+.main-navbar .Logo h4 {
+    margin: 0;
+    font-size: 24px;
+    line-height: 1;
+    font-weight: 700;
+    color: #c8a328;
+}
+
+.main-navbar .menu li a {
+    text-decoration: none;
+    color: #444;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+    transition: 0.3s;
+}
+
+.main-navbar .menu li:not(.Logo) {
+    margin-left: 32px;
+}
+
+.main-navbar .menu li a:hover {
+    color: #c8a328;
+}
+
+.main-navbar .icon-link {
+    text-decoration: none;
+    color: black;
+    position: relative;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.main-navbar .icon-link:hover {
+    color: #CAA62E;
+}
+
+.main-navbar .icons li {
+    position: relative;
+}
+
+.main-navbar .favorite,
+.main-navbar .shopping_cart,
+.main-navbar .user-profile {
+    font-size: 22px;
+    position: relative;
+}
+
+.main-navbar #wishlist-count {
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    background: #c8a328;
+    color: white;
+    font-size: 10px;
+    padding: 2px 6px;
+    border-radius: 50%;
+    min-width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-navbar .user-dropdown {
+    position: absolute;
+    top: 100%;
+    right: -20px;
+    background: white;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    min-width: 150px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    z-index: 1001;
+    margin-top: 10px;
+}
+
+.main-navbar .user-dropdown.active {
+    display: flex;
+}
+
+.main-navbar .dropdown-item {
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #444;
+    font-size: 14px;
+    border-bottom: 1px solid #f3f4f6;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.main-navbar .dropdown-item:last-child {
+    border-bottom: none;
+}
+
+.main-navbar .dropdown-item:hover {
+    background: #f9f9f9;
+    color: #c8a328;
+}

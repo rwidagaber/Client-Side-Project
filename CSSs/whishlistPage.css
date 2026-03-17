@@ -16,6 +16,10 @@ body {
     padding: 0 120px;
 }
 
+#navbar-root {
+    margin: 0 -120px;
+}
+
 nav {
     min-height: 80px;
     width: 100%;
@@ -332,6 +336,19 @@ main {
     font-size: 15px;
 }
 
+.card-stock {
+    margin: 0 0 10px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #15803d;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+}
+
+.card-stock.out-of-stock {
+    color: #b91c1c;
+}
+
 .size-row {
     display: flex;
     flex-direction: column;
@@ -386,6 +403,11 @@ main {
     margin-top: auto;
 }
 
+.move-btn:disabled {
+    opacity: 0.55;
+    cursor: not-allowed;
+}
+
 .remove-link {
     margin-top: 10px;
     border: none;
@@ -408,6 +430,10 @@ main {
 @media (max-width: 1100px) {
     body {
         padding: 0 24px;
+    }
+
+    #navbar-root {
+        margin: 0 -24px;
     }
 
     .wishlist-grid {

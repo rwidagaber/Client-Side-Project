@@ -11,38 +11,13 @@
         rel="stylesheet">
     <script src="https://kit.fontawesome.com/f5c5bb3eb1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../CSSs/product_details.css">
+    <link rel="stylesheet" href="../CSSs/navbar.css">
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/4.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
 </head>
 
 <body>
-    <nav>
-        <div class="logo">
-            <a href="#" aria-label="Home"><i class="fa-regular fa-gem"></i></a>
-            <span>ANA MASRY</span>
-        </div>
-
-        <div class="categories">
-            <a href="#">NEW ARRIVALS</a>
-            <a href="#">COLLECTIONS</a>
-            <a href="#">MEN</a>
-            <a href="#">WOMEN</a>
-        </div>
-
-        <div class="actions">
-            <div class="search-container">
-                <span class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></span>
-                <input type="text" placeholder="Search collection...">
-            </div>
-
-            <div class="cart-container">
-                <a class="cart-link" href="#" aria-label="Cart"><i class="fa-solid fa-bag-shopping cart-icon"></i></a>
-            </div>
-
-            <div class="profile-container">
-                <a href="#" aria-label="Profile"><i class="fa-regular fa-user"></i></a>
-            </div>
-        </div>
-
-    </nav>
+    <div id="navbar-root"></div>
 
     <main>
         <section>
@@ -70,6 +45,7 @@
                     <div class="product-meta">
                         <p class="price" id="product_price">$120.00</p>
                     </div>
+                    <p class="stock-status" id="product_stock">In Stock</p>
 
                     <p class="description" id="product_description"></p>
 
@@ -96,6 +72,10 @@
                             <i class="fa-regular fa-heart"></i>
                         </button>
                     </div>
+
+                    <button class="product-link-btn" id="product_link_btn" type="button" disabled>
+                        VIEW PRODUCT LINK
+                    </button>
 
                 </div>
             </div>
@@ -170,6 +150,7 @@
 
 
 
+    <script src="../SCRIPTs/navbar.js"></script>
     <script src="../SCRIPTs/product_details.js"></script>
     <script src="../SCRIPTs/whishlist.js"></script>
 

@@ -1,6 +1,60 @@
 document.addEventListener('DOMContentLoaded', () => {
     const shippingForm = document.querySelector('.shipping-form');
 
+    const updateProductsStockAfterCheckout = (cartItems) => {
+        if (!Array.isArray(cartItems) || cartItems.length === 0) return;
+
+        const quantityByProductId = {};
+        cartItems.forEach(item => {
+            const productId = Number(item.id);
+            const quantity = Number(item.quantity) || 0;
+
+            if (!productId || quantity <= 0) return;
+
+            quantityByProductId[productId] = (quantityByProductId[productId] || 0) + quantity;
+        });
+
+        const productIds = Object.keys(quantityByProductId);
+        if (productIds.length === 0) return;
+
+        productIds.forEach((id) => {
+            const getXhr = new XMLHttpRequest();
+            getXhr.open('GET', `http://localhost:3000/data/${id}`, true);
+
+            getXhr.onload = function () {
+                if (this.status < 200 || this.status >= 300) {
+                    console.error(`Failed to fetch product ${id}. Status: ${this.status}`);
+                    return;
+                }
+
+                try {
+                    const product = JSON.parse(this.responseText);
+                    const currentStock = Number(product.stock) || 0;
+                    const purchasedQty = quantityByProductId[id] || 0;
+                    const updatedStock = Math.max(0, currentStock - purchasedQty);
+
+                    const patchXhr = new XMLHttpRequest();
+                    patchXhr.open('PATCH', `http://localhost:3000/data/${id}`, true);
+                    patchXhr.setRequestHeader('Content-Type', 'application/json');
+
+                    patchXhr.onerror = function () {
+                        console.error(`Failed to patch stock for product ${id}.`);
+                    };
+
+                    patchXhr.send(JSON.stringify({ stock: updatedStock }));
+                } catch (error) {
+                    console.error(`Failed to parse product ${id}:`, error);
+                }
+            };
+
+            getXhr.onerror = function () {
+                console.error(`Failed to request product ${id}.`);
+            };
+
+            getXhr.send();
+        });
+    };
+
     // Load saved shipping data from localStorage
     const savedShipping = JSON.parse(localStorage.getItem('checkoutShippingData') || '{}');
     if (savedShipping.fullName) document.getElementById('fullName').value = savedShipping.fullName;
@@ -122,6 +176,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const savedOrders = JSON.parse(localStorage.getItem('Orders') || '[]');
             savedOrders.push(orderData);
             localStorage.setItem('Orders', JSON.stringify(savedOrders));
+
+            updateProductsStockAfterCheckout(cartItems);
 
             // Clear cart, shipping data, and form
             localStorage.removeItem('cart');
