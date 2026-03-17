@@ -34,12 +34,12 @@
 }
 
 .menu {
-    padding-top: 30px;
+    padding-top: 37px;
 }
 
 .menu li {
     margin-left: 60px;
-    font-size: 20px;
+    font-size: 16px;
     cursor: pointer;
 }
 

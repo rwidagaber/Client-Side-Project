@@ -28,6 +28,8 @@ xhr.onload = function () {
         if (product.id == 113) homeImg.src = product.product_images[0];
         if (product.id == 98) skinImg.src = product.product_images[0];
 
+        var priceText = product.product_price || product.price || "0";
+                        var price = parseFloat(priceText.toString().replace(/[^\d.]/g, ''));
         if (featuredProducts.includes(product.id)) {
 
             var card = document.createElement('div');
@@ -45,7 +47,7 @@ xhr.onload = function () {
             <div class="card-body">
                 <h3>${product.product_title}</h3>
                 <p class="category-product">${product.category}</p>
-                <div class="price">${product.product_price}</div>
+                <div class="price">${price.toFixed(2)} EGP</div>
 
                 <button class="cart-btn"
                     onclick="window.open('product_details.html?id=${product.id}','_blank')">
