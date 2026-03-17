@@ -16,22 +16,23 @@ nav {
 }
 
 nav li {
-    display: none;
     display: inline-block;
     padding-left: 22px;
     margin-top: 25px;
+}
 
+nav li.Logo {
+    margin-top: 12px;
 }
 
 li a {
     text-decoration: none;
     color: black;
+}
 
-    &:hover {
-        color: #D0B04B;
-        cursor: pointer;
-
-    }
+li a:hover {
+    color: #D0B04B;
+    cursor: pointer;
 }
 
 .menu {
@@ -39,11 +40,27 @@ li a {
     font-family: "Inter", sans-serif;
     font-size: 20px;
     font-weight: 500;
-
 }
 
 ul {
     display: inline-block;
+}
+
+.Logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    vertical-align: middle;
+}
+
+.Logo img {
+    display: block;
+}
+
+.Logo h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #caa233;
 }
 
 .icons {
@@ -53,9 +70,6 @@ ul {
     font-weight: 500;
     padding-bottom: 10px;
 }
-
-
-
 
 .search-box {
     position: relative;
@@ -70,7 +84,6 @@ ul {
     transform: translateY(-50%);
     color: #DDC57A;
     font-size: 20px;
-
 }
 
 .search-box input {
@@ -83,20 +96,15 @@ ul {
     color: #DDC57A;
     font-size: 15px;
     background-color: #F8F5EE;
-
 }
 
 input:focus {
     outline-color: #DDC57A;
-
 }
 
 input::placeholder {
     color: #DDC57A;
 }
-
-
-
 
 .shop-container {
     display: flex;

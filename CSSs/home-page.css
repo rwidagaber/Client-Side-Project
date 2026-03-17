@@ -29,7 +29,8 @@
 }
 
 .navbar img {
-    width: 178px;
+    padding-top: 10px;
+    width: 70px;
 }
 
 .menu {
@@ -71,6 +72,10 @@
     position: relative;
     font-size: 24px;
     cursor: pointer;
+    
+    &:hover {
+        color: #CAA62E;
+    }
 }
 
 #wishlist-count {
@@ -96,9 +101,6 @@
     cursor: pointer;
     font-size: 22px;
 
-    &:hover {
-        color: #CAA62E;
-    }
 }
 
 .hero {
