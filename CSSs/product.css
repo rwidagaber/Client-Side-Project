@@ -339,29 +339,70 @@ input::placeholder {
 
 
 
-.icon-link {
-    text-decoration: none;
-    color: black;
-    position: relative;
-    font-size: 24px;
-    cursor: pointer;
+/* ===== Pagination ===== */
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+  width: 100%;
 }
 
+.pagination button {
+  padding: 8px 20px;
+  border: 1px solid #DDC57A;
+  border-radius: 20px;
+  background: transparent;
+  color: #DDC57A;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s;
+}
 #wishlist-count {
     position: absolute;
     top: -8px;
     right: -10px;
 
-    background: red;
-    color: white;
+.pagination button:hover:not(:disabled) {
+  background: #DDC57A;
+  color: white;
+}
 
-    width: 18px;
-    height: 18px;
+.pagination button:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
 
-    font-size: 12px;
-    border-radius: 50%;
+.pg-num {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #DDC57A;
+  background: transparent;
+  color: #DDC57A;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s;
+}
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.pg-num.active {
+  background: #DDC57A;
+  color: white;
+}
+
+.pg-num:hover:not(.active) {
+  background: #f5f0e0;
+}
+
+.pg-dots {
+  color: #888;
+  font-size: 14px;
+  padding: 0 4px;
+}
+
+.pg-info {
+  font-size: 13px;
+  color: #888;
 }
