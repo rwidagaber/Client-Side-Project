@@ -354,10 +354,16 @@ input::placeholder {
     cursor: pointer;
 }
 
-#wishlist-count{
-    position: absolute;
-    top: -8px;
-    right: -10px;
+.pagination button {
+  padding: 8px 20px;
+  border: 1px solid #DDC57A;
+  border-radius: 20px;
+  background: transparent;
+  color: #DDC57A;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s;
+}
 
     background: red;
     color: white;
@@ -368,7 +374,7 @@ input::placeholder {
     font-size: 12px;
     border-radius: 50%;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.pg-info {
+  font-size: 13px;
+  color: #888;
 }
