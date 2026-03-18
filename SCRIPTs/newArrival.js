@@ -6,20 +6,24 @@ xhr.send();
 var storageKey = 'whishlist';
 var wishlistCount = document.getElementById('wishlist-count');
 
-var selectedIds = [133, 100, 64, 89, 75, 91, 32, 52, 97];
+var selectedIds = ["133", "100", "64", "89", "75", "91", "32", "52", "97"];
 var featuredProducts = [];
 xhr.onload = function () {
     var products = xhr.response.data;
+
 
     featuredProducts = products.filter(function (p) {
         return selectedIds.includes(p.id);
     });
 
+
     displayProducts(featuredProducts);
-    searchProduct();
+    // searchProduct();
 };
 
 function displayProducts(products) {
+    console.log(products);
+
 
     var cardContainer = document.getElementById('products');
     cardContainer.innerHTML = "";
@@ -59,19 +63,19 @@ function displayProducts(products) {
     updateWishlistCount();
 }
 
-function searchProduct() {
-    var searchInput = document.getElementById('searchInput');
+// function searchProduct() {
+//     var searchInput = document.getElementById('searchInput');
 
-    searchInput.addEventListener("input", function () {
-        var searchValue = searchInput.value.toLowerCase();
+//     searchInput.addEventListener("input", function () {
+//         var searchValue = searchInput.value.toLowerCase();
 
-        var filtered = featuredProducts.filter(function (product) {
-            return product.product_title.toLowerCase().includes(searchValue);
-        });
+//         var filtered = featuredProducts.filter(function (product) {
+//             return product.product_title.toLowerCase().includes(searchValue);
+//         });
 
-        displayProducts(filtered);
-    });
-}
+//         displayProducts(filtered);
+//     });
+// }
 
 
 function readWishlist() {

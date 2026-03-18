@@ -18,18 +18,18 @@ xhr.onload = function () {
 
     var products = xhr.response.data;
 
-    var featuredProducts = [33, 40, 64, 99];
+    var featuredProducts = ["33", "40", "64", "99"];
 
     for (var product of products) {
 
-        if (product.id == 66) footImg.src = product.product_images[0];
-        if (product.id == 58) fashionImg.src = product.product_images[0];
-        if (product.id == 24) foodImg.src = product.product_images[2];
-        if (product.id == 113) homeImg.src = product.product_images[0];
-        if (product.id == 98) skinImg.src = product.product_images[0];
+        if (product.id == "66") footImg.src = product.product_images[0];
+        if (product.id == "58") fashionImg.src = product.product_images[0];
+        if (product.id == "24") foodImg.src = product.product_images[2];
+        if (product.id == "113") homeImg.src = product.product_images[0];
+        if (product.id == "98") skinImg.src = product.product_images[0];
 
         var priceText = product.product_price || product.price || "0";
-                        var price = parseFloat(priceText.toString().replace(/[^\d.]/g, ''));
+        var price = parseFloat(priceText.toString().replace(/[^\d.]/g, ''));
         if (featuredProducts.includes(product.id)) {
 
             var card = document.createElement('div');
