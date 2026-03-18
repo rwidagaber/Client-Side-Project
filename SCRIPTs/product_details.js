@@ -34,6 +34,57 @@ var relatedPrev = document.getElementById('related_prev');
 var relatedNext = document.getElementById('related_next');
 
 
+if (!id) {
+    renderNotFound();
+}
+else {
+    setupQuantityControls();
+    setupAddToCartButton();
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', `http://localhost:3000/data/${id}`);
+    xhr.responseType = 'json';
+    xhr.send();
+
+    xhr.onload = function () {
+        if (xhr.status == 200 && xhr.response) {
+            var product = xhr.response;
+            var productImages = product.product_images || [];
+            var productSizes = product.product_size || [];
+
+            // if (productImages.length == 0) {
+            //     renderNotFound();
+            //     return;
+            // }
+
+            categoryItem = product.subcategory;
+            productName.innerHTML = product.product_title;
+            productTitle.innerHTML = product.product_title;
+            productPrice.innerHTML = product.product_price;
+            setupGallery(productImages);
+            renderSizeOptions(productSizes);
+            updateStockStatus(product.stock);
+            setupProductLinkButton(product.website_link);
+
+            if (product.description) {
+                productDescription.innerHTML = product.description;
+            }
+
+            if (categoryItem) {
+                loadRelatedProducts(categoryItem, Number(id));
+            }
+        }
+        else {
+            renderNotFound();
+        }
+    };
+
+    xhr.onerror = function () {
+        renderNotFound();
+    };
+}
+
+
 
 function setupSizeSelection() {
     var sizeOptions = document.querySelectorAll('.size-option');
@@ -459,55 +510,6 @@ function setupGallery(images) {
     };
 }
 
-if (!id) {
-    renderNotFound();
-}
-else {
-    setupQuantityControls();
-    setupAddToCartButton();
-
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', `http://localhost:3000/data/${id}`);
-    xhr.responseType = 'json';
-    xhr.send();
-
-    xhr.onload = function () {
-        if (xhr.status == 200 && xhr.response) {
-            var product = xhr.response;
-            var productImages = product.product_images || [];
-            var productSizes = product.product_size || [];
-
-            // if (productImages.length == 0) {
-            //     renderNotFound();
-            //     return;
-            // }
-
-            categoryItem = product.subcategory;
-            productName.innerHTML = product.product_title;
-            productTitle.innerHTML = product.product_title;
-            productPrice.innerHTML = product.product_price;
-            setupGallery(productImages);
-            renderSizeOptions(productSizes);
-            updateStockStatus(product.stock);
-            setupProductLinkButton(product.website_link);
-
-            if (product.description) {
-                productDescription.innerHTML = product.description;
-            }
-
-            if (categoryItem) {
-                loadRelatedProducts(categoryItem, Number(id));
-            }
-        }
-        else {
-            renderNotFound();
-        }
-    };
-
-    xhr.onerror = function () {
-        renderNotFound();
-    };
-}
 
 function renderRelatedProducts() {
     if (!relatedList) {

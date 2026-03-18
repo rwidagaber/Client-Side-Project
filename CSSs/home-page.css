@@ -54,10 +54,13 @@
 
 .icon {
     padding-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
 }
 
 .favorite {
-    padding: 0px 55px 0px;
+    padding: 0;
     cursor: pointer;
     font-size: 22px;
 
@@ -103,6 +106,59 @@
 
 }
 
+.icon li {
+    position: relative;
+}
+
+.user-profile {
+    cursor: pointer;
+    font-size: 22px;
+}
+
+/**/
+.user-dropdown {
+    position: absolute;
+    top: 100%;
+    right: -20px;
+    background: white;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    min-width: 150px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    z-index: 1001;
+    margin-top: 10px;
+}
+
+.user-dropdown.active {
+    display: flex;
+}
+
+.dropdown-item {
+    padding: 12px 16px;
+    text-decoration: none;
+    color: #444;
+    font-size: 14px;
+    border-bottom: 1px solid #f3f4f6;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.dropdown-item:last-child {
+    border-bottom: none;
+}
+
+.dropdown-item:hover {
+    background: #f9f9f9;
+    color: #c8a328;
+}
+
+#navbar-root {
+    position: relative;
+}
+
+/**/
 .hero {
     background: linear-gradient(rgba(32, 29, 18, 0.6),
             rgba(32, 29, 18, 0.6)),

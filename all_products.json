@@ -13,15 +13,10 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
+      "product_size": ["XS", "S", "M", "L"],
       "product_price": "12307 EGP",
       "website_link": "https://mamzistore.com/products/green-skirt",
-      "stock": 27
+      "stock": 26
     },
     {
       "id": "33",
@@ -33,12 +28,7 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
+      "product_size": ["XS", "S", "M", "L"],
       "product_price": "1145 EGP",
       "website_link": "https://mamzistore.com/products/aswan-shirt",
       "stock": 49
@@ -53,12 +43,7 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
+      "product_size": ["XS", "S", "M", "L"],
       "product_price": "1100 EGP",
       "website_link": "https://mamzistore.com/products/palette-dress",
       "stock": 17
@@ -75,12 +60,7 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
+      "product_size": ["XS", "S", "M", "L"],
       "product_price": "17976 EGP",
       "website_link": "https://mamzistore.com/products/palm-embroidered-dress",
       "stock": 29
@@ -96,12 +76,7 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
+      "product_size": ["XS", "S", "M", "L"],
       "product_price": "9472 EGP",
       "website_link": "https://mamzistore.com/products/multi-striped-bows-skirt",
       "stock": 10
@@ -117,12 +92,7 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
+      "product_size": ["XS", "S", "M", "L"],
       "product_price": "575 EGP",
       "website_link": "https://mamzistore.com/products/mini-bows-pants-1",
       "stock": 8
@@ -137,12 +107,7 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
+      "product_size": ["XS", "S", "M", "L"],
       "product_price": "12611 EGP",
       "website_link": "https://mamzistore.com/products/bow-blazer-1",
       "stock": 24
@@ -157,12 +122,7 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
+      "product_size": ["XS", "S", "M", "L"],
       "product_price": "9472 EGP",
       "website_link": "https://mamzistore.com/products/kerdan-dress",
       "stock": 12
@@ -180,12 +140,7 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
+      "product_size": ["XS", "S", "M", "L"],
       "product_price": "2700 EGP",
       "website_link": "https://tajsisters.com/products/cuffed-sleeve-printed-kaftan?_pos=1&_sid=43df7e6b0&_ss=r",
       "stock": 12
@@ -201,12 +156,7 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
+      "product_size": ["XS", "S", "M", "L"],
       "product_price": "1600 EGP",
       "website_link": "https://tajsisters.com/products/floral-skirt-1?_pos=1&_sid=f01a9bfa1&_ss=r",
       "stock": 29
@@ -223,12 +173,7 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
+      "product_size": ["XS", "S", "M", "L"],
       "product_price": "900 EGP",
       "website_link": "https://tajsisters.com/products/linen-skirt?_pos=1&_sid=3a9a7ba14&_ss=r",
       "stock": 31
@@ -246,12 +191,7 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
+      "product_size": ["XS", "S", "M", "L"],
       "product_price": "2300 EGP",
       "website_link": "https://tajsisters.com/products/the-embellished-linen-kaftan?_pos=1&_sid=a92c9b479&_ss=r",
       "stock": 47
@@ -268,12 +208,7 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
+      "product_size": ["XS", "S", "M", "L"],
       "product_price": "2100 EGP",
       "website_link": "https://tajsisters.com/products/serene-kaftan?_pos=1&_sid=09e4e743e&_ss=r",
       "stock": 0
@@ -291,12 +226,7 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
+      "product_size": ["XS", "S", "M", "L"],
       "product_price": "2100 EGP",
       "website_link": "https://tajsisters.com/products/the-puffy-sleeve-kimono?_pos=1&_sid=58ea9fb00&_ss=r",
       "stock": 6
@@ -313,12 +243,7 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
+      "product_size": ["XS", "S", "M", "L"],
       "product_price": "1260 EGP",
       "website_link": "https://tajsisters.com/products/patched-denim-vest?_pos=1&_psq=Patched+Denim+Vest&_ss=e&_v=1.0",
       "stock": 28
@@ -335,12 +260,7 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
+      "product_size": ["XS", "S", "M", "L"],
       "product_price": "1500 EGP",
       "website_link": "https://tajsisters.com/search?q=Feel+Good+Evening+Set&options%5Bprefix%5D=last",
       "stock": 9
@@ -357,12 +277,7 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
+      "product_size": ["XS", "S", "M", "L"],
       "product_price": "3450 EGP",
       "website_link": "https://shopfufa.com/search?type=product%2Carticle%2Cpage%2Ccollection&q=Al%20Wadi%20Cardigan%20in%20Beautiful%20Day%20Beige*",
       "stock": 13
@@ -379,12 +294,7 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
+      "product_size": ["XS", "S", "M", "L"],
       "product_price": "1260 EGP",
       "website_link": "https://shopfufa.com/search?type=product%2Carticle%2Cpage%2Ccollection&q=She+Can+Crochet+Sweater",
       "stock": 0
@@ -401,12 +311,7 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
+      "product_size": ["XS", "S", "M", "L"],
       "product_price": "1500 EGP",
       "website_link": "https://shopfufa.com/search?type=product%2Carticle%2Cpage%2Ccollection&q=Sukoon+Poncho+in+Charmed+Black",
       "stock": 44
@@ -423,12 +328,7 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
+      "product_size": ["XS", "S", "M", "L"],
       "product_price": "3100 EGP",
       "website_link": "https://be-indie.com/products/knitted-jacquard-cardigan-egret?_pos=1&_sid=24ddd0fb6&_ss=r",
       "stock": 35
@@ -445,12 +345,7 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
+      "product_size": ["XS", "S", "M", "L"],
       "product_price": "4300 EGP",
       "website_link": "https://be-indie.com/products/slim-flared-jeans-with-blings-midnight-blue?_pos=1&_sid=6b78ddb22&_ss=r",
       "stock": 17
@@ -467,12 +362,7 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
+      "product_size": ["XS", "S", "M", "L"],
       "product_price": "15000 EGP",
       "website_link": "https://aminak.net/products/omda-dinner-jacket-3?_pos=1&_sid=4e50512b6&_ss=r",
       "stock": 47
@@ -487,12 +377,7 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
+      "product_size": ["XS", "S", "M", "L"],
       "product_price": "1260 EGP",
       "website_link": "https://aminak.net/products/spring-omda-4?_pos=1&_sid=faeac9f26&_ss=r",
       "stock": 29
@@ -508,12 +393,7 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
+      "product_size": ["XS", "S", "M", "L"],
       "product_price": "1500 EGP",
       "website_link": "https://aminak.net/products/bomboni-top-1?_pos=1&_sid=7bd385ee9&_ss=r",
       "stock": 46
@@ -529,12 +409,7 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
+      "product_size": ["XS", "S", "M", "L"],
       "product_price": "899 EGP",
       "website_link": "https://getpalma.com/products/triple-gold-plated-ring?_pos=1&_sid=8a174428f&_ss=r",
       "stock": 25
@@ -550,12 +425,7 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
+      "product_size": ["XS", "S", "M", "L"],
       "product_price": "899 EGP",
       "website_link": "https://getpalma.com/products/harp-ring?_pos=1&_sid=7ead68706&_ss=r",
       "stock": 2
@@ -572,12 +442,7 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
+      "product_size": ["XS", "S", "M", "L"],
       "product_price": "1260 EGP",
       "website_link": "https://getpalma.com/products/hoopoe-earring?_pos=1&_sid=7ddfaa78a&_ss=r",
       "stock": 15
@@ -594,12 +459,7 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
+      "product_size": ["XS", "S", "M", "L"],
       "product_price": "780 EGP",
       "website_link": "https://getpalma.com/products/kindred-pair-earring?_pos=1&_sid=70ed81a06&_ss=r",
       "stock": 39
@@ -616,12 +476,7 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
+      "product_size": ["XS", "S", "M", "L"],
       "product_price": "1499 EGP",
       "website_link": "https://getpalma.com/products/cheetah-pendant?_pos=1&_sid=8c99473e4&_ss=r",
       "stock": 46
@@ -637,12 +492,7 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
+      "product_size": ["XS", "S", "M", "L"],
       "product_price": "1499 EGP",
       "website_link": "https://getpalma.com/products/hoopoe-pendant?_pos=1&_sid=98dc57977&_ss=r",
       "stock": 15
@@ -658,12 +508,7 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
+      "product_size": ["XS", "S", "M", "L"],
       "product_price": "5531 EGP",
       "website_link": "https://mamzistore.com/products/tote-bag",
       "stock": 7
@@ -679,12 +524,7 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
+      "product_size": ["XS", "S", "M", "L"],
       "product_price": "5393 EGP",
       "website_link": "https://mamzistore.com/products/clutch-bag?variant=43934392221917",
       "stock": 44
@@ -701,12 +541,7 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
+      "product_size": ["XS", "S", "M", "L"],
       "product_price": "1700 EGP",
       "website_link": "https://tajsisters.com/products/the-net-carry?_pos=1&_sid=4d84a668f&_ss=r",
       "stock": 4
@@ -723,12 +558,7 @@
       ],
       "category": "Fashion",
       "subcategory": "Clothing",
-      "product_size": [
-        "XS",
-        "S",
-        "M",
-        "L"
-      ],
+      "product_size": ["XS", "S", "M", "L"],
       "product_price": "1190 EGP",
       "website_link": "https://tajsisters.com/products/the-sol-clutch?_pos=1&_sid=8c17917c5&_ss=r",
       "stock": 41
@@ -744,13 +574,7 @@
       ],
       "category": "Footwear",
       "subcategory": "Men",
-      "product_size": [
-        "41",
-        "42",
-        "43",
-        "44",
-        "45"
-      ],
+      "product_size": ["41", "42", "43", "44", "45"],
       "product_price": "1665 EGP",
       "website_link": "https://lotfy.com/products/17",
       "stock": 0
@@ -767,13 +591,7 @@
       ],
       "category": "Footwear",
       "subcategory": "Men",
-      "product_size": [
-        "41",
-        "42",
-        "43",
-        "44",
-        "45"
-      ],
+      "product_size": ["41", "42", "43", "44", "45"],
       "product_price": "2400 EGP",
       "website_link": "https://lotfy.com/products/leather-ankle-boot-for-men-brown",
       "stock": 2
@@ -789,13 +607,7 @@
       ],
       "category": "Footwear",
       "subcategory": "Men",
-      "product_size": [
-        "41",
-        "42",
-        "43",
-        "44",
-        "45"
-      ],
+      "product_size": ["41", "42", "43", "44", "45"],
       "product_price": "2340 EGP",
       "website_link": "https://lotfy.com/products/classic-brown-chelsea-boots",
       "stock": 13
@@ -812,13 +624,7 @@
       ],
       "category": "Footwear",
       "subcategory": "Men",
-      "product_size": [
-        "41",
-        "42",
-        "43",
-        "44",
-        "45"
-      ],
+      "product_size": ["41", "42", "43", "44", "45"],
       "product_price": "2340 EGP",
       "website_link": "https://lotfy.com/products/classic-black-chelsea-boots",
       "stock": 26
@@ -834,13 +640,7 @@
       ],
       "category": "Footwear",
       "subcategory": "Men",
-      "product_size": [
-        "41",
-        "42",
-        "43",
-        "44",
-        "45"
-      ],
+      "product_size": ["41", "42", "43", "44", "45"],
       "product_price": "1500 EGP",
       "website_link": "https://lotfy.com/collections/loafers/products/men-s-beige-suede-penny-loafers",
       "stock": 0
@@ -857,13 +657,7 @@
       ],
       "category": "Footwear",
       "subcategory": "Men",
-      "product_size": [
-        "41",
-        "42",
-        "43",
-        "44",
-        "45"
-      ],
+      "product_size": ["41", "42", "43", "44", "45"],
       "product_price": "2000 EGP",
       "website_link": "https://jlood.com/products/beverly-hills-polo-club-matias-sneakers-men-kki",
       "stock": 11
@@ -879,13 +673,7 @@
       ],
       "category": "Footwear",
       "subcategory": "Men",
-      "product_size": [
-        "41",
-        "42",
-        "43",
-        "44",
-        "45"
-      ],
+      "product_size": ["41", "42", "43", "44", "45"],
       "product_price": "4350 EGP",
       "website_link": "https://jlood.com/products/puma-flyer-runner-mesh-running-men-blkwht?_pos=100&_fid=2358b773a&_ss=c",
       "stock": 0
@@ -901,13 +689,7 @@
       ],
       "category": "Footwear",
       "subcategory": "Men",
-      "product_size": [
-        "41",
-        "42",
-        "43",
-        "44",
-        "45"
-      ],
+      "product_size": ["41", "42", "43", "44", "45"],
       "product_price": "1665 EGP",
       "website_link": "https://jlood.com/products/guess-tivio-sneakers-men-blkblk?_pos=137&_fid=c2d3b4996&_ss=c",
       "stock": 7
@@ -923,13 +705,7 @@
       ],
       "category": "Footwear",
       "subcategory": "Men",
-      "product_size": [
-        "41",
-        "42",
-        "43",
-        "44",
-        "45"
-      ],
+      "product_size": ["41", "42", "43", "44", "45"],
       "product_price": "3200 EGP",
       "website_link": "https://jlood.com/products/guess-tiogo-low-top-sneakers-men-whtgrn?pr_prod_strat=e5_desc&pr_rec_id=6cc532a02&pr_rec_pid=9788098249023&pr_ref_pid=9947292369215&pr_seq=uniform",
       "stock": 14
@@ -945,13 +721,7 @@
       ],
       "category": "Footwear",
       "subcategory": "Men",
-      "product_size": [
-        "41",
-        "42",
-        "43",
-        "44",
-        "45"
-      ],
+      "product_size": ["41", "42", "43", "44", "45"],
       "product_price": "2900 EGP",
       "website_link": "https://jlood.com/products/zara-chunky-knit-sneakers-men-olv?_pos=164&_fid=0516eeb1f&_ss=c",
       "stock": 36
@@ -967,13 +737,7 @@
       ],
       "category": "Footwear",
       "subcategory": "Woman",
-      "product_size": [
-        "37",
-        "38",
-        "39",
-        "40",
-        "41"
-      ],
+      "product_size": ["37", "38", "39", "40", "41"],
       "product_price": "1500 EGP",
       "website_link": "https://lotfy.com/products/uggs-ankle-boot-for-women-m628-brown",
       "stock": 28
@@ -989,13 +753,7 @@
       ],
       "category": "Footwear",
       "subcategory": "Woman",
-      "product_size": [
-        "37",
-        "38",
-        "39",
-        "40",
-        "41"
-      ],
+      "product_size": ["37", "38", "39", "40", "41"],
       "product_price": "1500 EGP",
       "website_link": "https://lotfy.com/products/uggs-half-boot-for-women-m621-khaki",
       "stock": 0
@@ -1011,13 +769,7 @@
       ],
       "category": "Footwear",
       "subcategory": "Woman",
-      "product_size": [
-        "37",
-        "38",
-        "39",
-        "40",
-        "41"
-      ],
+      "product_size": ["37", "38", "39", "40", "41"],
       "product_price": "2500 EGP",
       "website_link": "https://lotfy.com/products/leather-ankle-boot-for-women-black-1",
       "stock": 28
@@ -1033,13 +785,7 @@
       ],
       "category": "Footwear",
       "subcategory": "Woman",
-      "product_size": [
-        "37",
-        "38",
-        "39",
-        "40",
-        "41"
-      ],
+      "product_size": ["37", "38", "39", "40", "41"],
       "product_price": "2350 EGP",
       "website_link": "https://lotfy.com/products/suede-ankle-boot-for-women-p6-brown",
       "stock": 8
@@ -1055,11 +801,7 @@
       ],
       "category": "Food & Drink",
       "subcategory": "PIZZA",
-      "product_size": [
-        "LARGE",
-        "MEDIUM",
-        "SMALL"
-      ],
+      "product_size": ["LARGE", "MEDIUM", "SMALL"],
       "product_price": "554 EGP",
       "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q",
       "stock": 4
@@ -1075,11 +817,7 @@
       ],
       "category": "Food & Drink",
       "subcategory": "PIZZA",
-      "product_size": [
-        "LARGE",
-        "MEDIUM",
-        "SMALL"
-      ],
+      "product_size": ["LARGE", "MEDIUM", "SMALL"],
       "product_price": "554 EGP",
       "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q",
       "stock": 0
@@ -1095,11 +833,7 @@
       ],
       "category": "Food & Drink",
       "subcategory": "PIZZA",
-      "product_size": [
-        "LARGE",
-        "MEDIUM",
-        "SMALL"
-      ],
+      "product_size": ["LARGE", "MEDIUM", "SMALL"],
       "product_price": "554 EGP",
       "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q",
       "stock": 5
@@ -1115,11 +849,7 @@
       ],
       "category": "Food & Drink",
       "subcategory": "PIZZA",
-      "product_size": [
-        "LARGE",
-        "MEDIUM",
-        "SMALL"
-      ],
+      "product_size": ["LARGE", "MEDIUM", "SMALL"],
       "product_price": "499 EGP",
       "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q",
       "stock": 12
@@ -1135,11 +865,7 @@
       ],
       "category": "Food & Drink",
       "subcategory": "PIZZA",
-      "product_size": [
-        "LARGE",
-        "MEDIUM",
-        "SMALL"
-      ],
+      "product_size": ["LARGE", "MEDIUM", "SMALL"],
       "product_price": "554 EGP",
       "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q",
       "stock": 23
@@ -1155,11 +881,7 @@
       ],
       "category": "Food & Drink",
       "subcategory": "PIZZA",
-      "product_size": [
-        "LARGE",
-        "MEDIUM",
-        "SMALL"
-      ],
+      "product_size": ["LARGE", "MEDIUM", "SMALL"],
       "product_price": "554 EGP",
       "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q",
       "stock": 5
@@ -1175,11 +897,7 @@
       ],
       "category": "Food & Drink",
       "subcategory": "PIZZA",
-      "product_size": [
-        "LARGE",
-        "MEDIUM",
-        "SMALL"
-      ],
+      "product_size": ["LARGE", "MEDIUM", "SMALL"],
       "product_price": "554 EGP",
       "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q",
       "stock": 0
@@ -1195,11 +913,7 @@
       ],
       "category": "Food & Drink",
       "subcategory": "PIZZA",
-      "product_size": [
-        "LARGE",
-        "MEDIUM",
-        "SMALL"
-      ],
+      "product_size": ["LARGE", "MEDIUM", "SMALL"],
       "product_price": "554 EGP",
       "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q",
       "stock": 32
@@ -1215,11 +929,7 @@
       ],
       "category": "Food & Drink",
       "subcategory": "PIZZA",
-      "product_size": [
-        "LARGE",
-        "MEDIUM",
-        "SMALL"
-      ],
+      "product_size": ["LARGE", "MEDIUM", "SMALL"],
       "product_price": "599 EGP",
       "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q",
       "stock": 4
@@ -1235,11 +945,7 @@
       ],
       "category": "Food & Drink",
       "subcategory": "FRESH BURGER",
-      "product_size": [
-        "LARGE",
-        "MEDIUM",
-        "SMALL"
-      ],
+      "product_size": ["LARGE", "MEDIUM", "SMALL"],
       "product_price": "155 EGP",
       "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q",
       "stock": 25
@@ -1255,11 +961,7 @@
       ],
       "category": "Food & Drink",
       "subcategory": "FRESH BURGER",
-      "product_size": [
-        "LARGE",
-        "MEDIUM",
-        "SMALL"
-      ],
+      "product_size": ["LARGE", "MEDIUM", "SMALL"],
       "product_price": "129 EGP",
       "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q",
       "stock": 31
@@ -1275,11 +977,7 @@
       ],
       "category": "Food & Drink",
       "subcategory": "FRESH BURGER",
-      "product_size": [
-        "LARGE",
-        "MEDIUM",
-        "SMALL"
-      ],
+      "product_size": ["LARGE", "MEDIUM", "SMALL"],
       "product_price": "195 EGP",
       "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q",
       "stock": 0
@@ -1295,11 +993,7 @@
       ],
       "category": "Food & Drink",
       "subcategory": "PASTA",
-      "product_size": [
-        "LARGE",
-        "MEDIUM",
-        "SMALL"
-      ],
+      "product_size": ["LARGE", "MEDIUM", "SMALL"],
       "product_price": "299 EGP",
       "website_link": "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2FPrimosAmericanPizza%3Futm_source%3Dig%26utm_medium%3Dsocial%26utm_content%3Dlink_in_bio%26fbclid%3DPAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnYaOC1Z5BzaB21Shy8il93SIPuSIH4MKzwdGywUohu_lPxphDl7enwxFy9Qc_aem_zXCJTMb06U6mNXn1fkubCA&e=AT5V4Z6GwbDChhuyMrEDxiDB2G4CnFAGTk83-uJPq5EyhOnYTP4dosCQdMCESVeBTLM6i474AK-SVzow0o7N_7t0yOi-1wwnHa3mMFQt1Q",
       "stock": 9
@@ -1470,9 +1164,7 @@
       ],
       "category": "Food & Drink",
       "subcategory": "DRINKS",
-      "product_size": [
-        "300ml"
-      ],
+      "product_size": ["300ml"],
       "product_price": "15 EGP",
       "website_link": "https://v7-benefits.com/product/",
       "stock": 19
@@ -1488,9 +1180,7 @@
       ],
       "category": "Food & Drink",
       "subcategory": "DRINKS",
-      "product_size": [
-        "300ml"
-      ],
+      "product_size": ["300ml"],
       "product_price": "15 EGP",
       "website_link": "https://v7-benefits.com/product/",
       "stock": 28
@@ -1506,9 +1196,7 @@
       ],
       "category": "Food & Drink",
       "subcategory": "DRINKS",
-      "product_size": [
-        "300ml"
-      ],
+      "product_size": ["300ml"],
       "product_price": "15 EGP",
       "website_link": "https://v7-benefits.com/product/",
       "stock": 47
@@ -1524,9 +1212,7 @@
       ],
       "category": "Food & Drink",
       "subcategory": "DRINKS",
-      "product_size": [
-        "300ml"
-      ],
+      "product_size": ["300ml"],
       "product_price": "15 EGP",
       "website_link": "https://v7-benefits.com/product/",
       "stock": 3
@@ -1542,9 +1228,7 @@
       ],
       "category": "Food & Drink",
       "subcategory": "DRINKS",
-      "product_size": [
-        "300ml"
-      ],
+      "product_size": ["300ml"],
       "product_price": "15 EGP",
       "website_link": "https://v7-benefits.com/product/",
       "stock": 29
@@ -1559,9 +1243,7 @@
       ],
       "category": "Food & Drink",
       "subcategory": "DRINKS",
-      "product_size": [
-        "300ml"
-      ],
+      "product_size": ["300ml"],
       "product_price": "15 EGP",
       "website_link": "https://v7-benefits.com/product/",
       "stock": 16
@@ -1577,9 +1259,7 @@
       ],
       "category": "Food & Drink",
       "subcategory": "DRINKS",
-      "product_size": [
-        "300ml"
-      ],
+      "product_size": ["300ml"],
       "product_price": "15 EGP",
       "website_link": "https://v7-benefits.com/product/",
       "stock": 25
@@ -1595,9 +1275,7 @@
       ],
       "category": "Food & Drink",
       "subcategory": "DRINKS",
-      "product_size": [
-        "300ml"
-      ],
+      "product_size": ["300ml"],
       "product_price": "15 EGP",
       "website_link": "https://v7-benefits.com/product/",
       "stock": 17
@@ -1613,13 +1291,7 @@
       ],
       "category": "Footwear",
       "subcategory": "Woman",
-      "product_size": [
-        "37",
-        "38",
-        "39",
-        "40",
-        "41"
-      ],
+      "product_size": ["37", "38", "39", "40", "41"],
       "product_price": "1500 EGP",
       "website_link": "https://lotfy.com/products/uggs-ankle-boot-for-women-m628-havan",
       "stock": 1
@@ -1635,13 +1307,7 @@
       ],
       "category": "Footwear",
       "subcategory": "Woman",
-      "product_size": [
-        "37",
-        "38",
-        "39",
-        "40",
-        "41"
-      ],
+      "product_size": ["37", "38", "39", "40", "41"],
       "product_price": "850 EGP",
       "website_link": "https://lotfy.com/collections/all-shoes-women/products/loafers-suede-flat-women-519-caffe",
       "stock": 9
@@ -1657,13 +1323,7 @@
       ],
       "category": "Footwear",
       "subcategory": "Woman",
-      "product_size": [
-        "37",
-        "38",
-        "39",
-        "40",
-        "41"
-      ],
+      "product_size": ["37", "38", "39", "40", "41"],
       "product_price": "3750 EGP",
       "website_link": "https://jlood.com/products/calvin-klein-jeans-chunky-runner-low-laceup-refl-sneakers-men-ym0ym00704-wht?_pos=1&_fid=c17b5bfd4&_ss=c",
       "stock": 45
@@ -1679,13 +1339,7 @@
       ],
       "category": "Footwear",
       "subcategory": "Woman",
-      "product_size": [
-        "36",
-        "37",
-        "38",
-        "39",
-        "40"
-      ],
+      "product_size": ["36", "37", "38", "39", "40"],
       "product_price": "1750 EGP",
       "website_link": "https://lotfy.com/collections/new-in-women/products/uggs-boot-for-women-m659",
       "stock": 45
@@ -1701,13 +1355,7 @@
       ],
       "category": "Footwear",
       "subcategory": "Woman",
-      "product_size": [
-        "36",
-        "37",
-        "38",
-        "39",
-        "40"
-      ],
+      "product_size": ["36", "37", "38", "39", "40"],
       "product_price": "110 EGP",
       "website_link": "https://www.jumia.com.eg/starter-luna-women-sneaker-whitepink-133714292.html",
       "stock": 16
@@ -1723,13 +1371,7 @@
       ],
       "category": "Footwear",
       "subcategory": "Woman",
-      "product_size": [
-        "36",
-        "37",
-        "38",
-        "39",
-        "40"
-      ],
+      "product_size": ["36", "37", "38", "39", "40"],
       "product_price": "250 EGP",
       "website_link": "https://www.jumia.com.eg/desert-fashion-sneakers-from-leather-for-women-89661232.html",
       "stock": 37
@@ -1745,13 +1387,7 @@
       ],
       "category": "Footwear",
       "subcategory": "Kids",
-      "product_size": [
-        "6 Month ",
-        "9 Month",
-        "1 Year",
-        "1.5 Year",
-        "2 Year"
-      ],
+      "product_size": ["6 Month ", "9 Month", "1 Year", "1.5 Year", "2 Year"],
       "product_price": "300 EGP",
       "website_link": "https://www.jumia.com.eg/lc-waikiki-bear-figure-plush-baby-boys-home-boot-134037727.html",
       "stock": 0
@@ -1766,13 +1402,7 @@
       ],
       "category": "Footwear",
       "subcategory": "Kids",
-      "product_size": [
-        "6 Month ",
-        "9 Month",
-        "1 Year",
-        "1.5 Year",
-        "2 Year"
-      ],
+      "product_size": ["6 Month ", "9 Month", "1 Year", "1.5 Year", "2 Year"],
       "product_price": "275 EGP",
       "website_link": "https://www.jumia.com.eg/generic-1pcs-kids-winter-fur-slippers-size-28-32-127125082.html",
       "stock": 48
@@ -1788,13 +1418,7 @@
       ],
       "category": "Footwear",
       "subcategory": "Kids",
-      "product_size": [
-        "6 Month ",
-        "9 Month",
-        "1 Year",
-        "1.5 Year",
-        "2 Year"
-      ],
+      "product_size": ["6 Month ", "9 Month", "1 Year", "1.5 Year", "2 Year"],
       "product_price": "230 EGP",
       "website_link": "https://www.jumia.com.eg/lc-waikiki-laces-hook-and-loop-baby-girls-pre-walking-shoes-134108026.html",
       "stock": 15
@@ -1809,13 +1433,7 @@
       ],
       "category": "Footwear",
       "subcategory": "Kids",
-      "product_size": [
-        "6 Month ",
-        "9 Month",
-        "1 Year",
-        "1.5 Year",
-        "2 Year"
-      ],
+      "product_size": ["6 Month ", "9 Month", "1 Year", "1.5 Year", "2 Year"],
       "product_price": "275 EGP",
       "website_link": "https://www.jumia.com.eg/generic-kids-winter-fur-slippers-size-28-32-127123936.html",
       "stock": 21
@@ -1831,13 +1449,7 @@
       ],
       "category": "Footwear",
       "subcategory": "Kids",
-      "product_size": [
-        "6 Month ",
-        "9 Month",
-        "1 Year",
-        "1.5 Year",
-        "2 Year"
-      ],
+      "product_size": ["6 Month ", "9 Month", "1 Year", "1.5 Year", "2 Year"],
       "product_price": "400 EGP",
       "website_link": "https://www.jumia.com.eg/lc-waikiki-cat-print-pre-walker-shoes-for-baby-boys-134043017.html",
       "stock": 17
@@ -1853,13 +1465,7 @@
       ],
       "category": "Footwear",
       "subcategory": "Kids",
-      "product_size": [
-        "6 Month ",
-        "9 Month",
-        "1 Year",
-        "1.5 Year",
-        "2 Year"
-      ],
+      "product_size": ["6 Month ", "9 Month", "1 Year", "1.5 Year", "2 Year"],
       "product_price": "500 EGP",
       "website_link": "https://www.jumia.com.eg/lc-waikiki-baby-boy-pram-shoes-134027875.html",
       "stock": 42
@@ -1875,13 +1481,7 @@
       ],
       "category": "Footwear",
       "subcategory": "Kids",
-      "product_size": [
-        "6 Month ",
-        "9 Month",
-        "1 Year",
-        "1.5 Year",
-        "2 Year"
-      ],
+      "product_size": ["6 Month ", "9 Month", "1 Year", "1.5 Year", "2 Year"],
       "product_price": "400 EGP",
       "website_link": "https://www.jumia.com.eg/lc-waikiki-velcro-baby-boys-pre-walking-shoes-134120248.html",
       "stock": 0
@@ -1897,13 +1497,7 @@
       ],
       "category": "Footwear",
       "subcategory": "Kids",
-      "product_size": [
-        "6 Month ",
-        "9 Month",
-        "1 Year",
-        "1.5 Year",
-        "2 Year"
-      ],
+      "product_size": ["6 Month ", "9 Month", "1 Year", "1.5 Year", "2 Year"],
       "product_price": "320 EGP",
       "website_link": "https://www.jumia.com.eg/lc-waikiki-animal-figure-plush-girls-home-slipper-boots-134120285.html",
       "stock": 41
@@ -1920,13 +1514,7 @@
       ],
       "category": "Footwear",
       "subcategory": "Kids",
-      "product_size": [
-        "6 Month ",
-        "9 Month",
-        "1 Year",
-        "1.5 Year",
-        "2 Year"
-      ],
+      "product_size": ["6 Month ", "9 Month", "1 Year", "1.5 Year", "2 Year"],
       "product_price": "450 EGP",
       "website_link": "https://www.jumia.com.eg/lc-waikiki-bow-printed-baby-girls-first-step-shoes-134156510.html",
       "stock": 4
@@ -1942,13 +1530,7 @@
       ],
       "category": "Footwear",
       "subcategory": "Kids",
-      "product_size": [
-        "6 Month ",
-        "9 Month",
-        "1 Year",
-        "1.5 Year",
-        "2 Year"
-      ],
+      "product_size": ["6 Month ", "9 Month", "1 Year", "1.5 Year", "2 Year"],
       "product_price": "450 EGP",
       "website_link": "https://www.jumia.com.eg/lc-waikiki-3d-applique-embroidery-detail-baby-boy-pre-toddler-home-boot-132480359.html",
       "stock": 46
@@ -2284,11 +1866,7 @@
         "https://egypt.malaikalinens.com/cdn/shop/files/mamluk-cushion-cover-224_1024x1024.jpg?v=1750641510"
       ],
       "category": "Homeware",
-      "product_size": [
-        "45x45 cm",
-        "50x50 cm",
-        "60x60 cm"
-      ],
+      "product_size": ["45x45 cm", "50x50 cm", "60x60 cm"],
       "website_link": "https://egypt.malaikalinens.com/products/linen-cord-cushion-cover",
       "product_price": "275 EGP",
       "subcategory": "Decor",
@@ -2367,11 +1945,7 @@
         "https://egypt.malaikalinens.com/cdn/shop/files/childrens-cosmos-cushion-cover-452_1024x1024.jpg?v=1750642020"
       ],
       "category": "Homeware",
-      "product_size": [
-        "Small",
-        "Medium",
-        "Large"
-      ],
+      "product_size": ["Small", "Medium", "Large"],
       "website_link": "https://egypt.malaikalinens.com/products/childrens-cosmos-cushion-cover",
       "product_price": "360 EGP",
       "subcategory": "Bedroom",
@@ -2451,10 +2025,7 @@
       ],
       "category": "Homeware",
       "subcategory": "Dining",
-      "product_size": [
-        "Small",
-        "Large"
-      ],
+      "product_size": ["Small", "Large"],
       "product_price": "420 EGP",
       "website_link": "https://www.homzmart.com",
       "stock": 0
@@ -2501,11 +2072,7 @@
       ],
       "category": "Homeware",
       "subcategory": "Bedroom",
-      "product_size": [
-        "45x45 cm",
-        "50x50 cm",
-        "60x60 cm"
-      ],
+      "product_size": ["45x45 cm", "50x50 cm", "60x60 cm"],
       "product_price": "275 EGP",
       "website_link": "https://www.bedntbath.com.eg",
       "stock": 24
@@ -2521,11 +2088,7 @@
       ],
       "category": "Homeware",
       "subcategory": "Bedroom",
-      "product_size": [
-        "Single",
-        "Double",
-        "King"
-      ],
+      "product_size": ["Single", "Double", "King"],
       "product_price": "1850 EGP",
       "website_link": "https://www.bedntbath.com.eg",
       "stock": 17
@@ -2541,11 +2104,7 @@
       ],
       "category": "Homeware",
       "subcategory": "Storage",
-      "product_size": [
-        "Small",
-        "Medium",
-        "Large"
-      ],
+      "product_size": ["Small", "Medium", "Large"],
       "product_price": "490 EGP",
       "website_link": "https://www.homzmart.com",
       "stock": 2
@@ -2593,11 +2152,7 @@
       ],
       "category": "Homeware",
       "subcategory": "Decor",
-      "product_size": [
-        "Small",
-        "Medium",
-        "Large"
-      ],
+      "product_size": ["Small", "Medium", "Large"],
       "product_price": "360 EGP",
       "website_link": "https://www.khtt.net",
       "stock": 7
@@ -2629,11 +2184,7 @@
       ],
       "category": "Homeware",
       "subcategory": "Storage",
-      "product_size": [
-        "Small",
-        "Medium",
-        "Large"
-      ],
+      "product_size": ["Small", "Medium", "Large"],
       "product_price": "395 EGP",
       "website_link": "https://www.orienthome.com",
       "stock": 13
@@ -2681,11 +2232,7 @@
       ],
       "category": "Homeware",
       "subcategory": "Storage",
-      "product_size": [
-        "60 cm",
-        "80 cm",
-        "100 cm"
-      ],
+      "product_size": ["60 cm", "80 cm", "100 cm"],
       "product_price": "870 EGP",
       "website_link": "https://www.concrete-eg.com",
       "stock": 35
@@ -2733,11 +2280,7 @@
       ],
       "category": "Homeware",
       "subcategory": "Kitchen",
-      "product_size": [
-        "Small",
-        "Medium",
-        "Large"
-      ],
+      "product_size": ["Small", "Medium", "Large"],
       "product_price": "380 EGP",
       "website_link": "https://www.homzmart.com",
       "stock": 9

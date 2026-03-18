@@ -144,3 +144,34 @@ function updateWishlistCount() {
     }
 
 }
+
+function initHomeUserMenu() {
+    var userMenuToggle = document.getElementById('user-menu-toggle');
+    var userDropdown = document.getElementById('user-dropdown');
+    var logoutBtn = document.getElementById('logout-btn');
+
+    if (userMenuToggle && userDropdown) {
+        userMenuToggle.addEventListener('click', function (e) {
+            e.preventDefault();
+            userDropdown.classList.toggle('active');
+        });
+
+        document.addEventListener('click', function (e) {
+            if (!e.target.closest('.user-profile')) {
+                userDropdown.classList.remove('active');
+            }
+        });
+    }
+
+    if (logoutBtn) {
+        logoutBtn.addEventListener('click', function (e) {
+            e.preventDefault();
+            localStorage.removeItem('currentUser');
+            localStorage.removeItem('cart');
+            localStorage.removeItem('whishlist');
+            window.location.href = '/HTMLs/Login.html';
+        });
+    }
+}
+
+initHomeUserMenu();
