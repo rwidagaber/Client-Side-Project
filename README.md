@@ -4,25 +4,51 @@ A fully client-side multi-page e-commerce web application built with **HTML, CSS
 
 ---
 
-## 📸 Pages Overview
-
-| Page | Description |
-|------|-------------|
-| `index.html` | Home page with featured products and hero section |
-| `Product.html` | Product catalog with category filtering and name search |
-| `product_details.html` | Individual product detail view |
-| `newArrivals.html` | New arrivals showcase |
-| `Cart.html` | Shopping cart management |
-| `Checkout.html` | Checkout form and order summary |
-| `orderSuccess.html` | Order confirmation page |
-| `Orders.html` | User order history |
-| `whishlistPage.html` | Saved / wishlist items |
-| `Login.html` | User login page |
-| `AboutUs.html` | About the store |
-| `contact.html` | Contact form |
-
+## 📸 Screenshots
+ ### 🔐 Login
+![Login Page](./ASSESTs/login.png)
+> Clean sign-in card with email and password fields and a gold Login button.
+ 
+### 🏠 Home Page
+![Home Page](./ASSESTs/home.png)
+> Hero banner with the iconic pyramids, "Explore Collection" and "Our Story" CTAs, and a top navbar with Categories, Shop, Best Sellers, New Arrivals, and Contact Us.
+ 
+### 🛍️ Shop / Product Catalog
+![Shop Page](./ASSESTs/shop.png)
+> Browse all products with a sidebar category filter (Food, Fashion, Beauty & Health, Footwear, Homeware) and a real-time search bar. Products are paginated across multiple pages.
+ 
+### 🛒 Shopping Cart
+![Cart Page](./ASSESTs/cart.png)
+> Full cart view with product image, price, quantity controls (+/-), subtotal, order summary panel, free shipping indicator, and an Update Cart option.
+ 
+### 💳 Checkout
+![Checkout Page](./ASSESTs/checkout.png)
+> Two-step checkout with shipping information (name, phone, email, address, city) and payment method selection (Credit/Debit Card or Cash on Delivery), plus a live order summary with promo code input.
+ 
+### 📞 Contact
+![Contact Page](./ASSESTs/contact.png)
+> Contact form with email, phone, studio address (Maadi District, Cairo), and an embedded map pinpointing the HQ location.
+ 
 ---
 
+
+## ✨ Features
+
+- 🏠 **Home Page** — Hero banner, featured products, and navigation
+- 🛒 **Shopping Cart** — Add, remove, and update product quantities
+- 💳 **Checkout Flow** — Form-based checkout with order summary
+- ✅ **Order Success** — Confirmation screen after placing an order
+- 📦 **Order History** — View past orders per user
+- ❤️ **Wishlist** — Save products for later
+- 🗂️ **Product Catalog** — Browse all products with category-based filtering and real-time search by product name
+- 🔍 **Product Details** — Full product view with description and actions
+- 🆕 **New Arrivals** — Dedicated section for latest products
+- 🔐 **Login** — User authentication flow
+- 📞 **Contact** — Contact form page
+- ℹ️ **About Us** — Store information page
+- 📦 **JSON Data** — Products and users managed via local JSON files
+
+---
 ## 📁 Project Structure
 
 ```
@@ -80,25 +106,7 @@ Client-Side-Project/
 └── README.md
 ```
 
----
 
-## ✨ Features
-
-- 🏠 **Home Page** — Hero banner, featured products, and navigation
-- 🛒 **Shopping Cart** — Add, remove, and update product quantities
-- 💳 **Checkout Flow** — Form-based checkout with order summary
-- ✅ **Order Success** — Confirmation screen after placing an order
-- 📦 **Order History** — View past orders per user
-- ❤️ **Wishlist** — Save products for later
-- 🗂️ **Product Catalog** — Browse all products with category-based filtering and real-time search by product name
-- 🔍 **Product Details** — Full product view with description and actions
-- 🆕 **New Arrivals** — Dedicated section for latest products
-- 🔐 **Login** — User authentication flow
-- 📞 **Contact** — Contact form page
-- ℹ️ **About Us** — Store information page
-- 📦 **JSON Data** — Products and users managed via local JSON files
-
----
 
 ## 🚀 Getting Started
 
